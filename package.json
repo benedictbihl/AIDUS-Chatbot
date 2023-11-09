@@ -9,8 +9,9 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@vercel/postgres": "^0.5.1",
     "ai": "2.2.20",
-    "langchain": "^0.0.129",
+    "langchain": "^0.0.184",
     "next": "13.4.12",
     "react": "18.2.0",
     "react-dom": "^18.2.0"
