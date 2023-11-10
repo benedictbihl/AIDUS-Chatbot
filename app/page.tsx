@@ -3,9 +3,7 @@
 import { useChat } from "ai/react";
 
 export default function Chat() {
-  const { messages, input, handleInputChange, handleSubmit } = useChat({
-    api: "/api/agent",
-  });
+  const { messages, input, handleInputChange, handleSubmit } = useChat({});
 
   return (
     <div className="mx-auto w-full max-w-md py-24 flex flex-col stretch">
