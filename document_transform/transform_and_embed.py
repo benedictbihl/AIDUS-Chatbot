@@ -37,7 +37,7 @@ CONNECTION_STRING = PGVector.connection_string_from_db_params(
     user=os.environ.get("POSTGRES_USER", "postgres"),
     password=os.environ.get("POSTGRES_PASSWORD", "postgres"),
 )
-CONNECTION_NAME ="urticaria_pdfs"
+COLLECTION_NAME ="urticaria_pdfs"
 
 # Split the documents into chunks
 chunked_documents = text_splitter.split_documents(documents)
@@ -48,7 +48,7 @@ db = PGVector.from_documents(
     documents=chunked_documents,
     embedding=embeddings,
     connection_string=CONNECTION_STRING,
-    collection_name=CONNECTION_NAME,
+    collection_name=COLLECTION_NAME,
     pre_delete_collection=True,
 )
 
