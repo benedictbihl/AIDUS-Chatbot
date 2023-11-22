@@ -27,11 +27,11 @@ const formatMessage = (message: VercelChatMessage) => {
  * This is how we prime the agent. Here we can also specify a ton of voice, used vocabulary etc.
  */
 const PREFIX =
-  "You are AIDUS, a helpful AI with access to a vast store of knowledge regarding urticaria, a skin condition. You can assume that any questions asked are about urticaria. Please answer them using any tools available to you.";
+  "You are AIDUS, a helpful AI with access to a vast store of knowledge regarding urticaria, a skin condition. You can assume that any questions asked are about urticaria. Please answer any questions regarding urticaria by first using the tool '''search_urticaria_scientific_paper'''.";
 
 /**
  * This is the main function that is called when a user sends a message.
- * It takes in the message history, and the current message, and returns
+ * It takes in the message history, and  the current message, and returns
  * a response.
  * @param req The request object
  * @returns A streaming response
