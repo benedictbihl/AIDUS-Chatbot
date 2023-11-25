@@ -78,7 +78,7 @@ export async function POST(req: Request) {
   const executor = await initializeAgentExecutorWithOptions([tool], model, {
     agentType: "openai-functions",
     memory,
-    // returnIntermediateSteps: true,
+    returnIntermediateSteps: true,
     verbose: true, // this will log the agent's internal state, including the tools used
     agentArgs: {
       prefix: PREFIX,
