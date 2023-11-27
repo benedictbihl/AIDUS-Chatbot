@@ -4,7 +4,7 @@ import { useChat } from "ai/react";
 import { Message } from "./components/Message";
 
 export default function Chat() {
-  const { messages, input, handleInputChange, handleSubmit, isLoading } =
+  const { messages, input, handleInputChange, handleSubmit, isLoading, data } =
     useChat({
       initialMessages: [
         {
@@ -15,6 +15,10 @@ export default function Chat() {
         },
       ],
     });
+
+  useEffect(() => {
+    data.length > 0 && console.log(data);
+  }, [isLoading]);
 
   const [scrollHeight] = useState(
     typeof window !== "undefined" ? document.body.scrollHeight : 0
