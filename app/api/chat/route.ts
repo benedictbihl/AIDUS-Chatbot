@@ -8,6 +8,7 @@ import {
   Message as VercelChatMessage,
   StreamingTextResponse,
   LangChainStream,
+  experimental_StreamData,
 } from "ai";
 import { OpenAIAgentTokenBufferMemory } from "langchain/agents/toolkits";
 import { ChatMessageHistory } from "langchain/memory";
@@ -27,7 +28,7 @@ const formatMessage = (message: VercelChatMessage) => {
  * This is how we prime the agent. Here we can also specify a ton of voice, used vocabulary etc.
  */
 const PREFIX =
-  "You are AIDUS, a helpful AI with access to a vast store of knowledge regarding urticaria, a skin condition. You can assume that any questions asked are about urticaria. Please answer any questions regarding urticaria by first using the tool '''search_urticaria_scientific_paper'''.";
+  "You are AIDUS, a helpful AI with access to a vast store of knowledge regarding urticaria. You can assume that any questions asked are about urticaria. Please ALWAYS use the tool 'search_urticaria_scientific_paper' before answering questions about urticaria.";
 
 /**
  * This is the main function that is called when a user sends a message.
@@ -42,7 +43,14 @@ export async function POST(req: Request) {
   const formattedPreviousMessages = messages.slice(0, -1).map(formatMessage);
   const currentMessageContent = messages[messages.length - 1].content;
 
-  const { stream, handlers } = LangChainStream(); //easy helper to create a stream
+  const data = new experimental_StreamData();
+  const { stream, handlers } = LangChainStream({
+    onFinal() {
+      // IMPORTANT! We must close StreamData manually or the response will never finish.
+      data.close();
+    },
+    experimental_streamData: true, // needed to return both the streamed response and the the sources
+  });
 
   // Initialize the vector store
   const vectorStore = await VercelPostgres.initialize(new OpenAIEmbeddings(), {
@@ -62,6 +70,7 @@ export async function POST(req: Request) {
     description:
       "Searches and returns documents regarding urticaria from a body of scientific papers.",
   });
+
   const model = new ChatOpenAI({
     temperature: 0,
     streaming: true,
@@ -79,7 +88,7 @@ export async function POST(req: Request) {
     agentType: "openai-functions",
     memory,
     returnIntermediateSteps: true,
-    verbose: true, // this will log the agent's internal state, including the tools used
+    // verbose: true, // this will log the agent's internal state, including the tools used
     agentArgs: {
       prefix: PREFIX,
     },
@@ -93,9 +102,22 @@ export async function POST(req: Request) {
       {
         input: currentMessageContent,
       },
-      [handlers]
+      [
+        handlers,
+        {
+          handleRetrieverEnd(documents) {
+            // here we add the source docs to the response
+            data.append({
+              sources: documents.map((doc) => ({
+                contentChunk: doc.pageContent,
+                metadata: doc.metadata,
+              })),
+            });
+          },
+        },
+      ]
     )
     .catch(console.error);
 
-  return new StreamingTextResponse(stream);
+  return new StreamingTextResponse(stream, {}, data);
 }
