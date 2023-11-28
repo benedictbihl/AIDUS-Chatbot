@@ -1,8 +1,3 @@
-import { initializeAgentExecutorWithOptions } from "langchain/agents";
-import { ChatOpenAI } from "langchain/chat_models/openai";
-import { createRetrieverTool } from "langchain/agents/toolkits";
-import { VercelPostgres } from "langchain/vectorstores/vercel_postgres";
-import { OpenAIEmbeddings } from "langchain/embeddings/openai";
 import { AIMessage, HumanMessage } from "langchain/schema";
 import {
   Message as VercelChatMessage,
@@ -10,8 +5,8 @@ import {
   LangChainStream,
   experimental_StreamData,
 } from "ai";
-import { OpenAIAgentTokenBufferMemory } from "langchain/agents/toolkits";
-import { ChatMessageHistory } from "langchain/memory";
+
+import { getChain } from "@/app/langchain/chain";
 
 export const runtime = "edge";
 
@@ -23,12 +18,6 @@ const formatMessage = (message: VercelChatMessage) => {
   if (message.role === "user") return new HumanMessage(message.content);
   return new AIMessage(message.content);
 };
-
-/**
- * This is how we prime the agent. Here we can also specify a ton of voice, used vocabulary etc.
- */
-const PREFIX =
-  "You are AIDUS, a helpful AI with access to a vast store of knowledge regarding urticaria. You can assume that any questions asked are about urticaria. Please ALWAYS use the tool 'search_urticaria_scientific_paper' before answering questions about urticaria.";
 
 /**
  * This is the main function that is called when a user sends a message.
@@ -52,41 +41,7 @@ export async function POST(req: Request) {
     experimental_streamData: true, // needed to return both the streamed response and the the sources
   });
 
-  // Initialize the vector store
-  const vectorStore = await VercelPostgres.initialize(new OpenAIEmbeddings(), {
-    tableName: "urticaria_pdfs_cs1024",
-  });
-
-  // prepare the agent with a retriever, llm and memory
-  const retriever = vectorStore.asRetriever();
-  const tool = createRetrieverTool(retriever, {
-    name: "search_urticaria_scientific_paper",
-    description:
-      "Searches and returns documents regarding urticaria from a body of scientific papers.",
-  });
-
-  const model = new ChatOpenAI({
-    temperature: 0,
-    streaming: true,
-  });
-  const chatHistory = new ChatMessageHistory(formattedPreviousMessages);
-  const memory = new OpenAIAgentTokenBufferMemory({
-    llm: new ChatOpenAI({}),
-    memoryKey: "chat_history",
-    outputKey: "output",
-    chatHistory,
-  });
-
-  // initialize the agent
-  const executor = await initializeAgentExecutorWithOptions([tool], model, {
-    agentType: "openai-functions",
-    memory,
-    returnIntermediateSteps: true,
-    // verbose: true, // this will log the agent's internal state, including the tools used
-    agentArgs: {
-      prefix: PREFIX,
-    },
-  });
+  const executor = await getChain(formattedPreviousMessages, true); //set streaming to true
 
   /* run the agent - it autonomously decides if it needs to call
    * the retriever or the llm directly, depending on the query
