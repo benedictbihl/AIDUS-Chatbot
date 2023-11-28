@@ -17,7 +17,7 @@ export default function Chat() {
     });
 
   useEffect(() => {
-    data.length > 0 && console.log(data);
+    data && data.length > 0 && console.log(data);
   }, [isLoading]);
 
   const [scrollHeight] = useState(

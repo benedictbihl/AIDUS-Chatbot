@@ -54,13 +54,7 @@ export async function POST(req: Request) {
 
   // Initialize the vector store
   const vectorStore = await VercelPostgres.initialize(new OpenAIEmbeddings(), {
-    tableName: "langchain_pg_embedding",
-    columns: {
-      idColumnName: "uuid",
-      vectorColumnName: "embedding",
-      contentColumnName: "document",
-      metadataColumnName: "cmetadata",
-    },
+    tableName: "urticaria_pdfs_cs1024",
   });
 
   // prepare the agent with a retriever, llm and memory
