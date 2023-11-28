@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "embed": "node ./document_transform/transform_and_embed.mjs dotenv_config_path=.env.development.local"
   },
   "dependencies": {
     "@vercel/postgres": "^0.5.1",
@@ -21,8 +22,10 @@
     "@types/react": "18.2.8",
     "@types/react-dom": "18.2.4",
     "autoprefixer": "^10.4.14",
+    "dotenv": "^16.3.1",
     "eslint": "^7.32.0",
     "eslint-config-next": "13.4.12",
+    "pdf-parse": "^1.1.1",
     "postcss": "^8.4.23",
     "tailwindcss": "^3.3.2",
     "typescript": "5.1.3"
