@@ -6,7 +6,7 @@ import {
   experimental_StreamData,
 } from "ai";
 
-import { getChain } from "@/app/langchain/chain";
+import { ChainFactory } from "@/app/langchain/chain";
 
 export const runtime = "edge";
 
@@ -41,7 +41,7 @@ export async function POST(req: Request) {
     experimental_streamData: true, // needed to return both the streamed response and the the sources
   });
 
-  const executor = await getChain(formattedPreviousMessages, true); //set streaming to true
+  const executor = await ChainFactory.create(formattedPreviousMessages, true); //set streaming to true
 
   /* run the agent - it autonomously decides if it needs to call
    * the retriever or the llm directly, depending on the query
