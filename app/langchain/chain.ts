@@ -27,7 +27,7 @@ export class ChainFactory {
     const vectorStore = await VercelPostgres.initialize(
       new OpenAIEmbeddings(),
       {
-        tableName: "urticaria_pdfs_inclued",
+        tableName: process.env.EMBEDDINGS_TABLE_NAME,
       }
     );
 

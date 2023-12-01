@@ -12,10 +12,12 @@ function getConfigs(examples: Example[], projectName?: string) {
   });
 }
 
-const datasetName = "AIDUS-100-question_v3";
+const datasetName = process.env.LANGSMITH_TEST_DATASET_NAME;
+
 test(`"Test run on ${datasetName}`, async () => {
   const client = new Client();
   const examples: Example[] = [];
+
   for await (const example of client.listExamples({ datasetName })) {
     examples.push(example);
   }
