@@ -40,7 +40,7 @@ test(`"Test run on ${datasetName}`, async () => {
         //create new chain for each input with empty history and streaming set to false
         const chain = await ChainFactory.create([], false);
         return chain.invoke(input, configs[index]);
-      })
+      }),
     );
 
     await Promise.allSettled(chains);
@@ -48,4 +48,4 @@ test(`"Test run on ${datasetName}`, async () => {
     console.log("Error running tests");
     console.log(error);
   }
-}, 90_000); // 90 seconds timeout to allow for long running tests might need to be increased
+}, 300_000); // 300 seconds timeout to allow for long running tests might need to be increased

@@ -22,13 +22,13 @@ const PREFIX =
 export class ChainFactory {
   static async create(
     formattedPreviousMessages: BaseMessage[],
-    streaming = false
+    streaming = false,
   ) {
     const vectorStore = await VercelPostgres.initialize(
       new OpenAIEmbeddings(),
       {
         tableName: process.env.EMBEDDINGS_TABLE_NAME,
-      }
+      },
     );
 
     const retriever = vectorStore.asRetriever();
