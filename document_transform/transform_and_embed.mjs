@@ -3,8 +3,7 @@ import { VercelPostgres } from "langchain/vectorstores/vercel_postgres";
 import { RecursiveCharacterTextSplitter } from "langchain/text_splitter";
 import { PDFLoader } from "langchain/document_loaders/fs/pdf";
 import { DirectoryLoader } from "langchain/document_loaders/fs/directory";
-import 'dotenv/config'
-
+import "dotenv/config";
 
 // Define the folder where the pdfs are located
 const rootFolder = process.env.ROOT_DIR || "";
@@ -31,7 +30,6 @@ const textSplitter = new RecursiveCharacterTextSplitter({
 
 // Define the necessary things for the database
 const embeddings = new OpenAIEmbeddings();
-
 
 // Split the documents into chunks
 const chunkedDocuments = await textSplitter.splitDocuments(documents);

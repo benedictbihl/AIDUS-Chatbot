@@ -7,8 +7,10 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
+    "format": "prettier --write .",
     "test": "jest",
-    "embed": "node ./document_transform/transform_and_embed.mjs dotenv_config_path=.env.development.local"
+    "embed": "node ./document_transform/transform_and_embed.mjs dotenv_config_path=.env.development.local",
+    "prepare": "husky install"
   },
   "dependencies": {
     "@vercel/postgres": "^0.5.1",
@@ -28,13 +30,21 @@
     "dotenv": "^16.3.1",
     "eslint": "^7.32.0",
     "eslint-config-next": "13.4.12",
+    "eslint-config-prettier": "^9.1.0",
+    "husky": "^8.0.3",
     "jest": "^29.7.0",
     "jest-environment-jsdom": "^29.7.0",
     "langsmith": "^0.0.49",
+    "lint-staged": "^15.2.0",
     "pdf-parse": "^1.1.1",
     "postcss": "^8.4.23",
+    "prettier": "^3.1.0",
     "tailwindcss": "^3.3.2",
     "typescript": "5.1.3",
     "web-streams-polyfill": "^3.2.1"
+  },
+  "lint-staged": {
+    "*.js": "eslint --cache --fix",
+    "*.{js,css,md}": "prettier --write"
   }
 }

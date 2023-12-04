@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 "use client";
 import { useEffect, useRef, useState } from "react";
 import { useChat } from "ai/react";
@@ -21,7 +22,7 @@ export default function Chat() {
   }, [isLoading]);
 
   const [scrollHeight] = useState(
-    typeof window !== "undefined" ? document.body.scrollHeight : 0
+    typeof window !== "undefined" ? document.body.scrollHeight : 0,
   );
 
   const chatListRef = useRef<HTMLDivElement>(null);

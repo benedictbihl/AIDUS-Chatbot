@@ -1,1 +1,1 @@
-global.ReadableStream = require('web-streams-polyfill').ReadableStream;
+global.ReadableStream = require("web-streams-polyfill").ReadableStream;
