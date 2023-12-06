@@ -23,6 +23,7 @@ export class ChainFactory {
   static async create(
     formattedPreviousMessages: BaseMessage[],
     streaming = false,
+    agentInstructions: string = PREFIX, // if no instructions are provided, use the default PREFIX
   ) {
     const vectorStore = await VercelPostgres.initialize(
       new OpenAIEmbeddings(),
@@ -56,7 +57,7 @@ export class ChainFactory {
       memory,
       returnIntermediateSteps: true,
       agentArgs: {
-        prefix: PREFIX,
+        prefix: agentInstructions,
       },
     });
   }

@@ -1,23 +1,18 @@
-import { AIMessage, HumanMessage } from "langchain/schema";
 import {
-  Message as VercelChatMessage,
   StreamingTextResponse,
   LangChainStream,
   experimental_StreamData,
 } from "ai";
-
 import { ChainFactory } from "@/app/langchain/chain";
+import formatMessage from "@/util/formatMessage";
 
 export const runtime = "edge";
 
-/**
- * Basic memory formatter that stringifies and passes
- * message history directly into the model.
- */
-const formatMessage = (message: VercelChatMessage) => {
-  if (message.role === "user") return new HumanMessage(message.content);
-  return new AIMessage(message.content);
-};
+const PATIENT_INSTRUCTIONS =
+  "You are AIDUS, a helpful AI created to answer questions about urticaria. You can assume that any questions asked are about urticaria by patients suffering from the condition. Choose your vocabulary accordingly and explain terms in necessary. ALWAYS use the tool 'search_urticaria_information' before answering questions, even if you think you know the answer.";
+
+const DOCTOR_INSTRUCTIONS =
+  "You are AIDUS, a helpful AI created to answer questions about urticaria. You can assume that any questions asked are about urticaria by people who are medical professionals. You can use medical terms and be very detailed in your explanations. ALWAYS use the tool 'search_urticaria_information' before answering questions, even if you think you know the answer.";
 
 /**
  * This is the main function that is called when a user sends a message.
@@ -31,6 +26,8 @@ export async function POST(req: Request) {
   const messages = body.messages ?? [];
   const formattedPreviousMessages = messages.slice(0, -1).map(formatMessage);
   const currentMessageContent = messages[messages.length - 1].content;
+  const agentInstructions =
+    body.userType === "doctor" ? DOCTOR_INSTRUCTIONS : PATIENT_INSTRUCTIONS;
 
   const data = new experimental_StreamData();
   const { stream, handlers } = LangChainStream({
@@ -41,7 +38,11 @@ export async function POST(req: Request) {
     experimental_streamData: true, // needed to return both the streamed response and the the sources
   });
 
-  const executor = await ChainFactory.create(formattedPreviousMessages, true); //set streaming to true
+  const executor = await ChainFactory.create(
+    formattedPreviousMessages,
+    true,
+    agentInstructions,
+  ); //set streaming to true
 
   /* run the agent - it autonomously decides if it needs to call
    * the retriever or the llm directly, depending on the query

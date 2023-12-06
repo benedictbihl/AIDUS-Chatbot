@@ -1,12 +1,15 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 "use client";
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import { useChat } from "ai/react";
 import { Message } from "./components/Message";
 import { Button } from "./components/Button";
 import { Sources } from "./components/Sources";
 
 export default function Chat() {
+  const [userType, setUserType] = useState("patient");
+  const messagesEndRef = useRef<HTMLLIElement>(null);
+
   const {
     messages,
     input,
@@ -15,14 +18,13 @@ export default function Chat() {
     isLoading,
     data,
     setMessages,
-  } = useChat();
-
-  const messagesEndRef = useRef<HTMLLIElement>(null);
+  } = useChat({
+    body: { userType: userType },
+  });
 
   useEffect(() => {
-    const userType =
-      (typeof window !== "undefined" && localStorage.getItem("userType")) ||
-      "patient";
+    const userType = localStorage.getItem("userType") || "patient";
+    setUserType(userType);
 
     setMessages([
       {
