@@ -13,6 +13,7 @@ const values = [
 
 export const NavBar = () => {
   const [selected, setSelected] = useState(values[0]);
+  const [welcomeDialogOpen, setWelcomeDialogOpen] = useState(true);
 
   useEffect(() => {
     setSelected(
@@ -21,7 +22,6 @@ export const NavBar = () => {
     );
   }, []);
 
-  let [isOpen, setIsOpen] = useState(false);
   return (
     <nav className="w-full bg-primary h-header flex justify-between md:grid md:grid-cols-3 px-4 fixed top-0 z-50">
       <div className="group self-center">
@@ -50,12 +50,15 @@ export const NavBar = () => {
 
       <div className="flex items-center justify-end">
         <button
-          onClick={() => setIsOpen(true)}
+          onClick={() => setWelcomeDialogOpen(true)}
           className="focus:outline-none focus-within:ring-2 focus-within:ring-white"
         >
           <QuestionMarkCircleIcon className="h-8 w-8 text-white hover:text-secondary" />
         </button>
-        <Dialog isOpen={isOpen} onClose={() => setIsOpen(false)} />
+        <Dialog
+          isOpen={welcomeDialogOpen}
+          onClose={() => setWelcomeDialogOpen(false)}
+        />
       </div>
     </nav>
   );
