@@ -7,25 +7,34 @@ import { Button } from "./components/Button";
 import { Sources } from "./components/Sources";
 
 export default function Chat() {
-  const userType =
-    (typeof window !== "undefined" && localStorage.getItem("userType")) ||
-    "patient";
-
-  const { messages, input, handleInputChange, handleSubmit, isLoading, data } =
-    useChat({
-      initialMessages: [
-        {
-          content:
-            userType === "patient"
-              ? "Greetings! I am AIDUS, an AI assistant with access to a vast store of knowledge regarding urticaria. I can answer questions you might have about your condition."
-              : "Greetings! I am AIDUS, an AI assistant with access to a large body of scientific literature about urticaria. You can ask me specific questions about the condition and I will answer them as well as provide you with the sources of my information.",
-          role: "assistant",
-          id: "1",
-        },
-      ],
-    });
+  const {
+    messages,
+    input,
+    handleInputChange,
+    handleSubmit,
+    isLoading,
+    data,
+    setMessages,
+  } = useChat();
 
   const messagesEndRef = useRef<HTMLLIElement>(null);
+
+  useEffect(() => {
+    const userType =
+      (typeof window !== "undefined" && localStorage.getItem("userType")) ||
+      "patient";
+
+    setMessages([
+      {
+        content:
+          userType === "patient"
+            ? "Greetings! I am AIDUS, an AI assistant with access to a vast store of knowledge regarding urticaria. I can answer questions you might have about your condition."
+            : "Greetings! I am AIDUS, an AI assistant with access to a large body of scientific literature about urticaria. You can ask me specific questions about the condition and I will answer them as well as provide you with the sources of my information.",
+        role: "assistant",
+        id: "1",
+      },
+    ]);
+  }, []);
 
   useEffect(() => {
     //scroll window to bottom if it is not already at the bottom

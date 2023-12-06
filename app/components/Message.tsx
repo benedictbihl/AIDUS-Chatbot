@@ -8,12 +8,12 @@ export const Message = ({ content, role }: MessageType) => {
 
   useEffect(() => {
     const userType = localStorage.getItem("userType");
-    if (userType === "patient") {
-      setAssistantBackground("bg-primary-700");
-      setAssistantBorder("border-primary-700");
-    } else {
+    if (userType === "doctor") {
       setAssistantBackground("bg-tertiary-400");
       setAssistantBorder("border-tertiary-400");
+    } else {
+      setAssistantBackground("bg-primary-700");
+      setAssistantBorder("border-primary-700");
     }
   }, []);
 
