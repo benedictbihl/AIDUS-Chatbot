@@ -1,16 +1,21 @@
 import { Message as MessageType } from "ai";
-import React from "react";
+import React, { useState, useEffect } from "react";
 import classNames from "@/util/classNames";
 
 export const Message = ({ content, role }: MessageType) => {
-  const assistantBackground =
-    localStorage.getItem("userType") === "patient"
-      ? "bg-primary-700"
-      : "bg-tertiary-400";
-  const assistantBorder =
-    localStorage.getItem("userType") === "patient"
-      ? "border-primary-700"
-      : "border-tertiary-400";
+  const [assistantBackground, setAssistantBackground] = useState("");
+  const [assistantBorder, setAssistantBorder] = useState("");
+
+  useEffect(() => {
+    const userType = localStorage.getItem("userType");
+    if (userType === "patient") {
+      setAssistantBackground("bg-primary-700");
+      setAssistantBorder("border-primary-700");
+    } else {
+      setAssistantBackground("bg-tertiary-400");
+      setAssistantBorder("border-tertiary-400");
+    }
+  }, []);
 
   return (
     <li
@@ -34,7 +39,7 @@ export const Message = ({ content, role }: MessageType) => {
             : "self-end bg-secondary-300 text-textColor",
         )}
       >
-        <p>{content}</p>
+        <p>{content.length > 0 ? content : "Let me think about this..."}</p>
         <div
           className={classNames(
             "absolute w-4 h-4 top-5 transform rotate-45",

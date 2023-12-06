@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { QuestionMarkCircleIcon } from "@heroicons/react/24/outline";
 import { ArrowLeftIcon } from "@heroicons/react/24/outline";
 import { Select } from "./Select";
@@ -12,14 +12,18 @@ const values = [
 ];
 
 export const NavBar = () => {
-  const [selected, setSelected] = useState(
-    values.find((value) => value.name === localStorage.getItem("userType")) ||
-      values[0],
-  );
+  const [selected, setSelected] = useState(values[0]);
+
+  useEffect(() => {
+    setSelected(
+      values.find((value) => value.name === localStorage.getItem("userType")) ||
+        values[0],
+    );
+  }, []);
 
   let [isOpen, setIsOpen] = useState(false);
   return (
-    <nav className="w-full bg-primary h-header grid grid-cols-3 px-4 fixed top-0 z-50">
+    <nav className="w-full bg-primary h-header flex justify-between md:grid md:grid-cols-3 px-4 fixed top-0 z-50">
       <div className="group self-center">
         <a
           href="https://ga2len-ucare.com/"

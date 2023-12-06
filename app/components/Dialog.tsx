@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef } from "react";
 import { Dialog as HeadlessDialog } from "@headlessui/react";
 import { Button } from "./Button";
 
@@ -8,8 +8,10 @@ type DialogProps = {
 };
 
 export const Dialog = ({ isOpen, onClose }: DialogProps) => {
+  const closeButtonRef = useRef<HTMLButtonElement>(null);
   return (
     <HeadlessDialog
+      initialFocus={closeButtonRef}
       open={isOpen}
       onClose={() => onClose()}
       className="relative z-50"
@@ -43,10 +45,26 @@ export const Dialog = ({ isOpen, onClose }: DialogProps) => {
               <span className="font-semibold">For doctors: </span>
               AIDUS can be used as a starting point for your own research by
               providing you with the sources of the information it provides.
-              However, you should always verify the information with by
-              consulting the original sources.
+              However, you should always verify the information by consulting
+              the original sources.
             </p>
-            <Button className="mt-4" onClick={() => onClose()}>
+            <p className="mb-2">
+              {" "}
+              If you have further questions, feel free to contact us via the
+              information provided in the{" "}
+              <a
+                className="text-primary font-semibold hover:underline focus:underline focus:outline-none focus:ring-2 focus:ring-primary-950"
+                href="https://ga2len-ucare.com/imprint/"
+              >
+                imprint
+              </a>
+              .
+            </p>
+            <Button
+              ref={closeButtonRef}
+              className="mt-4"
+              onClick={() => onClose()}
+            >
               Understood
             </Button>
           </div>
