@@ -6,7 +6,7 @@ import {
 import { ChainFactory } from "@/app/langchain/chain";
 import formatMessage from "@/util/formatMessage";
 
-export const runtime = "edge";
+export const runtime = "nodejs";
 
 const PATIENT_INSTRUCTIONS =
   "You are AIDUS, a helpful AI created to answer questions about urticaria. You can assume that any questions asked are about urticaria by patients suffering from the condition. Choose your vocabulary accordingly and explain terms in necessary. ALWAYS use the tool 'search_urticaria_information' before answering questions, even if you think you know the answer.";
