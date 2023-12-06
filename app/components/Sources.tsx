@@ -42,7 +42,7 @@ export const Sources = ({ data, className }: SourcesProps) => {
         showSources ? "translate-x-0 mx-6" : "-translate-x-full",
       )}
     >
-      <div className={classNames(" mt-12 w-[30rem] over")}>
+      <div className={classNames("mt-2 md:mt-12 w-[30rem] max-w-[90vw] over")}>
         <h2 className="flex justify-between items-center text-primary bg-white h-11 ring-2 ring-primary z-10 font-semibold text-2xl relative after:h-3 after:bg-secondary-300 after:w-full after:absolute after:block after:bottom-2 after:-z-10">
           <span className="relative left-7">Sources</span>
           <button
@@ -76,8 +76,10 @@ export const Sources = ({ data, className }: SourcesProps) => {
                         {s.metadata.pdf.info.Title ?? "MISSING TITLE"}
                       </p>
                       <p>
-                        {s.metadata.pdf.info.Author ?? "MISSING AUTHOR"}, pg.{" "}
-                        {s.metadata.loc.pageNumber}
+                        {s.metadata.pdf.info.Author ?? "MISSING AUTHOR"},{" "}
+                        <span className="italic">
+                          p. {s.metadata.loc.pageNumber}
+                        </span>
                       </p>
                     </li>
                   ))}

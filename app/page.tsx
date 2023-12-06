@@ -1,13 +1,15 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 "use client";
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useRef } from "react";
 import { useChat } from "ai/react";
 import { Message } from "./components/Message";
 import { Button } from "./components/Button";
 import { Sources } from "./components/Sources";
 
 export default function Chat() {
-  const userType = localStorage.getItem("userType") || "patient";
+  const userType =
+    (typeof window !== "undefined" && localStorage.getItem("userType")) ||
+    "patient";
 
   const { messages, input, handleInputChange, handleSubmit, isLoading, data } =
     useChat({
@@ -15,51 +17,33 @@ export default function Chat() {
         {
           content:
             userType === "patient"
-              ? "Greetings! I am AIDUS, an AI assistant with access to a vast store of knowledge regarding urticaria, a skin condition. I can help answer any questions you have about urticaria."
-              : "Greetings! I am AIDUS, an AI assistant with access to a large body of scientific literature about urticaria. You can ask me specific questions about the condition and i will answer them as well as provide you with the sources of my information.",
+              ? "Greetings! I am AIDUS, an AI assistant with access to a vast store of knowledge regarding urticaria. I can answer questions you might have about your condition."
+              : "Greetings! I am AIDUS, an AI assistant with access to a large body of scientific literature about urticaria. You can ask me specific questions about the condition and I will answer them as well as provide you with the sources of my information.",
           role: "assistant",
           id: "1",
         },
       ],
     });
 
+  const messagesEndRef = useRef<HTMLLIElement>(null);
+
   useEffect(() => {
-    data && data.length > 0 && console.log(data);
-  }, [isLoading]);
-
-  const [scrollHeight] = useState(
-    typeof window !== "undefined" ? document.body.scrollHeight : 0,
-  );
-
-  const chatListRef = useRef<HTMLDivElement>(null);
-
-  // useEffect(() => {
-  //   //scroll window to bottom on new message
-  //   if (
-  //     chatListRef.current!.scrollHeight > scrollHeight &&
-  //     typeof window !== "undefined"
-  //   ) {
-  //     window.scrollTo({
-  //       top: scrollHeight + 100,
-  //       behavior: "smooth",
-  //     });
-  //   }
-  // }, [messages]);
+    //scroll window to bottom if it is not already at the bottom
+    messagesEndRef.current?.scrollIntoView({ behavior: "smooth" });
+  }, [messages]);
 
   return (
     <main className="flex flex-col">
-      <div
-        ref={chatListRef}
-        className="mx-auto w-full max-w-4xl mb-[108px] flex flex-col mt-[calc(2rem+theme(height.header))] px-2"
-      >
+      <ul className="mx-auto w-full max-w-4xl mb-[108px] flex flex-col mt-[calc(2rem+theme(height.header))] px-2">
         {messages.length > 0
           ? messages.map((m) => (
               <Message id={m.id} key={m.id} content={m.content} role={m.role} />
             ))
           : null}
-      </div>
+        <li aria-hidden ref={messagesEndRef} />
+      </ul>
       <Sources
-        className="fixed  col-start-1 row-start-1 mt-headerOffset"
+        className="fixed col-start-1 row-start-1 mt-headerOffset"
         data={data}
       />
       <form
