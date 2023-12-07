@@ -1,32 +1,7 @@
 import React, { Fragment, useState } from "react";
 import { ChevronDoubleLeftIcon } from "@heroicons/react/24/outline";
 import classNames from "@/util/classNames";
-
-type Document = {
-  contentChunk: string;
-  metadata: {
-    loc: {
-      lines: {
-        to: number;
-        from: number;
-      };
-      pageNumber: number;
-    };
-    pdf: {
-      info: {
-        Title: string;
-        Author: string;
-      };
-      version: string;
-      metadata: {
-        _metadata: {
-          [key: string]: string | boolean;
-        };
-      };
-      totalPages: number;
-    };
-  };
-};
+import { Document } from "../types";
 
 type SourcesProps = {
   className?: string;

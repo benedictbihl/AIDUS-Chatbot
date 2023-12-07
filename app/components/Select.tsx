@@ -4,12 +4,13 @@ import { Fragment, useState } from "react";
 import { Listbox, Transition } from "@headlessui/react";
 import { CheckIcon, ChevronUpDownIcon } from "@heroicons/react/20/solid";
 import classNames from "@/util/classNames";
+import { UserType } from "../types";
 
 type SelectProps = {
   className?: string;
   label: string;
-  values: { id: string; name: string }[];
-  onChange: (value: { id: string; name: string }) => void;
+  values: { id: UserType; name: UserType }[];
+  onChange: (value: { id: UserType; name: UserType }) => void;
   selected: { id: string; name: string };
 };
 

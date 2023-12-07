@@ -5,14 +5,11 @@ import { useChat } from "ai/react";
 import { Message } from "./components/Message";
 import { Button } from "./components/Button";
 import { Sources } from "./components/Sources";
+import { UserType } from "./types";
 
 export default function Chat() {
-  const [userType, setUserType] = useState("patient");
+  const [userType, setUserType] = useState<UserType>("patient");
   const messagesEndRef = useRef<HTMLLIElement>(null);
-  const [sourcesForMessages, setSourcesForMessages] = useState<
-    Record<string, any>
-  >({});
-  console.log(sourcesForMessages);
 
   const {
     messages,
@@ -24,21 +21,11 @@ export default function Chat() {
     setMessages,
   } = useChat({
     body: { userType: userType },
-    onResponse(response) {
-      const sourcesHeader = response.headers.get("x-sources");
-      const sources = sourcesHeader ? JSON.parse(atob(sourcesHeader)) : [];
-      const messageIndexHeader = response.headers.get("x-message-index");
-      if (sources.length && messageIndexHeader !== null) {
-        setSourcesForMessages({
-          ...sourcesForMessages,
-          [messageIndexHeader]: sources,
-        });
-      }
-    },
   });
 
   useEffect(() => {
-    const userType = localStorage.getItem("userType") || "patient";
+    const userType =
+      (localStorage.getItem("userType") as UserType) || "patient";
     setUserType(userType);
 
     setMessages([

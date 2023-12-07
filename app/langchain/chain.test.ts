@@ -3,6 +3,8 @@ import { Example } from "langsmith/schemas";
 import { LangChainTracer } from "langchain/callbacks";
 import { ChainFactory } from "@/app/langchain/chain";
 import pLimit from "p-limit";
+import { select, input, confirm } from "@inquirer/prompts";
+import { UserType } from "../types";
 
 function getConfigs(examples: Example[], projectName?: string) {
   return examples.map((example) => {
@@ -22,14 +24,37 @@ test(`"Test run on ${datasetName}`, async () => {
     examples.push(example);
   }
 
-  const projectName =
-    (process.env.LANGCHAIN_PROJECT ?? "Unit Testing") +
-    "_" +
-    datasetName +
-    "_" +
-    new Date().toISOString().replace("T", "_").substring(0, 19);
+  const userType: UserType = await select({
+    message: "Select user type for test run",
+    choices: [
+      { name: "Patient", value: <UserType>"patient" },
+      { name: "Doctor", value: <UserType>"doctor" },
+    ],
+  });
 
-  const configs = getConfigs(examples, projectName);
+  //use this to distinguish between different chunk sizes, models, etc.
+  const specifyUsedVariables = await confirm({
+    message:
+      "Do you want to specify the used Variables (chunk sizes, models etc.) ? 'No' will use the name set in the LANGCHAIN_PROJECT env var",
+  });
+
+  let usedVariables =
+    process.env.LANGCHAIN_PROJECT ??
+    "Default Project Name (YOU SHOULD NOT SEE THIS)";
+  if (specifyUsedVariables) {
+    usedVariables = await input({ message: "Enter project name" });
+  }
+
+  const projectNameWithDate =
+    "userType=" +
+    userType.toUpperCase() +
+    "_" +
+    "testVariables=" +
+    usedVariables +
+    "_" +
+    new Date().toISOString().replace("T", "_").substring(5, 16);
+
+  const configs = getConfigs(examples, projectNameWithDate);
   const chainInputs = examples.map((example) => example.inputs);
 
   const limit = pLimit(10); // Limit concurrency to 10
@@ -38,7 +63,7 @@ test(`"Test run on ${datasetName}`, async () => {
     const chains = chainInputs.map((input, index) =>
       limit(async () => {
         //create new chain for each input with empty history and streaming set to false
-        const chain = await ChainFactory.create([], false);
+        const chain = await ChainFactory.create([], false, userType);
         return chain.invoke(input, configs[index]);
       }),
     );

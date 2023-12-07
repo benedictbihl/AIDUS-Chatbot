@@ -8,7 +8,7 @@
     "start": "next start",
     "lint": "next lint",
     "format": "prettier --write .",
-    "test": "jest",
+    "test": "jest --forceExit",
     "embed": "node ./document_transform/transform_and_embed.mjs dotenv_config_path=.env.development.local",
     "prepare": "husky install"
   },
@@ -24,8 +24,8 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
+    "@inquirer/prompts": "^3.3.0",
     "@types/jest": "^29.5.10",
-    "@types/node": "^17.0.12",
     "@types/react": "18.2.8",
     "@types/react-dom": "18.2.4",
     "autoprefixer": "^10.4.14",

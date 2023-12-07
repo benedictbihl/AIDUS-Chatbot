@@ -6,19 +6,27 @@ import { ArrowLeftIcon } from "@heroicons/react/24/outline";
 import { Select } from "./Select";
 import { Dialog } from "./Dialog";
 
-const values = [
+import { UserType } from "../types";
+
+const values: { id: UserType; name: UserType }[] = [
   { id: "patient", name: "patient" },
   { id: "doctor", name: "doctor" },
 ];
 
 export const NavBar = () => {
-  const [selected, setSelected] = useState(values[0]);
-  const [welcomeDialogOpen, setWelcomeDialogOpen] = useState(true);
+  const [selected, setSelected] = useState<{ id: UserType; name: UserType }>(
+    values[0],
+  );
+  const [welcomeDialogOpen, setWelcomeDialogOpen] = useState(false);
 
   useEffect(() => {
     setSelected(
       values.find((value) => value.name === localStorage.getItem("userType")) ||
         values[0],
+    );
+
+    setWelcomeDialogOpen(
+      sessionStorage.getItem("welcomeDialogOpen") === "false" ? false : true,
     );
   }, []);
 
@@ -57,7 +65,10 @@ export const NavBar = () => {
         </button>
         <Dialog
           isOpen={welcomeDialogOpen}
-          onClose={() => setWelcomeDialogOpen(false)}
+          onClose={() => {
+            sessionStorage.setItem("welcomeDialogOpen", "false");
+            setWelcomeDialogOpen(false);
+          }}
         />
       </div>
     </nav>
