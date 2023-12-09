@@ -25,10 +25,6 @@ export async function POST(req: Request) {
 
     const data = new experimental_StreamData();
     const { stream, handlers } = LangChainStream({
-      onFinal() {
-        // IMPORTANT! We must close StreamData manually or the response will never finish.
-        data.close();
-      },
       experimental_streamData: true, // needed to return both the streamed response and the the sources
     });
 
@@ -57,6 +53,10 @@ export async function POST(req: Request) {
                   metadata: doc.metadata,
                 })),
               });
+            },
+            handleChainEnd() {
+              // IMPORTANT! We must close StreamData manually or the response will never finish.
+              data.close();
             },
           },
         ],
