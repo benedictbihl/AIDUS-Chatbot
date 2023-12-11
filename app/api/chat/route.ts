@@ -1,11 +1,8 @@
-import {
-  StreamingTextResponse,
-  LangChainStream,
-  experimental_StreamData,
-} from "ai";
+import { StreamingTextResponse, LangChainStream } from "ai";
 import { ChainFactory } from "@/app/langchain/chain";
 import formatMessage from "@/util/formatMessage";
 import { NextResponse } from "next/server";
+import { Document } from "langchain/document";
 
 export const runtime = "edge";
 
@@ -22,17 +19,19 @@ export async function POST(req: Request) {
     const messages = body.messages ?? [];
     const formattedPreviousMessages = messages.slice(0, -1).map(formatMessage);
     const currentMessageContent = messages[messages.length - 1].content;
-
-    const data = new experimental_StreamData();
-    const { stream, handlers } = LangChainStream({
-      experimental_streamData: true, // needed to return both the streamed response and the the sources
-    });
+    const { stream, handlers } = LangChainStream({});
 
     const executor = await ChainFactory.create(
       formattedPreviousMessages,
       true, //set streaming to true
       body.userType, // set the way the agent is primed based on the user type
     );
+
+    let resolveWithDocuments: (value: Document[]) => void;
+    const documentPromise = new Promise<Document[]>((resolve) => {
+      resolveWithDocuments = resolve;
+    });
+    let headers = { "x-sources": "" };
 
     /* run the agent - it autonomously decides if it needs to call
      * the retriever or the llm directly, depending on the query
@@ -45,22 +44,35 @@ export async function POST(req: Request) {
         [
           handlers,
           {
-            handleRetrieverEnd(documents) {
+            handleRetrieverEnd(documents: Document[]) {
               // here we add the source docs to the response
-              data.append({
-                sources: documents.map((doc) => ({
-                  contentChunk: doc.pageContent,
-                  metadata: doc.metadata,
-                })),
-              });
-              data.close();
+              resolveWithDocuments(documents);
+            },
+            handleChainEnd() {
+              // if the retriever is not called, we still need to resolve the promise
+              resolveWithDocuments([]);
             },
           },
         ],
       )
       .catch(console.error);
 
-    return new StreamingTextResponse(stream, {}, data);
+    const docs = await documentPromise;
+    const serializedSources = Buffer.from(
+      JSON.stringify(
+        docs.map((doc) => {
+          return {
+            pageContent: doc.pageContent.slice(0, 50) + "...",
+            metadata: doc.metadata,
+          };
+        }),
+      ),
+    ).toString("base64");
+    headers["x-sources"] = serializedSources;
+
+    return new StreamingTextResponse(stream, {
+      headers: headers,
+    });
   } catch (e: any) {
     return NextResponse.json({ error: e.message }, { status: 500 });
   }

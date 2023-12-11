@@ -1,15 +1,17 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 "use client";
 import { useEffect, useRef, useState } from "react";
-import { useChat } from "ai/react";
-import { Message } from "./components/Message";
+import { Message, useChat } from "ai/react";
+import { Message as MessageComponent } from "./components/Message";
 import { Button } from "./components/Button";
 import { Sources } from "./components/Sources";
 import { UserType } from "./types";
+import { Document } from "langchain/document";
 
 export default function Chat() {
   const [userType, setUserType] = useState<UserType>("patient");
   const messagesEndRef = useRef<HTMLLIElement>(null);
+  const [sourcesForMessages, setSourcesForMessages] = useState<Document[]>([]);
 
   const {
     messages,
@@ -17,10 +19,16 @@ export default function Chat() {
     handleInputChange,
     handleSubmit,
     isLoading,
-    data,
     setMessages,
   } = useChat({
     body: { userType: userType },
+    onResponse(response) {
+      const sourcesHeader = response.headers.get("x-sources");
+      const sources = sourcesHeader ? JSON.parse(atob(sourcesHeader)) : [];
+      if (sources) {
+        setSourcesForMessages((prev: Document[]) => [...prev, ...sources]);
+      }
+    },
   });
 
   useEffect(() => {
@@ -28,7 +36,7 @@ export default function Chat() {
       (localStorage.getItem("userType") as UserType) || "patient";
     setUserType(userType);
 
-    setMessages([
+    let initialMessages: Message[] = [
       {
         content:
           userType === "patient"
@@ -37,7 +45,18 @@ export default function Chat() {
         role: "assistant",
         id: "1",
       },
-    ]);
+    ];
+    console.log(navigator.language);
+    //if browser language is German, add message to chat
+    if (navigator.language === "de") {
+      initialMessages.push({
+        content: "Du kannst mich im übrigen auch auf Deutsch fragen.",
+        role: "assistant",
+        id: "2",
+      });
+    }
+
+    setMessages(initialMessages);
   }, []);
 
   useEffect(() => {
@@ -50,14 +69,19 @@ export default function Chat() {
       <ul className="mx-auto w-full max-w-4xl mb-[108px] flex flex-col mt-[calc(2rem+theme(height.header))] px-2">
         {messages.length > 0
           ? messages.map((m) => (
-              <Message id={m.id} key={m.id} content={m.content} role={m.role} />
+              <MessageComponent
+                id={m.id}
+                key={m.id}
+                content={m.content}
+                role={m.role}
+              />
             ))
           : null}
         <li aria-hidden ref={messagesEndRef} />
       </ul>
       <Sources
         className="fixed col-start-1 row-start-1 mt-headerOffset"
-        data={data}
+        data={sourcesForMessages}
       />
       <form
         onSubmit={handleSubmit}
