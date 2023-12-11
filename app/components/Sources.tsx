@@ -1,15 +1,14 @@
 import React, { Fragment, useState } from "react";
 import { ChevronDoubleLeftIcon } from "@heroicons/react/24/outline";
 import classNames from "@/util/classNames";
-import { Document } from "langchain/document";
+import { Document } from "../types";
 
 type SourcesProps = {
   className?: string;
-  data: Document[];
+  data: { sources: Document[] }[];
 };
 export const Sources = ({ data, className }: SourcesProps) => {
   const [showSources, setShowSources] = useState(false);
-
   return (
     <aside
       className={classNames(
@@ -41,18 +40,25 @@ export const Sources = ({ data, className }: SourcesProps) => {
         </h2>
         <ul className="bg-gray-200 p-2 ring-gray-200 ring-2 overflow-auto max-h-[calc(100vh-16rem)]">
           {data && data.length > 0
-            ? data.map((s, index) => (
-                <li className="my-4" key={s.metadata.pdf.info.Title ?? index}>
-                  <p className="font-semibold text-textColor">
-                    {s.metadata.pdf.info.Title ?? "MISSING TITLE"}
-                  </p>
-                  <p>
-                    {s.metadata.pdf.info.Author ?? "MISSING AUTHOR"},{" "}
-                    <span className="italic">
-                      p. {s.metadata.loc.pageNumber}
-                    </span>
-                  </p>
-                </li>
+            ? data.map((d, index) => (
+                <Fragment key={index + "wrapper"}>
+                  {d.sources.map((s, index) => (
+                    <li
+                      className="my-4"
+                      key={s.metadata.pdf.info.Title ?? index}
+                    >
+                      <p className="font-semibold text-textColor">
+                        {s.metadata.pdf.info.Title ?? "MISSING TITLE"}
+                      </p>
+                      <p>
+                        {s.metadata.pdf.info.Author ?? "MISSING AUTHOR"},{" "}
+                        <span className="italic">
+                          p. {s.metadata.loc.pageNumber}
+                        </span>
+                      </p>
+                    </li>
+                  ))}
+                </Fragment>
               ))
             : "No sources referenced for this conversation."}
         </ul>
