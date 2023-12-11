@@ -53,9 +53,6 @@ export async function POST(req: Request) {
                   metadata: doc.metadata,
                 })),
               });
-            },
-            handleChainEnd() {
-              // IMPORTANT! We must close StreamData manually or the response will never finish.
               data.close();
             },
           },
