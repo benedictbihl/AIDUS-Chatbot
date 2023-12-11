@@ -7,7 +7,8 @@ import { ChainFactory } from "@/app/langchain/chain";
 import formatMessage from "@/util/formatMessage";
 import { NextResponse } from "next/server";
 
-export const runtime = "edge";
+export const runtime = "nodejs";
+export const maxDuration = 120; // This function can run for a maximum of 120 seconds
 
 /**
  * This is the main function that is called when a user sends a message.
@@ -53,6 +54,8 @@ export async function POST(req: Request) {
                   metadata: doc.metadata,
                 })),
               });
+            },
+            handleChainEnd() {
               data.close();
             },
           },
