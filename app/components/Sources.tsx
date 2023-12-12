@@ -45,7 +45,7 @@ export const Sources = ({ data, className }: SourcesProps) => {
                   {d.sources.map((s, index) => (
                     <li
                       className="my-4"
-                      key={s.metadata.pdf.info.Title ?? index}
+                      key={s.metadata.pdf.info.Title + index ?? index}
                     >
                       <p className="font-semibold text-textColor">
                         {s.metadata.pdf.info.Title ?? "MISSING TITLE"}

@@ -30,10 +30,21 @@ export class ChainFactory {
     streaming = false,
     userType: UserType = "patient",
   ) {
+    if (!process.env.EMBEDDINGS_TABLE_NAME) {
+      throw new Error("EMBEDDINGS_TABLE_NAME environment variable is not set");
+    }
+
+    if (!process.env.OPENAI_MODEL_NAME) {
+      throw new Error("OPENAI_MODEL_NAME environment variable is not set");
+    }
+
+    const tableName = process.env.EMBEDDINGS_TABLE_NAME;
+    const llm = process.env.OPENAI_MODEL_NAME;
+
     const vectorStore = await VercelPostgres.initialize(
       new OpenAIEmbeddings(),
       {
-        tableName: process.env.EMBEDDINGS_TABLE_NAME,
+        tableName: tableName,
       },
     );
 
@@ -45,7 +56,7 @@ export class ChainFactory {
     });
 
     const model = new ChatOpenAI({
-      modelName: "gpt-3.5-turbo-1106",
+      modelName: llm,
       temperature: 0,
       streaming: streaming,
     });

@@ -14,6 +14,12 @@ function getConfigs(examples: Example[], projectName?: string) {
   });
 }
 
+if (!process.env.LANGSMITH_TEST_DATASET_NAME) {
+  throw new Error(
+    "LANGSMITH_TEST_DATASET_NAME environment variable is not set",
+  );
+}
+
 const datasetName = process.env.LANGSMITH_TEST_DATASET_NAME;
 
 test(`"Test run on ${datasetName}`, async () => {

@@ -1,11 +1,12 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 "use client";
 import { useEffect, useRef, useState } from "react";
-import { useChat } from "ai/react";
+import { useChat, Message as MessageType } from "ai/react";
 import { Message } from "./components/Message";
 import { Button } from "./components/Button";
 import { Sources } from "./components/Sources";
 import { UserType } from "./types";
+import languages from "../util/languages.json";
 
 export default function Chat() {
   const [userType, setUserType] = useState<UserType>("patient");
@@ -21,6 +22,9 @@ export default function Chat() {
     setMessages,
   } = useChat({
     body: { userType: userType },
+    onError(error) {
+      console.error(error);
+    },
   });
 
   useEffect(() => {
@@ -28,7 +32,7 @@ export default function Chat() {
       (localStorage.getItem("userType") as UserType) || "patient";
     setUserType(userType);
 
-    setMessages([
+    const initialMessages: MessageType[] = [
       {
         content:
           userType === "patient"
@@ -37,7 +41,21 @@ export default function Chat() {
         role: "assistant",
         id: "1",
       },
-    ]);
+    ];
+
+    //add language hint message if available
+    const languageHint = Object.keys(languages).find((l) =>
+      navigator.language.includes(l),
+    ) as keyof typeof languages;
+
+    if (languageHint && languageHint in languages) {
+      initialMessages.push({
+        content: languages[languageHint],
+        role: "assistant",
+        id: "2",
+      });
+    }
+    setMessages(initialMessages);
   }, []);
 
   useEffect(() => {
