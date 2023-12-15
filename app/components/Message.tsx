@@ -39,7 +39,9 @@ export const Message = ({ content, role }: MessageType) => {
             : "self-end bg-secondary-300 text-textColor",
         )}
       >
-        <p>{content.length > 0 ? content : "Let me think about this..."}</p>
+        <p>
+          {content.length > 0 ? content : "I am processing your question..."}
+        </p>
         <div
           className={classNames(
             "absolute w-4 h-4 top-5 transform rotate-45",
