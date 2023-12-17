@@ -5,8 +5,8 @@ import { QuestionMarkCircleIcon } from "@heroicons/react/24/outline";
 import { Bars3Icon } from "@heroicons/react/24/outline";
 import { Select } from "./Select";
 import { Dialog } from "./Dialog";
-
 import { UserType } from "../types";
+import { Button } from "./Button";
 
 const values: { id: UserType; name: UserType }[] = [
   { id: "patient", name: "patient" },
@@ -35,19 +35,20 @@ export const NavBar = ({ onMenuClick }: NavBarProps) => {
   }, []);
 
   return (
-    <nav className="w-full bg-primary h-header flex justify-between md:grid md:grid-cols-2 px-4 fixed top-0 z-50">
-      <div className="group self-center">
-        <button
-          onClick={(e) => onMenuClick(e)}
-          className="focus:outline-none focus-within:ring-2 focus-within:ring-white"
-        >
-          <Bars3Icon className="h-8 w-8 text-white hover:text-secondary" />
-        </button>
-      </div>
+    <nav className="w-full bg-primary h-header flex justify-between md:grid md:grid-cols-2 fixed top-0 z-50 ">
+      <Button
+        data-tooltip-id="tooltip"
+        data-tooltip-content="Open/Close sidebar"
+        onClick={(e) => onMenuClick(e)}
+        className="h-full w-fit px-4 ring-inset"
+      >
+        <Bars3Icon className="h-8 w-8 text-white " />
+        <span className="sr-only">Open sidebar</span>
+      </Button>
 
-      <div className="flex items-center justify-end gap-8">
+      <div className="flex items-center justify-end">
         <Select
-          className="self-center justify-self-center h-full"
+          className="self-center justify-self-center h-full pr-2"
           label="I am a"
           selected={selected}
           values={values}
@@ -60,18 +61,23 @@ export const NavBar = ({ onMenuClick }: NavBarProps) => {
             window.location.reload();
           }}
         />
+
         <a
+          className="font-bold h-full px-4 ring-inset hidden md:flex items-center bg-primary text-white hover:bg-primary-950  focus:bg-primary-950 focus-within:ring-2 focus-within:ring-white focus:outline-none"
           href="https://ga2len-ucare.com/"
-          className="flex w-fit items-center text-white font-bold hover:text-secondary focus:outline-none focus:ring-2 focus:ring-white"
         >
-          <span className="hidden md:block">Visit UCARE</span>
+          <span>Visit UCARE</span>
         </a>
-        <button
+
+        <Button
+          data-tooltip-id="tooltip"
+          data-tooltip-content="Show help dialog"
           onClick={() => setWelcomeDialogOpen(true)}
-          className="focus:outline-none focus-within:ring-2 focus-within:ring-white"
+          className="h-full px-4 ring-inset"
         >
-          <QuestionMarkCircleIcon className="h-8 w-8 text-white hover:text-secondary" />
-        </button>
+          <QuestionMarkCircleIcon className="h-8 w-8 text-white " />
+          <span className="sr-only">Show help dialog</span>
+        </Button>
         <Dialog
           isOpen={welcomeDialogOpen}
           onClose={() => {

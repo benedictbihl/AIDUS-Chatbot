@@ -33,7 +33,7 @@ export const Message = ({ content, role }: MessageType) => {
       </div>
       <div
         className={classNames(
-          "relative flex max-w-[85%] p-4",
+          "relative flex max-w-[80%] md:max-w-[85%] p-4",
           role === "assistant"
             ? `self-start text-white ${assistantBackground}`
             : "self-end bg-secondary-300 text-textColor",

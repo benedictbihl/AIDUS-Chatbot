@@ -1,20 +1,23 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 "use client";
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useState } from "react";
 import { useChat, Message as MessageType } from "ai/react";
-import { Message } from "./components/Message";
-import { Button } from "./components/Button";
+
 import { Sources } from "./components/Sources";
 import { UserType } from "./types";
 import languages from "../util/languages.json";
 import { NavBar } from "./components/NavBar";
 import { useBreakpoint } from "./hooks/useBreakpoint";
+import { ChatContainer } from "./components/ChatContainer";
+import { Sidebar } from "./components/Sidebar";
+import { Tabs } from "./components/Tabs";
+import { Tooltip } from "react-tooltip";
 
 export default function Chat() {
   const { isAboveMd } = useBreakpoint("md");
+  const [showMenu, setShowMenu] = useState(false);
   const [userType, setUserType] = useState<UserType>("patient");
-  const [showMenu, setShowMenu] = useState(true);
-  const messagesEndRef = useRef<HTMLLIElement>(null);
+  const [tabIndex, setTabIndex] = useState(0);
 
   const {
     messages,
@@ -93,64 +96,38 @@ export default function Chat() {
   }, []);
 
   useEffect(() => {
-    //scroll window to bottom if it is not already at the bottom
-    messagesEndRef.current?.scrollIntoView({ behavior: "smooth" });
-  }, [messages]);
-
-  useEffect(() => {
     setShowMenu(isAboveMd);
   }, [isAboveMd]);
+
+  useEffect(() => {
+    //if data is available, switch to sources tab
+    data && data.length > 0 && setTabIndex(1);
+  }, [data]);
 
   return (
     <>
       <NavBar onMenuClick={() => setShowMenu(!showMenu)} />
-
       <div className="flex min-h-screen">
-        <Sources showMenu={showMenu} className="z-10" data={data} />
+        <Sidebar showMenu={showMenu} className="z-10">
+          <Tabs
+            selectedIndex={tabIndex}
+            onChange={(index) => setTabIndex(index)}
+            tabNames={["Common Questions", "Sources"]}
+            tabContent={[<></>, <Sources key={1} data={data} />]}
+          />
+        </Sidebar>
         <main className="mx-2 sm:mx-0 md:mx-auto absolute md:relative flex h-screen max-w-full flex-1 flex-col overflow-hidden">
-          <div className=" w-full overflow-y-auto flex flex-1 flex-col mt-[calc(0.5rem+theme(height.header))]">
-            <ul className="mx-auto w-full md:max-w-2xl xl:max-w-3xl">
-              {messages.length > 0
-                ? messages.map((m) => (
-                    <Message
-                      id={m.id}
-                      key={m.id}
-                      content={m.content}
-                      role={m.role}
-                    />
-                  ))
-                : null}
-              <li aria-hidden ref={messagesEndRef} />
-            </ul>
-          </div>
-          <form onSubmit={handleSubmit} className="flex w-full pt-2 pr-2">
-            <div className="gap-3 last:mb-2 md:last:mb-6 md:mx-auto w-full md:max-w-2xl xl:max-w-3xl">
-              <div className="w-full flex">
-                <input
-                  type="text"
-                  placeholder="Ask..."
-                  className="grow  px-4 border-primary-950 border-2 text-textColor focus:outline-none focus:ring-1 focus:ring-primary-950"
-                  value={input}
-                  onChange={handleInputChange}
-                  disabled={isLoading}
-                />
-                <Button
-                  className="p-4 w-36 bg-primary text-white font-semibold disabled:cursor-not-allowed disabled:bg-black hover:bg-primary-950 focus:outline-none focus:bg-primary-950"
-                  type="submit"
-                  disabled={isLoading}
-                >
-                  {isLoading ? (
-                    <span className="animate-pulse">Thinking...</span>
-                  ) : (
-                    <>Ask Question</>
-                  )}
-                  <span className="sr-only">Ask</span>
-                </Button>
-              </div>
-            </div>
-          </form>
+          <h1 className="sr-only">AIDUS, the Urticaria Chatbot</h1>
+          <ChatContainer
+            messages={messages}
+            input={input}
+            handleInputChange={handleInputChange}
+            handleSubmit={handleSubmit}
+            isLoading={isLoading}
+          />
         </main>
       </div>
+      <Tooltip id="tooltip" />
     </>
   );
 }

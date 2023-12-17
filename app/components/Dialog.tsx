@@ -21,7 +21,7 @@ export const Dialog = ({ isOpen, onClose }: DialogProps) => {
       <div className="fixed inset-0 flex w-screen items-center justify-center p-4">
         <HeadlessDialog.Panel className="flex flex-col mx-auto max-w-3xl bg-white p-6 z-20 max-h-[90vh] overflow-x-hidden overflow-y-auto">
           <HeadlessDialog.Title className="text-primary font-semibold text-4xl left-7 relative after:h-6 after:bg-secondary-300 after:w-full after:relative after:block after:bottom-4 after:-left-7 after:-z-10">
-            <div className="flex items-baseline">About AIDUS</div>
+            <h1 className="flex items-baseline">About AIDUS</h1>
           </HeadlessDialog.Title>
           <div className="flex flex-col items-center justify-between">
             <p className="mt-4">
@@ -60,7 +60,7 @@ export const Dialog = ({ isOpen, onClose }: DialogProps) => {
             </p>
             <Button
               ref={closeButtonRef}
-              className="mt-4"
+              className="p-4 mt-4"
               onClick={() => onClose()}
             >
               Understood
