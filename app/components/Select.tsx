@@ -32,13 +32,13 @@ export const Select = ({
         >
           <Listbox.Label className="pr-1">{label}</Listbox.Label>
           <div className="relative mt-2">
-            <Listbox.Button className="relative w-full cursor-default py-1.5 pl-1 pr-10 text-left text-white shadow-sm focus:outline-none focus-within:ring-2 focus-within:ring-white sm:text-md sm:leading-6">
+            <Listbox.Button className="relative w-full cursor-default py-1.5 pl-1 pr-6 text-left text-white shadow-sm focus:outline-none focus-within:ring-2 focus-within:ring-white sm:text-md sm:leading-6">
               <span className="flex items-center">
                 <span className=" block truncate group-hover:text-secondary">
                   {selected.name}
                 </span>
               </span>
-              <span className="pointer-events-none absolute inset-y-0 right-0 ml-3 flex items-center pr-2">
+              <span className="pointer-events-none absolute inset-y-0 right-0 ml-3 flex items-center">
                 <ChevronUpDownIcon
                   className="h-5 w-5 text-white group-hover:text-secondary"
                   aria-hidden="true"

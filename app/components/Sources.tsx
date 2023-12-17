@@ -5,38 +5,38 @@ import { Document } from "../types";
 
 type SourcesProps = {
   className?: string;
+  showMenu: boolean;
   data: { sources: Document[] }[];
 };
-export const Sources = ({ data, className }: SourcesProps) => {
-  const [showSources, setShowSources] = useState(false);
+export const Sources = ({ data, className, showMenu }: SourcesProps) => {
   return (
     <aside
       className={classNames(
         className ? className : "",
-        "transition-transform ease-in-out duration-300",
-        showSources ? "translate-x-0 mx-6" : "-translate-x-full",
+        "transition-all ease-in-out duration-300 border-r bg-gray-200 border-gray-200 flex-shrink-0 overflow-x-hidden mt-2 md:mt-12 max-w-[90vw] over mr-2",
+        showMenu ? "w-[21rem]" : "w-0",
       )}
     >
-      <div className={classNames("mt-2 md:mt-12 w-[30rem] max-w-[90vw] over")}>
+      <div className="w-[21rem] max-w-[90vw]">
         <h2 className="flex justify-between items-center text-primary bg-white h-11 ring-2 ring-primary z-10 font-semibold text-2xl relative after:h-3 after:bg-secondary-300 after:w-full after:absolute after:block after:bottom-2 after:-z-10">
           <span className="relative left-7">Sources</span>
-          <button
-            onClick={() => setShowSources(!showSources)}
-            className={classNames(
-              showSources ? "-left-7" : "absolute left-full",
-              "bg-white h-full group focus:outline-none",
-            )}
-          >
-            <span className="h-full text-sm flex items-center ring-2 ring-primary pl-2 group group-hover:bg-primary group-hover:text-white group-focus-within:bg-primary group-focus-within:text-white">
-              {showSources ? "Close" : "Sources"}
-              <ChevronDoubleLeftIcon
-                className={classNames(
-                  "h-6 w-6 text-primary group-focus-within:text-white group-hover:text-white",
-                  showSources ? "" : "rotate-180",
-                )}
-              />
-            </span>
-          </button>
+          {/* <button
+          onClick={() => setShowSources(!showMenu)}
+          className={classNames(
+            // showSources ? "-left-7" : "absolute left-full",
+            "bg-white h-full group focus:outline-none",
+          )}
+        >
+          <span className="h-full text-sm flex items-center ring-2 ring-primary pl-2 group group-hover:bg-primary group-hover:text-white group-focus-within:bg-primary group-focus-within:text-white">
+            {showSources ? "Close" : "Sources"}
+            <ChevronDoubleLeftIcon
+              className={classNames(
+                "h-6 w-6 text-primary group-focus-within:text-white group-hover:text-white",
+                showSources ? "" : "rotate-180",
+              )}
+            />
+          </span>
+        </button> */}
         </h2>
         <ul className="bg-gray-200 p-2 ring-gray-200 ring-2 overflow-auto max-h-[calc(100vh-16rem)]">
           {data && data.length > 0

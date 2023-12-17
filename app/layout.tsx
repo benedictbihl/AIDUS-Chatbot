@@ -1,4 +1,3 @@
-import { NavBar } from "./components/NavBar";
 import "./globals.css";
 import { Work_Sans } from "next/font/google";
 
@@ -21,10 +20,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={`${workSans.variable}`}>
-      <body>
-        <NavBar />
-        {children}
-      </body>
+      <body>{children}</body>
     </html>
   );
 }
