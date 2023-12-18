@@ -1,0 +1,2031 @@
+[
+  {
+    "title": "What are the causes of chronic urticaria?",
+    "conversation_history": [
+      {
+        "content": "Greetings! I am AIDUS, an AI assistant with access to a vast store of knowledge regarding urticaria. I can answer questions you might have about your condition, or you can pick one of the common questions from the sidebar to get started.",
+        "role": "assistant",
+        "id": "1"
+      },
+      {
+        "content": "What are the causes of chronic urticaria?",
+        "role": "user",
+        "createdAt": "2023-12-18T11:47:42.444Z",
+        "id": "8nKNnos"
+      },
+      {
+        "id": "IgEnLAw",
+        "role": "assistant",
+        "content": "The causes of chronic urticaria can be diverse and may include autoimmune factors, infections, medications, and physical triggers. Chronic urticaria is defined by the occurrence of transient itchy wheals (hives) and/or angioedema for more than 6 weeks. It is divided into chronic spontaneous urticaria (CSU) and chronic inducible urticarias (CIndUs). CSU involves wheals and/or angioedema that occur suddenly and unpredictably without a specific trigger. The intake of nonsteroidal anti-inflammatory drugs (NSAIDs) and infections such as Helicobacter pylori have been associated with chronic urticaria. Additionally, autoimmune factors and hormonal changes may also play a role in the development of chronic urticaria. If you have further questions or need more details about any specific cause, feel free to ask!",
+        "createdAt": "2023-12-18T11:47:47.486Z"
+      }
+    ],
+    "sources": [
+      {
+        "sources": [
+          {
+            "contentChunk": "with chronic urticaria. Allergol Immunopathol (Madr) 2016;44(4):286\n–\n91.\n[59]\nHarris A, Twarog FJ, Geha RS. Chronic urticaria in childhood: natural course and eti-\nology. Ann Allergy 1983;51(2 Pt 1):161\n–\n5.\n[60]\nKim JA, Kim S, Kim JE, JY Gu, Yoo HJ, Kang HR, et al. Activation of the intrinsic co-\nagulation pathway in patients with chronic Urticaria. Allergy Asthma Immunol\nRes 2015;7(5):476\n–\n82.\n[61]\nVerneuil L, Leconte C, Ballet JJ, Cof\nfi\nn C, Laroche D, Izard JP, et al. Association be-",
+            "metadata": {
+              "loc": {
+                "lines": {
+                  "to": 96,
+                  "from": 79
+                },
+                "pageNumber": 12
+              },
+              "pdf": {
+                "info": {
+                  "Title": "Autoimmune comorbidity in chronic spontaneous urticaria: A systematic review",
+                  "Creator": "Elsevier",
+                  "ModDate": "D:20171119041937Z00'00'",
+                  "Producer": "Acrobat Distiller 10.0.0 (Windows)",
+                  "CreationDate": "D:20171115014513+08'00'",
+                  "IsXFAPresent": false,
+                  "PDFFormatVersion": "1.7",
+                  "IsAcroFormPresent": false
+                },
+                "version": "1.10.100",
+                "metadata": {
+                  "_metadata": {
+                    "dc:title": "Autoimmune comorbidity in chronic spontaneous urticaria: A systematic review",
+                    "pdfx:doi": "10.1016/j.autrev.2017.10.003",
+                    "dc:format": "application/pdf",
+                    "prism:doi": "10.1016/j.autrev.2017.10.003",
+                    "prism:url": "https://doi.org/10.1016/j.autrev.2017.10.003",
+                    "dc:creator": "Pavel KolkhirElena BorzovaClive GrattanRiccardo AseroDmitry PogorelovMarcus Maurer",
+                    "dc:subject": "Chronic spontaneous urticariaAutoimmune diseasesSystematic reviewPrevalencePolyautoimmunity",
+                    "prism:issn": "1568-9972",
+                    "pdfx:robots": "noindex",
+                    "dc:publisher": "Elsevier B.V.",
+                    "pdf:keywords": "Chronic spontaneous urticaria;  Autoimmune diseases;  Systematic review;  Prevalence;  Polyautoimmunity",
+                    "prism:number": "12",
+                    "prism:volume": "16",
+                    "crossmark:doi": "10.1016/j.autrev.2017.10.003",
+                    "dc:identifier": "doi:10.1016/j.autrev.2017.10.003",
+                    "dc:description": "Autoimmunity Reviews, 16 (2017) 1196-1208. doi:10.1016/j.autrev.2017.10.003",
+                    "prism:copyright": "(c) 2017 Elsevier B.V. All rights reserved",
+                    "prism:coverdate": "2017-12",
+                    "prism:pagerange": "1196-1208",
+                    "xap:creatortool": "Elsevier",
+                    "prism:endingpage": "1208",
+                    "xaprights:marked": "True",
+                    "prism:startingpage": "1196",
+                    "pdfx:crossmarkdomains": "elsevier.comsciencedirect.com",
+                    "prism:aggregationtype": "journal",
+                    "prism:publicationname": "Autoimmunity Reviews",
+                    "prism:coverdisplaydate": "December 2017",
+                    "crossmark:crossmarkdomains": "elsevier.comsciencedirect.com",
+                    "crossmark:majorversiondate": "2010-04-23",
+                    "jav:journal_article_version": "VoR",
+                    "pdfx:crossmarkdomainexclusive": "true",
+                    "pdfx:crossmarkmajorversiondate": "2010-04-23",
+                    "pdfx:elsevierwebpdfspecifications": "6.5",
+                    "crossmark:crossmarkdomainexclusive": "true"
+                  }
+                },
+                "totalPages": 13
+              }
+            }
+          },
+          {
+            "contentChunk": "by a standard dose of antihistamine.\nAllergy\n2013;\n68\n: 229\n–\n235.\n9 Gregoriou S, Rigopoulos D, Katsambas A\net al.\nEtiologic aspects and\nprognostic factors of patients with chronic urticaria: nonrandomized,\nprospective, descriptive study.\nJ Cutan Med Surg\n2009;\n13\n: 198\n–\n203.\n10 Chen W, Mempel M, Schober W, Behrendt H, Ring J. Gender difference,\nsex hormones, and immediate type hypersensitivity reactions.\nAllergy\n2008;\n63\n: 1418\n–\n1427.",
+            "metadata": {
+              "loc": {
+                "lines": {
+                  "to": 163,
+                  "from": 138
+                },
+                "pageNumber": 6
+              },
+              "pdf": {
+                "info": {
+                  "Title": "Factors linked to disease severity and time to remission in patients with chronic spontaneous urticaria",
+                  "Creator": "Arbortext Advanced Print Publisher 9.1.531/W Unicode",
+                  "ModDate": "D:20170520094339+05'30'",
+                  "Producer": "Acrobat Distiller 10.0.0 (Windows)",
+                  "CreationDate": "D:20170520094339+05'30'",
+                  "IsXFAPresent": false,
+                  "PDFFormatVersion": "1.6",
+                  "IsAcroFormPresent": false
+                },
+                "version": "1.10.100",
+                "metadata": {
+                  "_metadata": {
+                    "dc:title": "Factors linked to disease severity and time to remission in patients with chronic spontaneous urticaria",
+                    "dc:format": "application/pdf",
+                    "prism:doi": "10.1111/jdv.14221",
+                    "pdfx:producer": "Acrobat Distiller 10.1.7 (Windows)",
+                    "pdfx:wps-proclevel": "3",
+                    "pdfx:wps-articledoi": "10.1111/jdv.14221",
+                    "pdfx:wps-journaldoi": "10.1111/(ISSN)1468-3083",
+                    "jav:journal_article_version": "VoR"
+                  }
+                },
+                "totalPages": 8
+              }
+            }
+          },
+          {
+            "contentChunk": "Dermatol\n. 2004;21:102-108.\n30. Harris A, Twarog FJ, Geha RS. Chronic urticaria in childhood: natu-\nral course and etiology.\nAnn Allergy\n. 1983;51(2 Pt 1):161-165.\n31. Volonakis M, Katsarou-Katsari A, Stratigos J. Etiologic factors in\nchildhood chronic urticaria.\nAnn Allergy\n. 1992;69:61-65.\n32. Rumbyrt JS, Katz JL, Schocket AL. Resolution of chronic urticaria in\npatients with thyroid autoimmunity.\nJ  Allergy  Clin  Immunol\n. 1995;96\n(6 Pt 1):901-905.",
+            "metadata": {
+              "loc": {
+                "lines": {
+                  "to": 191,
+                  "from": 177
+                },
+                "pageNumber": 17
+              },
+              "pdf": {
+                "info": {
+                  "Title": "Comorbidity of chronic spontaneous urticaria and autoimmune thyroid diseases: A systematic review",
+                  "Creator": "Arbortext Advanced Print Publisher 9.1.531/W Unicode",
+                  "ModDate": "D:20170909145910+05'30'",
+                  "Producer": "Acrobat Distiller 10.0.0 (Windows)",
+                  "CreationDate": "D:20170909145910+05'30'",
+                  "IsXFAPresent": false,
+                  "PDFFormatVersion": "1.6",
+                  "IsAcroFormPresent": false
+                },
+                "version": "1.10.100",
+                "metadata": {
+                  "_metadata": {
+                    "dc:title": "Comorbidity of chronic spontaneous urticaria and autoimmune thyroid diseases: A systematic review",
+                    "dc:format": "application/pdf",
+                    "prism:doi": "10.1111/all.13182",
+                    "pdfx:producer": "Acrobat Distiller 10.1.7 (Windows)",
+                    "xmp:createdate": "2017-09-09T18:23:32+05:30",
+                    "xmp:modifydate": "2017-09-09T18:23:32+05:30",
+                    "xmp:metadatadate": "2017-09-09T18:23:32+05:30",
+                    "xmpmm:documentid": "uuid:b9d6efe5-5ad8-41d6-acf3-5a3f0f17e9b9",
+                    "xmpmm:instanceid": "uuid:a7f797d7-3000-4800-9fba-ed2d499790dc",
+                    "pdfx:wps-proclevel": "3",
+                    "pdfx:wps-articledoi": "10.1111/all.13182",
+                    "pdfx:wps-journaldoi": "10.1111/(ISSN)1398-9995",
+                    "jav:journal_article_version": "VoR"
+                  }
+                },
+                "totalPages": 21
+              }
+            }
+          },
+          {
+            "contentChunk": "INTRODUCTION\nChronic urticaria is a common skin disorder\n1\nwith a high relevance in dermatologic and\nallergological patient care.\n2,3\nIt is defined by the occurrence of transient itchy wheals\n(hives), angioedema, or both for more than 6 weeks.\n4\nChronic urticaria is divided into chronic spontaneous urticaria (CSU) and chronic\ninducible urticarias (CIndUs) (\nTable 1\n).\n4\nIn CSU, wheals and/or angioedema occur\nsuddenly and unpredictably without a specific trigger. The intake of nonsteroidal anti-",
+            "metadata": {
+              "loc": {
+                "lines": {
+                  "to": 16,
+                  "from": 1
+                },
+                "pageNumber": 2
+              },
+              "pdf": {
+                "info": {
+                  "Title": "Clinical Measures of Chronic Urticaria",
+                  "Author": "Karsten Weller MD",
+                  "Creator": "Elsevier",
+                  "ModDate": "D:20161102161300+05'30'",
+                  "Subject": "Immunology and Allergy Clinics of NA, 37 (2017) 35-49. doi:10.1016/j.iac.2016.08.005",
+                  "Producer": "Acrobat Distiller 8.1.0 (Windows)",
+                  "CreationDate": "D:20161102161210+05'30'",
+                  "IsXFAPresent": false,
+                  "PDFFormatVersion": "1.7",
+                  "IsAcroFormPresent": false
+                },
+                "version": "1.10.100",
+                "metadata": {
+                  "_metadata": {
+                    "dc:title": "Clinical Measures of Chronic Urticaria",
+                    "pdfx:doi": "10.1016/j.iac.2016.08.005",
+                    "dc:format": "application/pdf",
+                    "prism:doi": "10.1016/j.iac.2016.08.005",
+                    "prism:url": "http://dx.doi.org/10.1016/j.iac.2016.08.005",
+                    "dc:creator": "Karsten Weller MDFrank Siebenhaar MDTomasz Hawro MDSabine Altrichter MDNicole Schoepke MDMarcus Maurer MD",
+                    "dc:subject": "UrticariaAngioedemaPatient reported outcomeDisease activityDisease controlQuality of life",
+                    "prism:isbn": "978-0-323-49651-3",
+                    "prism:issn": "0889-8561",
+                    "pdfx:robots": "noindex",
+                    "dc:publisher": "Elsevier Inc",
+                    "pdf:producer": "Acrobat Distiller 8.1.0 (Windows)",
+                    "prism:number": "1",
+                    "prism:volume": "37",
+                    "crossmark:doi": "10.1016/j.iac.2016.08.005",
+                    "dc:identifier": "doi:10.1016/j.iac.2016.08.005",
+                    "dc:description": "Immunology and Allergy Clinics of NA, 37 (2017) 35-49. doi:10.1016/j.iac.2016.08.005",
+                    "xap:createdate": "2016-11-02T16:12:10+05:30",
+                    "xap:modifydate": "2016-11-02T16:13+05:30",
+                    "prism:copyright": "© 2016 Elsevier Inc. All rights reserved.",
+                    "prism:coverdate": "201702",
+                    "prism:pagerange": "35-49",
+                    "xap:creatortool": "Elsevier",
+                    "prism:endingpage": "49",
+                    "xap:metadatadate": "2016-11-02T16:13+05:30",
+                    "xapmm:documentid": "uuid:a11d1762-a4df-43f9-8696-93cf441abc3c",
+                    "xapmm:instanceid": "uuid:54920a98-23c1-4402-bf44-bafbc08f9d7a",
+                    "xaprights:marked": "True",
+                    "prism:startingpage": "35",
+                    "pdfx:crossmarkdomains": "sciencedirect.comelsevier.com",
+                    "prism:aggregationtype": "journal",
+                    "prism:publicationname": "Immunology and Allergy Clinics of NA",
+                    "prism:coverdisplaydate": "February 2017",
+                    "crossmark:crossmarkdomains": "elsevier.comsciencedirect.com",
+                    "crossmark:majorversiondate": "2010-04-23",
+                    "jav:journal_article_version": "P",
+                    "pdfx:crossmarkdomainexclusive": "true",
+                    "pdfx:crossmarkmajorversiondate": "2010-04-23",
+                    "pdfx:elsevierwebpdfspecifications": "6.5",
+                    "crossmark:crossmarkdomainexclusive": "true"
+                  }
+                },
+                "totalPages": 15
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Does urticaria get worse during a pregnancy?",
+    "conversation_history": [
+      {
+        "content": "Greetings! I am AIDUS, an AI assistant with access to a vast store of knowledge regarding urticaria. I can answer questions you might have about your condition, or you can pick one of the common questions from the sidebar to get started.",
+        "role": "assistant",
+        "id": "1"
+      },
+      {
+        "content": "Does urticaria get worse during a pregnancy?",
+        "role": "user",
+        "createdAt": "2023-12-18T11:48:42.802Z",
+        "id": "0k5PjoR"
+      },
+      {
+        "id": "7mFv4ga",
+        "role": "assistant",
+        "content": "The available information does not provide a clear answer to whether urticaria gets worse during pregnancy. However, it is known that hormonal changes during pregnancy can affect the immune system and may lead to changes in the severity of urticaria. It is important to consult with a healthcare professional if you are experiencing urticaria during pregnancy, as they can provide personalized advice and treatment options.",
+        "createdAt": "2023-12-18T11:48:45.619Z"
+      }
+    ],
+    "sources": [
+      {
+        "sources": [
+          {
+            "contentChunk": "urticaria. Allergy Asthma Immunol Res. 2016;8(5):457–60.",
+            "metadata": {
+              "loc": {
+                "lines": {
+                  "to": 125,
+                  "from": 125
+                },
+                "pageNumber": 10
+              },
+              "pdf": {
+                "info": {
+                  "Title": "Looking forward to new targeted treatments for chronic spontaneous urticaria",
+                  "Author": "Emek Kocatürk",
+                  "Creator": "Springer",
+                  "ModDate": "D:20170112095514+01'00'",
+                  "Subject": "Clinical and Translational Allergy, doi:10.1186/s13601-016-0139-2",
+                  "Keywords": "Chronic spontaneous urticaria,New treatment targets,Pathogenesis,Targeted treatment,Future treatments",
+                  "Producer": "Acrobat Distiller 10.1.8 (Windows); modified using iText® 5.3.5 ©2000-2012 1T3XT BVBA (AGPL-version)",
+                  "CreationDate": "D:20161226225022+05'30'",
+                  "IsXFAPresent": false,
+                  "PDFFormatVersion": "1.6",
+                  "IsAcroFormPresent": false
+                },
+                "version": "1.10.100",
+                "metadata": {
+                  "_metadata": {
+                    "dc:title": "Looking forward to new targeted treatments for chronic spontaneous urticaria",
+                    "pdfx:doi": "10.1186/s13601-016-0139-2",
+                    "dc:format": "application/pdf",
+                    "prism:doi": "10.1186/s13601-016-0139-2",
+                    "prism:url": "\"http://dx.doi.org/10.1186/s13601-016-0139-2",
+                    "dc:creator": "Emek KocatürkMarcus MaurerMartin MetzClive Grattan",
+                    "dc:subject": "Chronic spontaneous urticariaNew treatment targetsPathogenesisTargeted treatmentFuture treatments",
+                    "prism:issn": "2045-7022",
+                    "pdfaid:part": "2",
+                    "pdfx:robots": "noindex",
+                    "dc:publisher": "BioMed Central",
+                    "pdf:keywords": "Chronic spontaneous urticaria,New treatment targets,Pathogenesis,Targeted treatment,Future treatments",
+                    "pdf:producer": "Acrobat Distiller 10.1.8 (Windows); modified using iText® 5.3.5 ©2000-2012 1T3XT BVBA (AGPL-version)",
+                    "crossmark:doi": "10.1186/s13601-016-0139-2",
+                    "dc:identifier": "doi:10.1186/s13601-016-0139-2",
+                    "sn:authorinfo": "Emek Kocatürkhttp://orcid.org/0000-0003-2801-0959",
+                    "xmpmm:history": "converteduuid:9a3492b1-d122-4859-b72a-9e557dffd352converted to PDF/A-2bpdfToolbox2016-12-26T22:42:31+05:30converteduuid:cebbf2a1-02cd-4484-acb1-5cf9cf333059converted to PDF/A-2bpdfToolbox2016-12-26T22:43:05+05:30",
+                    "dc:description": "Clinical and Translational Allergy, doi:10.1186/s13601-016-0139-2",
+                    "xmp:createdate": "2016-12-26T22:50:22+05:30",
+                    "xmp:modifydate": "2017-01-12T09:55:14+01:00",
+                    "prism:copyright": "The Author(s)",
+                    "xmp:creatortool": "Springer",
+                    "xmpmm:versionid": "1",
+                    "xmp:metadatadate": "2017-01-12T09:55:14+01:00",
+                    "xmpmm:documentid": "uuid:dae157fd-4e5e-4db6-aeb4-bd273f1e05fd",
+                    "xmpmm:instanceid": "uuid:9abe3c16-ec2a-4733-b10a-47195d431451",
+                    "pdfaid:conformance": "B",
+                    "xmpmm:renditionclass": "default",
+                    "pdfaextension:schemas": "http://ns.adobe.com/pdfx/1.3/pdfxPDF/X ID SchemaexternalMirrors crossmark:MajorVersionDateCrossmarkMajorVersionDateTextexternalMirrors crossmark:CrossmarkDomainExclusiveCrossmarkDomainExclusiveTextinternalMirrors crossmark:DOIdoiTextexternalMirrors crossmark:CrosMarkDomainsCrossMarkDomainsseq TextinternalA name object indicating whether the document has been modified to include trapping informationrobotsTextinternalID of PDF/X standardGTS_PDFXVersionTextinternalConformance level of PDF/X standardGTS_PDFXConformanceTextinternalCompany creating the PDFCompanyTextinternalDate when document was last modifiedSourceModifiedTexthttp://crossref.org/crossmark/1.0/crossmarkCrossmark SchemainternalUsual same as prism:doiDOITextexternalThe date when a publication was publishe.MajorVersionDateTextinternalCrossmarkDomainExclusiveCrossmarkDomainExclusiveTextinternalCrossMarkDomainsCrossMarkDomainsseq Texthttp://prismstandard.org/namespaces/basic/2.0/prismPrism SchemaexternalThis element provides the url for an article or unit of content. The attribute platform is optionally allowed for situations in which multiple URLs must be specified. PRISM recommends that a subset of the PCV platform values, namely “mobile” and “web”, be used in conjunction with this element. NOTE: PRISM recommends against the use of the #other value allowed in the PRISM Platform controlled vocabulary. In lieu of using #other please reach out to the PRISM group at prism-wg@yahoogroups.com to request addition of your term to the Platform Controlled Vocabulary.urlURIexternalThe Digital Object Identifier for the article. The DOI may also be used as the dc:identifier. If used as a dc:identifier, the URI form should be captured, and the bare identifier should also be captured using prism:doi. If an alternate unique identifier is used as the required dc:identifier, then the DOI should be specified as a bare identifier within prism:doi only. If the URL associated with a DOI is to be specified, then prism:url may be used in conjunction with prism:doi in order to provide the service endpoint (i.e. the URL). doiTextexternalISSN for an electronic version of the issue in which the resource occurs. Permits publishers to include a second ISSN, identifying an electronic version of the issue in which the resource occurs (therefore e(lectronic)Issn. If used, prism:eIssn MUST contain the ISSN of the electronic version.issnTextinternalVolume numbervolumeTextinternalIssue numbernumberTextinternalStarting pagestartingPageTextinternalEnding pageendingPageTextexternalThe aggregation type specifies the unit of aggregation for a content collection. Comment PRISM recommends that the PRISM Aggregation Type Controlled Vocabulary be used to provide values for this element. Note: PRISM recommends against the use of the #other value currently allowed in this controlled vocabulary. In lieu of using #other please reach out to the PRISM group at info@prismstandard.org to request addition of your term to the Aggregation Type Controlled Vocabulary. aggregationTypeTextexternalTitle of the magazine, or other publication, in which a resource was/will be published. Typically this will be used to provide the name of the magazine an article appeared in as metadata for the article, along with information such as the article title, the publisher, volume, number, and cover date. Note: Publication name can be used to differentiate between a print magazine and the online version if the names are different such as “magazine” and “magazine.com.”publicationNameTextexternalCopyrightcopyrightTexthttp://ns.adobe.com/pdf/1.3/pdfAdobe PDF SchemainternalA name object indicating whether the document has been modified to include trapping informationTrappedTexthttp://ns.adobe.com/xap/1.0/mm/xmpMMXMP Media Management SchemainternalUUID based identifier for specific incarnation of a documentInstanceIDURIinternalThe common identifier for all versions and renditions of a document.DocumentIDURIinternalThe common identifier for all versions and renditions of a document.OriginalDocumentIDURIhttp://www.aiim.org/pdfa/ns/id/pdfaidPDF/A ID SchemainternalPart of PDF/A standardpartIntegerinternalAmendment of PDF/A standardamdTextinternalConformance level of PDF/A standardconformanceTextSpringer Nature ORCID Schemahttp://springernature.com/ns/xmpExtensions/2.0/snauthorInfoseq AuthorInformationexternalAuthor information: contains the name of each author and his/her ORCiD (ORCiD: Open Researcher and Contributor ID). An ORCiD is a persistent identifier (a non-proprietary alphanumeric code) to uniquely identify scientific and other academic authors.AuthorInformationhttp://springernature.com/ns/xmpExtensions/2.0/authorInfo/authorSpecifies the types of author information: name and ORCID of an author.nameTextGives the name of an author.orcidURIGives the ORCID of an author.http://www.niso.org/schemas/jav/1.0/javNISOexternalValues for Journal Article Version are one of the following:\nAO = Author’s Original\nSMUR = Submitted Manuscript Under Review\nAM = Accepted Manuscript\nP = Proof\nVoR = Version of Record\nCVoR = Corrected Version of Record\nEVoR = Enhanced Version of Recordjournal_article_versionClosed Choice of Text",
+                    "pdfx:crossmarkdomains": "springer.comspringerlink.com",
+                    "prism:aggregationtype": "journal",
+                    "prism:publicationname": "Clinical and Translational Allergy",
+                    "crossmark:crossmarkdomains": "springer.comspringerlink.com",
+                    "crossmark:majorversiondate": "2010-04-23",
+                    "jav:journal_article_version": "VoR",
+                    "pdfx:crossmarkdomainexclusive": "true",
+                    "pdfx:crossmarkmajorversiondate": "2010-04-23",
+                    "crossmark:crossmarkdomainexclusive": "true"
+                  }
+                },
+                "totalPages": 10
+              }
+            }
+          },
+          {
+            "contentChunk": "pregnancy for CIU: a tertiary care experience. Eur Ann Allergy Clin Immunol\n2016;48:145-6\n.\n54.\nGonzalez-Medina M, Curto-Barredo L, Labrador-Horrillo M, Gimenez-\nArnau A. Omalizumab use during pregnancy for chronic spontaneous urticaria\n(CSU): report of two cases. J Eur Acad Dermatol Venereol 2017;31:e245-6\n.\n55.\nEnsina LF, Cusato-Ensina AP, Camelo-Nunes IC, Sole D. Omalizumab as\nthird-line therapy for urticaria during pregnancy. J Investig Allergol Clin\nImmunol 2017;27:326-7\n.\n56.",
+            "metadata": {
+              "loc": {
+                "lines": {
+                  "to": 186,
+                  "from": 173
+                },
+                "pageNumber": 11
+              },
+              "pdf": {
+                "info": {
+                  "Title": "How to Treat Patients with Chronic Spontaneous Urticaria with Omalizumab: Questions and Answers",
+                  "Author": "Murat Türk MD",
+                  "Creator": "Elsevier",
+                  "ModDate": "D:20191226073117+05'30'",
+                  "Subject": "The Journal of Allergy and Clinical Immunology in Practice, 8 (2020) 113-124. doi:10.1016/j.jaip.2019.07.021",
+                  "Producer": "Acrobat Distiller 8.1.0 (Windows)",
+                  "CreationDate": "D:20191226073041+05'30'",
+                  "IsXFAPresent": false,
+                  "PDFFormatVersion": "1.7",
+                  "IsAcroFormPresent": false
+                },
+                "version": "1.10.100",
+                "metadata": {
+                  "_metadata": {
+                    "dc:title": "How to Treat Patients with Chronic Spontaneous Urticaria with Omalizumab: Questions and Answers",
+                    "pdfx:doi": "10.1016/j.jaip.2019.07.021",
+                    "dc:format": "application/pdf",
+                    "prism:doi": "10.1016/j.jaip.2019.07.021",
+                    "prism:url": "https://doi.org/10.1016/j.jaip.2019.07.021",
+                    "dc:creator": "Murat Türk MDLeonor Carneiro-Leão MDPavel Kolkhir MDHanna Bonnekoh MDThomas Buttgereit MDMarcus Maurer MD",
+                    "dc:subject": "Chronic spontaneous urticariaWhealsAngioedemaTreatmentOmalizumabDisease response",
+                    "prism:issn": "2213-2198",
+                    "pdfx:robots": "noindex",
+                    "dc:publisher": "Elsevier Inc",
+                    "pdf:producer": "Acrobat Distiller 8.1.0 (Windows)",
+                    "prism:number": "1",
+                    "prism:volume": "8",
+                    "crossmark:doi": "10.1016/j.jaip.2019.07.021",
+                    "dc:identifier": "doi:10.1016/j.jaip.2019.07.021",
+                    "dc:description": "The Journal of Allergy and Clinical Immunology in Practice, 8 (2020) 113-124. doi:10.1016/j.jaip.2019.07.021",
+                    "xap:createdate": "2019-12-26T07:30:41+05:30",
+                    "xap:modifydate": "2019-12-26T07:31:17+05:30",
+                    "prism:copyright": "© 2019 American Academy of Allergy, Asthma & Immunology",
+                    "prism:pagerange": "113-124",
+                    "xap:creatortool": "Elsevier",
+                    "prism:endingpage": "124",
+                    "xap:metadatadate": "2019-12-26T07:31:17+05:30",
+                    "xapmm:documentid": "uuid:1daf0abc-c474-4ef5-a515-030a378ad010",
+                    "xapmm:instanceid": "uuid:1547ce76-fa17-48a9-95ba-1b6fb6a0e745",
+                    "xaprights:marked": "True",
+                    "prism:startingpage": "113",
+                    "pdfx:crossmarkdomains": "sciencedirect.comelsevier.com",
+                    "prism:aggregationtype": "journal",
+                    "prism:publicationname": "The Journal of Allergy and Clinical Immunology in Practice",
+                    "prism:coverdisplaydate": "January 2020",
+                    "crossmark:crossmarkdomains": "elsevier.comsciencedirect.com",
+                    "crossmark:majorversiondate": "2010-04-23",
+                    "jav:journal_article_version": "VoR",
+                    "pdfx:crossmarkdomainexclusive": "true",
+                    "pdfx:crossmarkmajorversiondate": "2010-04-23",
+                    "crossmark:crossmarkdomainexclusive": "true",
+                    "lmfnsywf-ym-mmwmgmm-oncnnnpqolwioy9qgmdejnpipmpqsnweqo9eonm-podesm96tma": ""
+                  }
+                },
+                "totalPages": 12
+              }
+            }
+          },
+          {
+            "contentChunk": "urticaria with anti-immunoglobulin E therapy. Allergy 2008;63:247-9\n.\nJ ALLERGY CLIN IMMUNOL PRACT\nVOLUME 6, NUMBER 4\nMAURER ETAL\n1129",
+            "metadata": {
+              "loc": {
+                "lines": {
+                  "to": 285,
+                  "from": 280
+                },
+                "pageNumber": 11
+              },
+              "pdf": {
+                "info": {
+                  "Title": "How to Approach Chronic Inducible Urticaria",
+                  "Author": "Marcus Maurer MD",
+                  "Creator": "Elsevier",
+                  "ModDate": "D:20180622101320+05'30'",
+                  "Subject": "The Journal of Allergy and Clinical Immunology in Practice, 6 (2018) 1119-1130. doi:10.1016/j.jaip.2018.03.007",
+                  "Producer": "Acrobat Distiller 8.1.0 (Windows)",
+                  "CreationDate": "D:20180622101237+05'30'",
+                  "IsXFAPresent": false,
+                  "PDFFormatVersion": "1.7",
+                  "IsAcroFormPresent": false
+                },
+                "version": "1.10.100",
+                "metadata": {
+                  "_metadata": {
+                    "dc:title": "How to Approach Chronic Inducible Urticaria",
+                    "pdfx:doi": "10.1016/j.jaip.2018.03.007",
+                    "dc:format": "application/pdf",
+                    "prism:doi": "10.1016/j.jaip.2018.03.007",
+                    "prism:url": "https://doi.org/10.1016/j.jaip.2018.03.007",
+                    "dc:creator": "Marcus Maurer MDJoachim W. Fluhr MDDavid A. Khan MD",
+                    "dc:subject": "Chronic inducible urticariaCold urticariaSymptomatic dermographismCholinergic urticariaTempTest",
+                    "prism:issn": "2213-2198",
+                    "pdfx:robots": "noindex",
+                    "dc:publisher": "Elsevier Inc",
+                    "pdf:producer": "Acrobat Distiller 8.1.0 (Windows)",
+                    "prism:number": "4",
+                    "prism:volume": "6",
+                    "crossmark:doi": "10.1016/j.jaip.2018.03.007",
+                    "dc:identifier": "doi:10.1016/j.jaip.2018.03.007",
+                    "dc:description": "The Journal of Allergy and Clinical Immunology in Practice, 6 (2018) 1119-1130. doi:10.1016/j.jaip.2018.03.007",
+                    "xap:createdate": "2018-06-22T10:12:37+05:30",
+                    "xap:modifydate": "2018-06-22T10:13:20+05:30",
+                    "prism:copyright": "© 2018 American Academy of Allergy, Asthma & Immunology",
+                    "prism:pagerange": "1119-1130",
+                    "xap:creatortool": "Elsevier",
+                    "prism:endingpage": "1130",
+                    "xap:metadatadate": "2018-06-22T10:13:20+05:30",
+                    "xapmm:documentid": "uuid:de1e4933-5bed-45ac-9669-5013e98d6d3b",
+                    "xapmm:instanceid": "uuid:3f466296-c2e6-45e4-8394-cae3007e3519",
+                    "xaprights:marked": "True",
+                    "prism:startingpage": "1119",
+                    "pdfx:crossmarkdomains": "sciencedirect.comelsevier.com",
+                    "prism:aggregationtype": "journal",
+                    "prism:publicationname": "The Journal of Allergy and Clinical Immunology in Practice",
+                    "prism:coverdisplaydate": "July-August 2018",
+                    "crossmark:crossmarkdomains": "elsevier.comsciencedirect.com",
+                    "crossmark:majorversiondate": "2010-04-23",
+                    "jav:journal_article_version": "VoR",
+                    "pdfx:crossmarkdomainexclusive": "true",
+                    "pdfx:crossmarkmajorversiondate": "2010-04-23",
+                    "pdfx:elsevierwebpdfspecifications": "6.5",
+                    "crossmark:crossmarkdomainexclusive": "true"
+                  }
+                },
+                "totalPages": 12
+              }
+            }
+          },
+          {
+            "contentChunk": "urticaria in real life – in accordance with the guidelines? A \ncross-sectional physician-based survey study. J Eur Acad \nDermatol Venereol 2013; 27: 43–50.\n22. \nWu CH, Ardern-Jones MR, Eren E, Venter C. An Observatio\n-\nnal Study of the Diagnosis and Management of Chronic Ur\n-\nticaria in the UK. Int Arch Allergy Immunol 2015; 167: 1–8.\n23. \nCheung LY, Lynde CW. Chronic Spontaneous Urticaria (CSU): \nCanadian Dermatologists‘ Perspective. J Cutan Med Surg \n2016; 20: 308–312.\n24.",
+            "metadata": {
+              "loc": {
+                "lines": {
+                  "to": 165,
+                  "from": 152
+                },
+                "pageNumber": 8
+              },
+              "pdf": {
+                "info": {
+                  "Creator": "Adobe InDesign CC 2015 (Macintosh)",
+                  "ModDate": "D:20170305142132+01'00'",
+                  "Trapped": {
+                    "name": "False"
+                  },
+                  "Producer": "Adobe PDF Library 15.0",
+                  "CreationDate": "D:20170202071443+01'00'",
+                  "IsXFAPresent": false,
+                  "PDFFormatVersion": "1.4",
+                  "IsAcroFormPresent": false
+                },
+                "version": "1.10.100",
+                "metadata": {
+                  "_metadata": {
+                    "dc:format": "application/pdf",
+                    "pdf:trapped": "False",
+                    "pdf:producer": "Adobe PDF Library 15.0",
+                    "xmpmm:history": "convertedfrom application/x-indesign to application/pdfAdobe InDesign CC 2015 (Macintosh)/2017-02-02T07:14:43+01:00",
+                    "xmp:createdate": "2017-02-02T07:14:43+01:00",
+                    "xmp:modifydate": "2017-03-05T14:21:32+01:00",
+                    "xmp:creatortool": "Adobe InDesign CC 2015 (Macintosh)",
+                    "xmp:metadatadate": "2017-03-05T14:21:32+01:00",
+                    "xmpmm:documentid": "xmp.id:6961892d-4bc9-498a-8102-837984796d3c",
+                    "xmpmm:instanceid": "uuid:c1b9b807-2423-47b8-8320-4b8cbb44f722",
+                    "xmpmm:derivedfrom": "xmp.iid:b69c7e26-f1ce-4471-926b-baba6e9db51cadobe:docid:indd:6ecefbc4-e34c-11df-9b76-a4ae12e49f28adobe:docid:indd:6ecefbc4-e34c-11df-9b76-a4ae12e49f28default",
+                    "xmpmm:renditionclass": "proof:pdf",
+                    "xmpmm:originaldocumentid": "adobe:docid:indd:6ecefbc4-e34c-11df-9b76-a4ae12e49f28"
+                  }
+                },
+                "totalPages": 10
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Can stress make urticaria worse?",
+    "conversation_history": [
+      {
+        "content": "Greetings! I am AIDUS, an AI assistant with access to a vast store of knowledge regarding urticaria. I can answer questions you might have about your condition, or you can pick one of the common questions from the sidebar to get started.",
+        "role": "assistant",
+        "id": "1"
+      },
+      {
+        "content": "Can stress make urticaria worse?",
+        "role": "user",
+        "createdAt": "2023-12-18T11:51:35.570Z",
+        "id": "8vII8Ko"
+      },
+      {
+        "id": "0yWTnMG",
+        "role": "assistant",
+        "content": "Yes, stress can indeed make urticaria worse. Emotional stress can affect, reveal, or exacerbate a number of skin disorders, including urticaria, by releasing neuropeptides and modulating the hypothalamic-pituitary-adrenal axis. It has been proposed that allergic inflammation and urticaria are characterized by mast cell degranulation and increased neuropeptide levels, which can be influenced by emotional stress.\n\nIf you are experiencing stress and notice that it is affecting your urticaria, it may be helpful to explore stress management techniques and seek support from a healthcare professional.",
+        "createdAt": "2023-12-18T11:51:38.228Z"
+      }
+    ],
+    "sources": [
+      {
+        "sources": [
+          {
+            "contentChunk": "tant part of their disease experience. Over the past century, a\nsuccession of reports has suggested a role for emotions and stress\nin initiating and perpetuating urticaria.\n33\nRecent psychoneuro-\nimmunology research points to a significant influence of the\n‘mind-brain complex’ on the immune system. Yet, it is still rare\nfor  psychological  influences  to  be  addressed  by  urticaria\nresearch.\nPhysicians have described significantly raised levels of emo-",
+            "metadata": {
+              "loc": {
+                "lines": {
+                  "to": 147,
+                  "from": 138
+                },
+                "pageNumber": 6
+              },
+              "pdf": {
+                "info": {
+                  "Title": "Questions and answers in chronic urticaria: where do we stand and where do we go?",
+                  "Creator": "Arbortext Advanced Print Publisher 9.1.531/W Unicode",
+                  "ModDate": "D:20160627115638+02'00'",
+                  "Producer": "Acrobat Distiller 10.0.0 (Windows)",
+                  "CreationDate": "D:20160525183731+05'30'",
+                  "IsXFAPresent": false,
+                  "PDFFormatVersion": "1.6",
+                  "IsAcroFormPresent": false
+                },
+                "version": "1.10.100",
+                "metadata": {
+                  "_metadata": {
+                    "dc:title": "Questions and answers in chronic urticaria: where do we stand and where do we go?",
+                    "dc:format": "application/pdf",
+                    "dc:creator": "",
+                    "pdf:producer": "Acrobat Distiller 10.0.0 (Windows)",
+                    "xmp:createdate": "2016-05-25T18:37:31+05:30",
+                    "xmp:modifydate": "2016-06-27T11:56:38+02:00",
+                    "xmp:creatortool": "Arbortext Advanced Print Publisher 9.1.531/W Unicode",
+                    "xmp:metadatadate": "2016-06-27T11:56:38+02:00",
+                    "xmpmm:documentid": "uuid:bb163072-60e6-4ced-b7e0-0f53afbe5f77",
+                    "xmpmm:instanceid": "uuid:18184d32-1d1d-44bb-979c-60cf43bc4807",
+                    "pdfx:wps-proclevel": "3",
+                    "pdfx:wps-articledoi": "10.1111/jdv.13695",
+                    "pdfx:wps-journaldoi": "10.1111/(ISSN)1468-3083"
+                  }
+                },
+                "totalPages": 9
+              }
+            }
+          },
+          {
+            "contentChunk": "A serological mediator in chronic idiopathic urticaria\n–\na clinical,\nimmunological and histological evaluation.\nBr  J  Dermatol\n1986;\n114\n:\n583\n–\n590.\n33 Broom BC. A reappraisal of the role of ‘mindbody’ factors in chronic urti-\ncaria.\nPostgrad Med J\n2010;\n86\n: 365\n–\n370.\n34 Staubach P, Eckhardt-Henn A, Dechene M\net al.\nQuality of life in patients\nwith chronic urticaria is differentially impaired and determined by psy-\nchiatric comorbidity.\nBr J Dermatol\n2006;\n154\n: 294\n–\n298.",
+            "metadata": {
+              "loc": {
+                "lines": {
+                  "to": 300,
+                  "from": 271
+                },
+                "pageNumber": 9
+              },
+              "pdf": {
+                "info": {
+                  "Title": "Questions and answers in chronic urticaria: where do we stand and where do we go?",
+                  "Creator": "Arbortext Advanced Print Publisher 9.1.531/W Unicode",
+                  "ModDate": "D:20160627115638+02'00'",
+                  "Producer": "Acrobat Distiller 10.0.0 (Windows)",
+                  "CreationDate": "D:20160525183731+05'30'",
+                  "IsXFAPresent": false,
+                  "PDFFormatVersion": "1.6",
+                  "IsAcroFormPresent": false
+                },
+                "version": "1.10.100",
+                "metadata": {
+                  "_metadata": {
+                    "dc:title": "Questions and answers in chronic urticaria: where do we stand and where do we go?",
+                    "dc:format": "application/pdf",
+                    "dc:creator": "",
+                    "pdf:producer": "Acrobat Distiller 10.0.0 (Windows)",
+                    "xmp:createdate": "2016-05-25T18:37:31+05:30",
+                    "xmp:modifydate": "2016-06-27T11:56:38+02:00",
+                    "xmp:creatortool": "Arbortext Advanced Print Publisher 9.1.531/W Unicode",
+                    "xmp:metadatadate": "2016-06-27T11:56:38+02:00",
+                    "xmpmm:documentid": "uuid:bb163072-60e6-4ced-b7e0-0f53afbe5f77",
+                    "xmpmm:instanceid": "uuid:18184d32-1d1d-44bb-979c-60cf43bc4807",
+                    "pdfx:wps-proclevel": "3",
+                    "pdfx:wps-articledoi": "10.1111/jdv.13695",
+                    "pdfx:wps-journaldoi": "10.1111/(ISSN)1468-3083"
+                  }
+                },
+                "totalPages": 9
+              }
+            }
+          },
+          {
+            "contentChunk": "of the effectiveness of anti- \nIL- \n5 in relieving the symptoms of CSU and \ncold urticaria.\n121\nEmotional  stress  can  affect,  reveal,  or  exacerbate  a  number  of  \nskin  disorders  including  urticaria  both  by  releasing  neuropeptides  \nand   through   modulating   hypothalamic-   \npituitary-   \nadrenal   axis.\n122-\n126\n  It  has  been  proposed  that  allergic  inflammation  and  urticaria  are  \ncharacterized by mast cell degranulation and increased neuropeptide \nlevels \n127-134",
+            "metadata": {
+              "loc": {
+                "lines": {
+                  "to": 74,
+                  "from": 59
+                },
+                "pageNumber": 7
+              },
+              "pdf": {
+                "info": {
+                  "Title": "The role and relevance of mast cells in urticaria",
+                  "Creator": "Adobe InDesign CC 2015 (Windows)",
+                  "ModDate": "D:20180207200236+05'30'",
+                  "Producer": "Adobe PDF Library 15.0",
+                  "CreationDate": "D:20180207200234+05'30'",
+                  "IsXFAPresent": false,
+                  "PDFFormatVersion": "1.6",
+                  "IsAcroFormPresent": false
+                },
+                "version": "1.10.100",
+                "metadata": {
+                  "_metadata": {
+                    "dc:title": "The role and relevance of mast cells in urticaria",
+                    "dc:format": "application/pdf",
+                    "prism:doi": "10.1111/imr.12632",
+                    "pdfx:producer": "Acrobat Distiller 10.1.7 (Windows)",
+                    "xmp:createdate": "2018-02-10T18:19:31+05:30",
+                    "xmp:modifydate": "2018-02-10T18:19:31+05:30",
+                    "xmp:metadatadate": "2018-02-10T18:19:31+05:30",
+                    "xmpmm:documentid": "uuid:4db06ecc-ad33-4843-a0eb-c7a2f3b8ebdd",
+                    "xmpmm:instanceid": "uuid:91a38c4f-f39d-4cc7-9c66-4781e7f9092c",
+                    "pdfx:wps-proclevel": "3",
+                    "pdfx:wps-articledoi": "10.1111/imr.12632",
+                    "pdfx:wps-journaldoi": "10.1111/(ISSN)1600-065X",
+                    "jav:journal_article_version": "VoR"
+                  }
+                },
+                "totalPages": 16
+              }
+            }
+          },
+          {
+            "contentChunk": "al.   Association   \namong  stress,  hypocortisolism,  systemic  inflammation,  and  dis-\nease  severity  in  chronic  urticaria.  \nAnn  Allergy  Asthma  Immunol\n. \n2016;116(344–348):e341.\n  232.  \nKasperska-Zajac  A,  Grzanka  A,  Damasiewicz-Bodzek  A.  IL-  \n6  trans-\nsignaling  in  patients  with  chronic  spontaneous  urticaria.  \nPLoS  ONE\n. \n2015;10:e0145751.\n   233.   \nGrzanka   A,   Machura   E,   Misiolek   M,   Polaniak   R,   Kasperski   J,",
+            "metadata": {
+              "loc": {
+                "lines": {
+                  "to": 126,
+                  "from": 112
+                },
+                "pageNumber": 15
+              },
+              "pdf": {
+                "info": {
+                  "Title": "The role and relevance of mast cells in urticaria",
+                  "Creator": "Adobe InDesign CC 2015 (Windows)",
+                  "ModDate": "D:20180207200236+05'30'",
+                  "Producer": "Adobe PDF Library 15.0",
+                  "CreationDate": "D:20180207200234+05'30'",
+                  "IsXFAPresent": false,
+                  "PDFFormatVersion": "1.6",
+                  "IsAcroFormPresent": false
+                },
+                "version": "1.10.100",
+                "metadata": {
+                  "_metadata": {
+                    "dc:title": "The role and relevance of mast cells in urticaria",
+                    "dc:format": "application/pdf",
+                    "prism:doi": "10.1111/imr.12632",
+                    "pdfx:producer": "Acrobat Distiller 10.1.7 (Windows)",
+                    "xmp:createdate": "2018-02-10T18:19:31+05:30",
+                    "xmp:modifydate": "2018-02-10T18:19:31+05:30",
+                    "xmp:metadatadate": "2018-02-10T18:19:31+05:30",
+                    "xmpmm:documentid": "uuid:4db06ecc-ad33-4843-a0eb-c7a2f3b8ebdd",
+                    "xmpmm:instanceid": "uuid:91a38c4f-f39d-4cc7-9c66-4781e7f9092c",
+                    "pdfx:wps-proclevel": "3",
+                    "pdfx:wps-articledoi": "10.1111/imr.12632",
+                    "pdfx:wps-journaldoi": "10.1111/(ISSN)1600-065X",
+                    "jav:journal_article_version": "VoR"
+                  }
+                },
+                "totalPages": 16
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "What role do infections play in chronic urticaria?",
+    "conversation_history": [
+      {
+        "content": "Greetings! I am AIDUS, an AI assistant with access to a vast store of knowledge regarding urticaria. I can answer questions you might have about your condition, or you can pick one of the common questions from the sidebar to get started.",
+        "role": "assistant",
+        "id": "1"
+      },
+      {
+        "content": "What role do infections play in chronic urticaria?",
+        "role": "user",
+        "createdAt": "2023-12-18T11:54:11.720Z",
+        "id": "eCjhmoO"
+      },
+      {
+        "id": "XN49YnQ",
+        "role": "assistant",
+        "content": "In chronic urticaria, the role of infections is a topic of interest. Some studies have explored the potential association between infections and chronic urticaria, but the exact role of infections in causing or exacerbating chronic urticaria is not fully understood. It is important to consult with a healthcare professional to determine the specific impact of infections on your condition and to explore appropriate treatment options.",
+        "createdAt": "2023-12-18T11:54:15.216Z"
+      }
+    ],
+    "sources": [
+      {
+        "sources": [
+          {
+            "contentChunk": "A serological mediator in chronic idiopathic urticaria\n–\na clinical,\nimmunological and histological evaluation.\nBr  J  Dermatol\n1986;\n114\n:\n583\n–\n590.\n33 Broom BC. A reappraisal of the role of ‘mindbody’ factors in chronic urti-\ncaria.\nPostgrad Med J\n2010;\n86\n: 365\n–\n370.\n34 Staubach P, Eckhardt-Henn A, Dechene M\net al.\nQuality of life in patients\nwith chronic urticaria is differentially impaired and determined by psy-\nchiatric comorbidity.\nBr J Dermatol\n2006;\n154\n: 294\n–\n298.",
+            "metadata": {
+              "loc": {
+                "lines": {
+                  "to": 300,
+                  "from": 271
+                },
+                "pageNumber": 9
+              },
+              "pdf": {
+                "info": {
+                  "Title": "Questions and answers in chronic urticaria: where do we stand and where do we go?",
+                  "Creator": "Arbortext Advanced Print Publisher 9.1.531/W Unicode",
+                  "ModDate": "D:20160627115638+02'00'",
+                  "Producer": "Acrobat Distiller 10.0.0 (Windows)",
+                  "CreationDate": "D:20160525183731+05'30'",
+                  "IsXFAPresent": false,
+                  "PDFFormatVersion": "1.6",
+                  "IsAcroFormPresent": false
+                },
+                "version": "1.10.100",
+                "metadata": {
+                  "_metadata": {
+                    "dc:title": "Questions and answers in chronic urticaria: where do we stand and where do we go?",
+                    "dc:format": "application/pdf",
+                    "dc:creator": "",
+                    "pdf:producer": "Acrobat Distiller 10.0.0 (Windows)",
+                    "xmp:createdate": "2016-05-25T18:37:31+05:30",
+                    "xmp:modifydate": "2016-06-27T11:56:38+02:00",
+                    "xmp:creatortool": "Arbortext Advanced Print Publisher 9.1.531/W Unicode",
+                    "xmp:metadatadate": "2016-06-27T11:56:38+02:00",
+                    "xmpmm:documentid": "uuid:bb163072-60e6-4ced-b7e0-0f53afbe5f77",
+                    "xmpmm:instanceid": "uuid:18184d32-1d1d-44bb-979c-60cf43bc4807",
+                    "pdfx:wps-proclevel": "3",
+                    "pdfx:wps-articledoi": "10.1111/jdv.13695",
+                    "pdfx:wps-journaldoi": "10.1111/(ISSN)1468-3083"
+                  }
+                },
+                "totalPages": 9
+              }
+            }
+          },
+          {
+            "contentChunk": "with chronic urticaria. Allergol Immunopathol (Madr) 2016;44(4):286\n–\n91.\n[59]\nHarris A, Twarog FJ, Geha RS. Chronic urticaria in childhood: natural course and eti-\nology. Ann Allergy 1983;51(2 Pt 1):161\n–\n5.\n[60]\nKim JA, Kim S, Kim JE, JY Gu, Yoo HJ, Kang HR, et al. Activation of the intrinsic co-\nagulation pathway in patients with chronic Urticaria. Allergy Asthma Immunol\nRes 2015;7(5):476\n–\n82.\n[61]\nVerneuil L, Leconte C, Ballet JJ, Cof\nfi\nn C, Laroche D, Izard JP, et al. Association be-",
+            "metadata": {
+              "loc": {
+                "lines": {
+                  "to": 96,
+                  "from": 79
+                },
+                "pageNumber": 12
+              },
+              "pdf": {
+                "info": {
+                  "Title": "Autoimmune comorbidity in chronic spontaneous urticaria: A systematic review",
+                  "Creator": "Elsevier",
+                  "ModDate": "D:20171119041937Z00'00'",
+                  "Producer": "Acrobat Distiller 10.0.0 (Windows)",
+                  "CreationDate": "D:20171115014513+08'00'",
+                  "IsXFAPresent": false,
+                  "PDFFormatVersion": "1.7",
+                  "IsAcroFormPresent": false
+                },
+                "version": "1.10.100",
+                "metadata": {
+                  "_metadata": {
+                    "dc:title": "Autoimmune comorbidity in chronic spontaneous urticaria: A systematic review",
+                    "pdfx:doi": "10.1016/j.autrev.2017.10.003",
+                    "dc:format": "application/pdf",
+                    "prism:doi": "10.1016/j.autrev.2017.10.003",
+                    "prism:url": "https://doi.org/10.1016/j.autrev.2017.10.003",
+                    "dc:creator": "Pavel KolkhirElena BorzovaClive GrattanRiccardo AseroDmitry PogorelovMarcus Maurer",
+                    "dc:subject": "Chronic spontaneous urticariaAutoimmune diseasesSystematic reviewPrevalencePolyautoimmunity",
+                    "prism:issn": "1568-9972",
+                    "pdfx:robots": "noindex",
+                    "dc:publisher": "Elsevier B.V.",
+                    "pdf:keywords": "Chronic spontaneous urticaria;  Autoimmune diseases;  Systematic review;  Prevalence;  Polyautoimmunity",
+                    "prism:number": "12",
+                    "prism:volume": "16",
+                    "crossmark:doi": "10.1016/j.autrev.2017.10.003",
+                    "dc:identifier": "doi:10.1016/j.autrev.2017.10.003",
+                    "dc:description": "Autoimmunity Reviews, 16 (2017) 1196-1208. doi:10.1016/j.autrev.2017.10.003",
+                    "prism:copyright": "(c) 2017 Elsevier B.V. All rights reserved",
+                    "prism:coverdate": "2017-12",
+                    "prism:pagerange": "1196-1208",
+                    "xap:creatortool": "Elsevier",
+                    "prism:endingpage": "1208",
+                    "xaprights:marked": "True",
+                    "prism:startingpage": "1196",
+                    "pdfx:crossmarkdomains": "elsevier.comsciencedirect.com",
+                    "prism:aggregationtype": "journal",
+                    "prism:publicationname": "Autoimmunity Reviews",
+                    "prism:coverdisplaydate": "December 2017",
+                    "crossmark:crossmarkdomains": "elsevier.comsciencedirect.com",
+                    "crossmark:majorversiondate": "2010-04-23",
+                    "jav:journal_article_version": "VoR",
+                    "pdfx:crossmarkdomainexclusive": "true",
+                    "pdfx:crossmarkmajorversiondate": "2010-04-23",
+                    "pdfx:elsevierwebpdfspecifications": "6.5",
+                    "crossmark:crossmarkdomainexclusive": "true"
+                  }
+                },
+                "totalPages": 13
+              }
+            }
+          },
+          {
+            "contentChunk": "tics, and therapies used in patients with chronic idiopathic urticaria.\nAnn Allergy Asthma Immunol\n. 2009;103:496-501.\n152. Gregoriou S, Rigopoulos D, Katsambas A, et al. Etiologic aspects\nand prognostic factors of patients with chronic urticaria: nonran-\ndomized,  prospective,  descriptive  study.\nJ\nCutan\nMed\nSurg\n.\n2009;13:198-203.\n153. Kulthanan K, Jiamton S, Thumpimukvatana N, Pinkaew S. Chronic\nidiopathic urticaria: prevalence and clinical course.\nJ   Dermatol\n.\n2007;34:294-301.",
+            "metadata": {
+              "loc": {
+                "lines": {
+                  "to": 201,
+                  "from": 185
+                },
+                "pageNumber": 20
+              },
+              "pdf": {
+                "info": {
+                  "Title": "Comorbidity of chronic spontaneous urticaria and autoimmune thyroid diseases: A systematic review",
+                  "Creator": "Arbortext Advanced Print Publisher 9.1.531/W Unicode",
+                  "ModDate": "D:20170909145910+05'30'",
+                  "Producer": "Acrobat Distiller 10.0.0 (Windows)",
+                  "CreationDate": "D:20170909145910+05'30'",
+                  "IsXFAPresent": false,
+                  "PDFFormatVersion": "1.6",
+                  "IsAcroFormPresent": false
+                },
+                "version": "1.10.100",
+                "metadata": {
+                  "_metadata": {
+                    "dc:title": "Comorbidity of chronic spontaneous urticaria and autoimmune thyroid diseases: A systematic review",
+                    "dc:format": "application/pdf",
+                    "prism:doi": "10.1111/all.13182",
+                    "pdfx:producer": "Acrobat Distiller 10.1.7 (Windows)",
+                    "xmp:createdate": "2017-09-09T18:23:32+05:30",
+                    "xmp:modifydate": "2017-09-09T18:23:32+05:30",
+                    "xmp:metadatadate": "2017-09-09T18:23:32+05:30",
+                    "xmpmm:documentid": "uuid:b9d6efe5-5ad8-41d6-acf3-5a3f0f17e9b9",
+                    "xmpmm:instanceid": "uuid:a7f797d7-3000-4800-9fba-ed2d499790dc",
+                    "pdfx:wps-proclevel": "3",
+                    "pdfx:wps-articledoi": "10.1111/all.13182",
+                    "pdfx:wps-journaldoi": "10.1111/(ISSN)1398-9995",
+                    "jav:journal_article_version": "VoR"
+                  }
+                },
+                "totalPages": 21
+              }
+            }
+          },
+          {
+            "contentChunk": "Dermatol\n. 2004;21:102-108.\n20. Buss YA, Garrelfs UC, Sticherling M. Chronic urticaria\n–\nwhich clinical\nparameters are pathogenetically relevant? A retrospective investiga-\ntion of 339 patients.\nJ Dtsch Dermatol Ges\n. 2007;5:22-29.\n21. Cribier BJ, Santinelli F, Schmitt C, Stoll-Keller F, Grosshans E.\nChronic urticaria is not significantly associated with hepatitis C or\nhepatitis  G  infection:  a  case-control  study.\nArch  Dermatol\n.\n1999;135:1335-1339.",
+            "metadata": {
+              "loc": {
+                "lines": {
+                  "to": 172,
+                  "from": 158
+                },
+                "pageNumber": 6
+              },
+              "pdf": {
+                "info": {
+                  "Title": "Comorbidity of viral hepatitis and chronic spontaneous urticaria: A systematic review",
+                  "Creator": "Arbortext Advanced Print Publisher 9.1.531/W Unicode",
+                  "ModDate": "D:20190224121225+01'00'",
+                  "Producer": "Acrobat Distiller 10.1.7 (Windows)",
+                  "CreationDate": "D:20181024070521+05'30'",
+                  "IsXFAPresent": false,
+                  "PDFFormatVersion": "1.6",
+                  "IsAcroFormPresent": false
+                },
+                "version": "1.10.100",
+                "metadata": {
+                  "_metadata": {
+                    "dc:title": "Comorbidity of viral hepatitis and chronic spontaneous urticaria: A systematic review",
+                    "dc:format": "application/pdf",
+                    "prism:doi": "10.1111/all.13482",
+                    "pdfx:producer": "Acrobat Distiller 10.1.7 (Windows)",
+                    "xmp:createdate": "2018-10-24T07:05:21+05:30",
+                    "xmp:modifydate": "2019-02-24T12:12:25+01:00",
+                    "xmp:metadatadate": "2019-02-24T12:12:25+01:00",
+                    "xmpmm:documentid": "uuid:2b4af304-e4a3-4162-a3d8-7b58708d662b",
+                    "xmpmm:instanceid": "uuid:d24ae80f-d0b6-4991-826c-60af90bccc09",
+                    "pdfx:wps-proclevel": "3",
+                    "pdfx:wps-articledoi": "10.1111/all.13482",
+                    "pdfx:wps-journaldoi": "10.1111/(ISSN)1398-9995",
+                    "jav:journal_article_version": "VoR"
+                  }
+                },
+                "totalPages": 8
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "How do I get rid of my urticaria?",
+    "conversation_history": [
+      {
+        "content": "Greetings! I am AIDUS, an AI assistant with access to a vast store of knowledge regarding urticaria. I can answer questions you might have about your condition, or you can pick one of the common questions from the sidebar to get started.",
+        "role": "assistant",
+        "id": "1"
+      },
+      {
+        "content": "How do I get rid of my urticaria?",
+        "role": "user",
+        "createdAt": "2023-12-18T11:55:44.088Z",
+        "id": "hYs5jzS"
+      },
+      {
+        "id": "32OWkQi",
+        "role": "assistant",
+        "content": "The treatment of urticaria typically involves a standard approach with the goal of achieving complete freedom from symptoms. Patients are advised to avoid known triggers, including certain medications and relevant triggering stimuli. Symptomatic treatment is recommended for nearly all patients, and the first-line treatment usually involves second-generation H1-antihistamines.\n\nIt's important to consult a specialist to determine the most suitable treatment plan for your specific condition. Additionally, greater awareness of international guidelines and practice parameters is likely to improve the quality of care for patients with chronic urticaria.\n\nIf you have been experiencing urticaria, it is advisable to seek medical advice from a healthcare professional who can provide personalized treatment options based on your individual needs.",
+        "createdAt": "2023-12-18T11:55:47.356Z"
+      }
+    ],
+    "sources": [
+      {
+        "sources": [
+          {
+            "contentChunk": "Treatment of chronic urticaria follows a standard approach with the goal of achie-\nving complete freedom from symptoms. All patients should avoid known triggers. \nIn  particular,  this  includes  certain  medications  such  as  nonsteroidal  antiinfl\n am-\nmatory drugs and relevant triggering stimuli in the case of CIndU. However, given \nthat this approach results in freedom from symptoms in only very few cases, sym-\nptomatic treatment is recommended for nearly all patients, and should be based on",
+            "metadata": {
+              "loc": {
+                "lines": {
+                  "to": 74,
+                  "from": 68
+                },
+                "pageNumber": 5
+              },
+              "pdf": {
+                "info": {
+                  "Title": "Chronic urticaria &#x02013; What does the new guideline tell us?",
+                  "Author": "user1",
+                  "Creator": "Adobe InDesign CS6 (Macintosh)",
+                  "ModDate": "D:20180514075242+02'00'",
+                  "Producer": "Acrobat Distiller 9.4.0 (Macintosh)",
+                  "CreationDate": "D:20180504202622+05'30'",
+                  "IsXFAPresent": false,
+                  "PDFFormatVersion": "1.3",
+                  "IsAcroFormPresent": false
+                },
+                "version": "1.10.100",
+                "metadata": {
+                  "_metadata": {
+                    "dc:title": "Chronic urticaria &#x02013; What does the new guideline tell us?",
+                    "dc:format": "application/pdf",
+                    "prism:doi": "10.1111/ddg.13531",
+                    "dc:creator": "user1",
+                    "pdf:producer": "Acrobat Distiller 9.4.0 (Macintosh)",
+                    "xmp:createdate": "2018-05-04T20:26:22+05:30",
+                    "xmp:modifydate": "2018-05-14T07:52:42+02:00",
+                    "xmp:creatortool": "Adobe InDesign CS6 (Macintosh)",
+                    "xmp:metadatadate": "2018-05-14T07:52:42+02:00",
+                    "xmpmm:documentid": "uuid:1b252cc4-d93d-368f-b213-1d885f83a5d7",
+                    "xmpmm:instanceid": "uuid:081db866-ce50-4eb8-846d-e47dfb5089da",
+                    "pdfx:wps-proclevel": "3",
+                    "pdfx:wps-articledoi": "10.1111/ddg.13531",
+                    "pdfx:wps-journaldoi": "10.1111/(ISSN)1610-0387",
+                    "jav:journal_article_version": "VoR"
+                  }
+                },
+                "totalPages": 10
+              }
+            }
+          },
+          {
+            "contentChunk": "who visit a specialist have typically been treated with \nsecond-generation   H\n1\n-antihistamines   –   the   recom\n-\nmended first-line treatments. The advantages and dis\n-\nadvantages of each treatment option should be taken \ninto  consideration  when  selecting  therapies  beyond \nH\n1\n-antihistamines. Greater awareness of the interna\n-\ntional guidelines and US practice parameters will likely \nimprove the quality of care for patients with chronic \nurticaria.\nKey  words:",
+            "metadata": {
+              "loc": {
+                "lines": {
+                  "to": 55,
+                  "from": 39
+                },
+                "pageNumber": 1
+              },
+              "pdf": {
+                "info": {
+                  "Creator": "Adobe InDesign CC 2015 (Macintosh)",
+                  "ModDate": "D:20170305142132+01'00'",
+                  "Trapped": {
+                    "name": "False"
+                  },
+                  "Producer": "Adobe PDF Library 15.0",
+                  "CreationDate": "D:20170202071443+01'00'",
+                  "IsXFAPresent": false,
+                  "PDFFormatVersion": "1.4",
+                  "IsAcroFormPresent": false
+                },
+                "version": "1.10.100",
+                "metadata": {
+                  "_metadata": {
+                    "dc:format": "application/pdf",
+                    "pdf:trapped": "False",
+                    "pdf:producer": "Adobe PDF Library 15.0",
+                    "xmpmm:history": "convertedfrom application/x-indesign to application/pdfAdobe InDesign CC 2015 (Macintosh)/2017-02-02T07:14:43+01:00",
+                    "xmp:createdate": "2017-02-02T07:14:43+01:00",
+                    "xmp:modifydate": "2017-03-05T14:21:32+01:00",
+                    "xmp:creatortool": "Adobe InDesign CC 2015 (Macintosh)",
+                    "xmp:metadatadate": "2017-03-05T14:21:32+01:00",
+                    "xmpmm:documentid": "xmp.id:6961892d-4bc9-498a-8102-837984796d3c",
+                    "xmpmm:instanceid": "uuid:c1b9b807-2423-47b8-8320-4b8cbb44f722",
+                    "xmpmm:derivedfrom": "xmp.iid:b69c7e26-f1ce-4471-926b-baba6e9db51cadobe:docid:indd:6ecefbc4-e34c-11df-9b76-a4ae12e49f28adobe:docid:indd:6ecefbc4-e34c-11df-9b76-a4ae12e49f28default",
+                    "xmpmm:renditionclass": "proof:pdf",
+                    "xmpmm:originaldocumentid": "adobe:docid:indd:6ecefbc4-e34c-11df-9b76-a4ae12e49f28"
+                  }
+                },
+                "totalPages": 10
+              }
+            }
+          },
+          {
+            "contentChunk": ". 2010;152:384\ne\n389\n.\n34.\nHolm JG, Ivyanskiy I, Thomsen SF. Use of nonbiologic treatments in\nantihistamine-refractory chronic urticaria: a review of published evidence.\nJ Dermatolog Treat\n. 2018;29:80\ne\n97\n.\n35.\nLaurberg G. Tranexamic acid (Cyklokapron) in chronic urticaria: a double-blind\nstudy.\nActa Derm Venereol\n. 1977;57:369\ne\n370\n.\n36.\nPiconi S, Trabattoni D, Iemoli E, et al. Immune pro\nfi\nles of patients with chronic\nidiopathic urticaria.\nInt Arch Allergy Immunol\n. 2002;128:59\ne\n66\n.\n37.",
+            "metadata": {
+              "loc": {
+                "lines": {
+                  "to": 393,
+                  "from": 363
+                },
+                "pageNumber": 10
+              },
+              "pdf": {
+                "info": {
+                  "Title": "New treatments for chronic urticaria",
+                  "Author": "Pavel Kolkhir PhD",
+                  "Creator": "Elsevier",
+                  "ModDate": "D:20191210043314+05'30'",
+                  "Subject": "Annals of Allergy, Asthma and Immunology, 124 (2020) 2-12. doi:10.1016/j.anai.2019.08.014",
+                  "Producer": "Acrobat Distiller 8.1.0 (Windows)",
+                  "CreationDate": "D:20191209073936+05'30'",
+                  "IsXFAPresent": false,
+                  "PDFFormatVersion": "1.7",
+                  "IsAcroFormPresent": false
+                },
+                "version": "1.10.100",
+                "metadata": {
+                  "_metadata": {
+                    "dc:title": "New treatments for chronic urticaria",
+                    "pdfx:doi": "10.1016/j.anai.2019.08.014",
+                    "dc:format": "application/pdf",
+                    "prism:doi": "10.1016/j.anai.2019.08.014",
+                    "prism:url": "https://doi.org/10.1016/j.anai.2019.08.014",
+                    "dc:creator": "Pavel Kolkhir PhDSabine Altrichter MDMelba Munoz PhDTomasz Hawro MDMarcus Maurer MD",
+                    "prism:issn": "1081-1206",
+                    "pdfx:robots": "noindex",
+                    "dc:publisher": "American College of Allergy, Asthma & Immunology",
+                    "pdf:producer": "Acrobat Distiller 8.1.0 (Windows)",
+                    "prism:number": "1",
+                    "prism:volume": "124",
+                    "crossmark:doi": "10.1016/j.anai.2019.08.014",
+                    "dc:identifier": "doi:10.1016/j.anai.2019.08.014",
+                    "dc:description": "Annals of Allergy, Asthma and Immunology, 124 (2020) 2-12. doi:10.1016/j.anai.2019.08.014",
+                    "xap:createdate": "2019-12-09T07:39:36+05:30",
+                    "xap:modifydate": "2019-12-10T04:33:14+05:30",
+                    "prism:copyright": "© 2019 American College of Allergy, Asthma & Immunology. Published by Elsevier Inc. All rights reserved.",
+                    "prism:pagerange": "2-12",
+                    "xap:creatortool": "Elsevier",
+                    "prism:endingpage": "12",
+                    "xap:metadatadate": "2019-12-10T04:33:14+05:30",
+                    "xapmm:documentid": "uuid:0e7c129a-38c0-48de-a7c7-530a2f241239",
+                    "xapmm:instanceid": "uuid:5845cb4b-43b4-437a-9fb4-6f80ea1c5266",
+                    "xaprights:marked": "True",
+                    "prism:startingpage": "2",
+                    "pdfx:crossmarkdomains": "sciencedirect.comelsevier.com",
+                    "prism:aggregationtype": "journal",
+                    "prism:publicationname": "Annals of Allergy, Asthma and Immunology",
+                    "prism:coverdisplaydate": "January 2020",
+                    "crossmark:crossmarkdomains": "elsevier.comsciencedirect.com",
+                    "crossmark:majorversiondate": "2010-04-23",
+                    "jav:journal_article_version": "VoR",
+                    "pdfx:crossmarkdomainexclusive": "true",
+                    "pdfx:crossmarkmajorversiondate": "2010-04-23",
+                    "crossmark:crossmarkdomainexclusive": "true",
+                    "fci27n.mont2lzwugz9iomcnnn.iolwj.ngigz.j9ntepogn9zt2oo9eonm2sntarnm2tma": ""
+                  }
+                },
+                "totalPages": 11
+              }
+            }
+          },
+          {
+            "contentChunk": "Urticaria. \nJ Allergy Clin Immunol Pract\n. 2018;6(4):1119‐1130.\n 5.  Dressler C, Werner RN, Eisert L, Zuberbier T, Nast A, Maurer M. \nChronic inducible urticaria: A systematic review of treatment options. \nJ Allergy Clin Immunol\n. 2018;141(5):1726‐1734.",
+            "metadata": {
+              "loc": {
+                "lines": {
+                  "to": 167,
+                  "from": 161
+                },
+                "pageNumber": 3
+              },
+              "pdf": {
+                "info": {
+                  "Title": "Diagnosis and treatment of chronic inducible urticaria",
+                  "Creator": "Adobe InDesign CC 2015 (Windows)",
+                  "ModDate": "D:20200122013935-08'00'",
+                  "Subject": "Allergy 2019.74:2550-2553",
+                  "Producer": "Adobe PDF Library 15.0; modified using iText 4.2.0 by 1T3XT",
+                  "CreationDate": "D:20191130094634+05'30'",
+                  "IsXFAPresent": false,
+                  "PDFFormatVersion": "1.6",
+                  "IsAcroFormPresent": false
+                },
+                "version": "1.10.100",
+                "metadata": {
+                  "_metadata": {
+                    "pdfx:doi": "10.1111/all.13878",
+                    "dc:format": "application/pdf",
+                    "prism:doi": "10.1111/all.13878",
+                    "prism:url": "https://doi.org/10.1111/all.13878",
+                    "crossmark:doi": "10.1111/all.13878",
+                    "dc:identifier": "doi:10.1111/all.13878",
+                    "pdfx:crossmarkdomains": "onlinelibrary.wiley.com",
+                    "crossmark:crossmarkdomains": "onlinelibrary.wiley.com",
+                    "crossmark:majorversiondate": "2019-06-02",
+                    "pdfx:crossmarkdomainexclusive": "true",
+                    "pdfx:crossmarkmajorversiondate": "2019-06-02",
+                    "crossmark:crossmarkdomainexclusive": "true"
+                  }
+                },
+                "totalPages": 4
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Which antihistamine is the best for urticaria?",
+    "conversation_history": [
+      {
+        "content": "Greetings! I am AIDUS, an AI assistant with access to a vast store of knowledge regarding urticaria. I can answer questions you might have about your condition, or you can pick one of the common questions from the sidebar to get started.",
+        "role": "assistant",
+        "id": "1"
+      },
+      {
+        "content": "Which antihistamine is the best for urticaria?",
+        "role": "user",
+        "createdAt": "2023-12-18T11:57:21.540Z",
+        "id": "gdMdqp9"
+      },
+      {
+        "id": "CAdwZ0O",
+        "role": "assistant",
+        "content": "The best antihistamines for urticaria are typically second-generation antihistamines, such as cetirizine (Zyrtec), loratadine (Claritin), fexofenadine (Allegra), and desloratadine (Clarinex). These antihistamines are preferred because they are less likely to cause drowsiness compared to first-generation antihistamines. However, the choice of antihistamine can vary depending on individual response and other factors, so it's important to consult with a healthcare professional to determine the best option for your specific case.",
+        "createdAt": "2023-12-18T11:57:24.821Z"
+      }
+    ],
+    "sources": [
+      {
+        "sources": [
+          {
+            "contentChunk": "2\nLEN/EDF/WAO guideline US\npractice parameters recommend H2-antagonists and first\ngeneration antihistamines fo\nr treatment of urticaria as a\nsecond or third line therapy, respectively [\n24\n]. Only 4% of\nrespondents named the discrepancy and/or disagreement\nbetween the guidelines as a reason not to follow them.\nTaken together, reliance on own clinical experience, es-\npecially in older physicians, rather than economic reasons\nor unavailability of drugs, appears to be the most frequent",
+            "metadata": {
+              "loc": {
+                "lines": {
+                  "to": 142,
+                  "from": 130
+                },
+                "pageNumber": 11
+              },
+              "pdf": {
+                "info": {
+                  "Title": "Management of chronic spontaneous urticaria: a worldwide perspective",
+                  "Author": "Pavel Kolkhir",
+                  "Creator": "Arbortext Advanced Print Publisher 9.1.440/W Unicode",
+                  "ModDate": "D:20180627102758+02'00'",
+                  "Subject": "World Allergy Organization Journal, 2018, doi:10.1186/s40413-018-0193-4",
+                  "Keywords": "Chronic spontaneous urticaria,Guidelines,Worldwide,Guideline adherence,Urticaria treatment,Urticaria management,Global survey",
+                  "Producer": "Acrobat Distiller 10.1.5 (Windows); modified using iText® 5.3.5 ©2000-2012 1T3XT BVBA (AGPL-version)",
+                  "CreationDate": "D:20180624003435+08'00'",
+                  "IsXFAPresent": false,
+                  "PDFFormatVersion": "1.4",
+                  "IsAcroFormPresent": false
+                },
+                "version": "1.10.100",
+                "metadata": {
+                  "_metadata": {
+                    "dc:title": "Management of chronic spontaneous urticaria: a worldwide perspective",
+                    "dc:format": "application/pdf",
+                    "dc:creator": "Pavel KolkhirDmitry PogorelovRazvigor DarlenskiMarco CaminatiLuciana Kase TannoDuy Le PhamAlexei Gonzalez-EstradaDarío Antolín-AmérigoVes DimovKarsten WellerMario Sánchez-BorgesIgnacio AnsoteguiMarcus Maurer",
+                    "dc:subject": "Chronic spontaneous urticariaGuidelinesWorldwideGuideline adherenceUrticaria treatmentUrticaria managementGlobal survey",
+                    "pdfaid:part": "2",
+                    "dc:publisher": "World Allergy Organization Journal",
+                    "pdf:keywords": "Chronic spontaneous urticaria,Guidelines,Worldwide,Guideline adherence,Urticaria treatment,Urticaria management,Global survey",
+                    "pdf:producer": "Acrobat Distiller 10.1.5 (Windows); modified using iText® 5.3.5 ©2000-2012 1T3XT BVBA (AGPL-version)",
+                    "dc:identifier": "10.1186/s40413-018-0193-4",
+                    "sn:authorinfo": "Pavel Kolkhirhttp://orcid.org/0000-0001-5380-8132",
+                    "xmpmm:history": "converteduuid:926f76e9-c2ba-47af-81a4-71b5aad81955converted to PDF/A-2bpdfToolbox2018-06-27T09:18:51+08:00",
+                    "dc:description": "World Allergy Organization Journal, 2018, doi:10.1186/s40413-018-0193-4",
+                    "xmp:createdate": "2018-06-24T00:34:35+08:00",
+                    "xmp:modifydate": "2018-06-27T10:27:58+02:00",
+                    "xmp:creatortool": "Arbortext Advanced Print Publisher 9.1.440/W Unicode",
+                    "xmpmm:versionid": "1",
+                    "xmp:metadatadate": "2018-06-27T10:27:58+02:00",
+                    "xmpmm:documentid": "uuid:b4829bdf-6fa2-4448-bb38-2c7d5710fbbb",
+                    "xmpmm:instanceid": "uuid:e2fe08ab-9f53-46d5-9285-e9fb5556d8a3",
+                    "pdfaid:conformance": "B",
+                    "xmpmm:renditionclass": "default",
+                    "pdfaextension:schemas": "Springer Nature ORCID Schemahttp://springernature.com/ns/xmpExtensions/2.0/snauthorInfoBag AuthorInformationexternalAuthor information: contains the name of each author and his/her ORCID (ORCiD: Open Researcher and Contributor ID). An ORCID is a persistent identifier (a non-proprietary alphanumeric code) to uniquely identify scientific and other academic authors.editorInfoBag EditorInformationexternalEditor information: contains the name of each editor and his/her ORCID identifier.seriesEditorInfoBag SeriesEditorInformationexternalSeries editor information: contains the name of each series editor and his/her ORCID identifier.AuthorInformationhttp://springernature.com/ns/xmpExtensions/2.0/authorInfo/authorSpecifies the types of author information: name and ORCID of an author.nameTextGives the name of an author.orcidURIGives the ORCID of an author.EditorInformationhttp://springernature.com/ns/xmpExtensions/2.0/editorInfo/editorSpecifies the types of editor information: name and ORCID of an editor.nameTextGives the name of an editor.orcidURIGives the ORCID of an editor.SeriesEditorInformationhttp://springernature.com/ns/xmpExtensions/2.0/seriesEditorInfo/seriesEditorSpecifies the types of series editor information: name and ORCID of a series editor.nameTextGives the name of a series editor.orcidURIGives the ORCID of a series editor.http://ns.adobe.com/pdf/1.3/pdfAdobe PDF SchemainternalA name object indicating whether the document has been modified to include trapping informationTrappedTexthttp://ns.adobe.com/xap/1.0/mm/xmpMMXMP Media Management SchemainternalUUID based identifier for specific incarnation of a documentInstanceIDURIinternalThe common identifier for all versions and renditions of a document.OriginalDocumentIDURIinternalA reference to the original document from which this one is derived. It is a minimal reference; missing components can be assumed to be unchanged. For example, a new version might only need to specify the instance ID and version number of the previous version, or a rendition might only need to specify the instance ID and rendition class of the original.DerivedFromResourceRefIdentifies a portion of a document. This can be a position at which the document has been changed since the most recent event history (stEvt:changed). For a resource within an xmpMM:Ingredients list, the ResourceRef uses this type to identify both the portion of the containing document that refers to the resource, and the portion of the referenced resource that is referenced.http://ns.adobe.com/xap/1.0/sType/Part#stPartParthttp://ns.adobe.com/xap/1.0/t/pg/xmpTPgXMP Paged-TextinternalA structure containing the characteristics of a font used in a documentFontsBag FontinternalXMP08 Spec: An ordered array of plate names that are needed to print the document (including any in contained documents).PlateNamesSeq TextA structure containing the characteristics of a font used in a document.http://ns.adobe.com/xap/1.0/sType/Font#stFntFonthttp://ns.adobe.com/pdfx/1.3/pdfxPDF/X ID SchemainternalID of PDF/X standardGTS_PDFXVersionTextinternalConformance level of PDF/X standardGTS_PDFXConformanceTextinternalCompany creating the PDFCompanyTextinternalDate when document was last modifiedSourceModifiedTexthttp://www.aiim.org/pdfa/ns/id/pdfaidPDF/A ID SchemainternalPart of PDF/A standardpartIntegerinternalAmendment of PDF/A standardamdTextinternalConformance level of PDF/A standardconformanceText"
+                  }
+                },
+                "totalPages": 13
+              }
+            }
+          },
+          {
+            "contentChunk": ". 2010;152:384\ne\n389\n.\n34.\nHolm JG, Ivyanskiy I, Thomsen SF. Use of nonbiologic treatments in\nantihistamine-refractory chronic urticaria: a review of published evidence.\nJ Dermatolog Treat\n. 2018;29:80\ne\n97\n.\n35.\nLaurberg G. Tranexamic acid (Cyklokapron) in chronic urticaria: a double-blind\nstudy.\nActa Derm Venereol\n. 1977;57:369\ne\n370\n.\n36.\nPiconi S, Trabattoni D, Iemoli E, et al. Immune pro\nfi\nles of patients with chronic\nidiopathic urticaria.\nInt Arch Allergy Immunol\n. 2002;128:59\ne\n66\n.\n37.",
+            "metadata": {
+              "loc": {
+                "lines": {
+                  "to": 393,
+                  "from": 363
+                },
+                "pageNumber": 10
+              },
+              "pdf": {
+                "info": {
+                  "Title": "New treatments for chronic urticaria",
+                  "Author": "Pavel Kolkhir PhD",
+                  "Creator": "Elsevier",
+                  "ModDate": "D:20191210043314+05'30'",
+                  "Subject": "Annals of Allergy, Asthma and Immunology, 124 (2020) 2-12. doi:10.1016/j.anai.2019.08.014",
+                  "Producer": "Acrobat Distiller 8.1.0 (Windows)",
+                  "CreationDate": "D:20191209073936+05'30'",
+                  "IsXFAPresent": false,
+                  "PDFFormatVersion": "1.7",
+                  "IsAcroFormPresent": false
+                },
+                "version": "1.10.100",
+                "metadata": {
+                  "_metadata": {
+                    "dc:title": "New treatments for chronic urticaria",
+                    "pdfx:doi": "10.1016/j.anai.2019.08.014",
+                    "dc:format": "application/pdf",
+                    "prism:doi": "10.1016/j.anai.2019.08.014",
+                    "prism:url": "https://doi.org/10.1016/j.anai.2019.08.014",
+                    "dc:creator": "Pavel Kolkhir PhDSabine Altrichter MDMelba Munoz PhDTomasz Hawro MDMarcus Maurer MD",
+                    "prism:issn": "1081-1206",
+                    "pdfx:robots": "noindex",
+                    "dc:publisher": "American College of Allergy, Asthma & Immunology",
+                    "pdf:producer": "Acrobat Distiller 8.1.0 (Windows)",
+                    "prism:number": "1",
+                    "prism:volume": "124",
+                    "crossmark:doi": "10.1016/j.anai.2019.08.014",
+                    "dc:identifier": "doi:10.1016/j.anai.2019.08.014",
+                    "dc:description": "Annals of Allergy, Asthma and Immunology, 124 (2020) 2-12. doi:10.1016/j.anai.2019.08.014",
+                    "xap:createdate": "2019-12-09T07:39:36+05:30",
+                    "xap:modifydate": "2019-12-10T04:33:14+05:30",
+                    "prism:copyright": "© 2019 American College of Allergy, Asthma & Immunology. Published by Elsevier Inc. All rights reserved.",
+                    "prism:pagerange": "2-12",
+                    "xap:creatortool": "Elsevier",
+                    "prism:endingpage": "12",
+                    "xap:metadatadate": "2019-12-10T04:33:14+05:30",
+                    "xapmm:documentid": "uuid:0e7c129a-38c0-48de-a7c7-530a2f241239",
+                    "xapmm:instanceid": "uuid:5845cb4b-43b4-437a-9fb4-6f80ea1c5266",
+                    "xaprights:marked": "True",
+                    "prism:startingpage": "2",
+                    "pdfx:crossmarkdomains": "sciencedirect.comelsevier.com",
+                    "prism:aggregationtype": "journal",
+                    "prism:publicationname": "Annals of Allergy, Asthma and Immunology",
+                    "prism:coverdisplaydate": "January 2020",
+                    "crossmark:crossmarkdomains": "elsevier.comsciencedirect.com",
+                    "crossmark:majorversiondate": "2010-04-23",
+                    "jav:journal_article_version": "VoR",
+                    "pdfx:crossmarkdomainexclusive": "true",
+                    "pdfx:crossmarkmajorversiondate": "2010-04-23",
+                    "crossmark:crossmarkdomainexclusive": "true",
+                    "fci27n.mont2lzwugz9iomcnnn.iolwj.ngigz.j9ntepogn9zt2oo9eonm2sntarnm2tma": ""
+                  }
+                },
+                "totalPages": 11
+              }
+            }
+          },
+          {
+            "contentChunk": "Dermatol\n2014; 24: 385-6.\n29.\nChurch MK, Church DS. Pharmacology of antihistamines\n. Indian\nJ Dermatol\n2013; 58: 219-24.\n30.\nWeller  K,  Ardelean  E,  Scholz  E,  Martus  P,  Zuberbier  T,  Mau-\nrer M. Can on-demand non-sedating antihistamines improve urticaria\nsymptoms? A double-blind, randomized, single-dose study\n. Acta Derm\nVenereol\n2013; 93: 168-74.\n31.\nBernstein JA, Lang DM, Khan DA,\net al\n. The diagnosis and man-\nagement of acute and chronic urticaria: 2014 update\n. J Allergy Clin\nImmunol",
+            "metadata": {
+              "loc": {
+                "lines": {
+                  "to": 149,
+                  "from": 129
+                },
+                "pageNumber": 8
+              },
+              "pdf": {
+                "info": {
+                  "Title": "doi:10.1684/ejd.2016.2905",
+                  "Author": "",
+                  "Creator": "DVIPSONE 2.2.2  http://www.YandY.com",
+                  "ModDate": "D:20170310132210+01'00'",
+                  "Keywords": "",
+                  "Producer": "Acrobat Distiller 7.0 (Windows); modified using iText 2.1.7 by 1T3XT",
+                  "CreationDate": "D:20170208135024Z",
+                  "IsXFAPresent": false,
+                  "PDFFormatVersion": "1.3",
+                  "IsAcroFormPresent": false
+                },
+                "version": "1.10.100",
+                "metadata": {
+                  "_metadata": {
+                    "dc:title": "doi:10.1684/ejd.2016.2905",
+                    "dc:format": "application/pdf",
+                    "dc:creator": "",
+                    "pdf:keywords": "",
+                    "pdf:producer": "Acrobat Distiller 7.0 (Windows); modified using iText 2.1.7 by 1T3XT",
+                    "xap:createdate": "2017-02-08T13:50:24Z",
+                    "xap:modifydate": "2017-03-10T13:22:10+01:00",
+                    "xap:creatortool": "DVIPSONE 2.2.2  http://www.YandY.com",
+                    "xapmm:documentid": "uuid:8517e890-238b-4deb-8f77-e0899499a15f",
+                    "xapmm:instanceid": "uuid:bb7bc5d9-ddf7-4332-8c68-b494f82ea692"
+                  }
+                },
+                "totalPages": 10
+              }
+            }
+          },
+          {
+            "contentChunk": "2008\n;1:145\n–\n155.\n17. Vena GA, Cassano N, Buquicchio R, et al. Antiinflammatory effects\nof H1-antihistamines: clinical and immunological relevance. Curr\nPharm Des.\n2008\n;14:2902\n–\n2911.\n18.\nKavosh ER, Khan DA. Second-generation H1-antihistamines in\nchronic urticaria: an evidence-based review. Am J Clin Dermatol.\n2011\n;12:361\n–\n376.\n19. Weller K, Ardelean E, Scholz E, et al. Can on-demand non-sedating\nantihistamines improve urticaria symptoms? A double-blind, ran-",
+            "metadata": {
+              "loc": {
+                "lines": {
+                  "to": 182,
+                  "from": 163
+                },
+                "pageNumber": 8
+              },
+              "pdf": {
+                "info": {
+                  "Title": "Current and future therapies for treating chronic spontaneous urticaria",
+                  "Author": "Marcus Maurer",
+                  "Creator": "Arbortext Advanced Print Publisher 11.0.3352/W Unicode",
+                  "ModDate": "D:20160602124228+02'00'",
+                  "Subject": "Expert Opinion on Pharmacotherapy, 2016. doi:10.1517/14656566.2016.1159298",
+                  "Keywords": "Alternative drugs; antihistamines; chronic spontaneous urticaria; ciclosporin; montelukast; omalizumab",
+                  "Producer": "iText 4.2.0 by 1T3XT",
+                  "CreationDate": "D:20160519112957+05'30'",
+                  "IsXFAPresent": false,
+                  "PDFFormatVersion": "1.6",
+                  "IsAcroFormPresent": false
+                },
+                "version": "1.10.100",
+                "metadata": {
+                  "_metadata": {
+                    "dc:title": "Current and future therapies for treating chronic spontaneous urticaria",
+                    "pdfx:doi": "10.1517/14656566.2016.1159298",
+                    "dc:format": "application/pdf",
+                    "prism:doi": "10.1517/14656566.2016.1159298",
+                    "prism:url": "http://dx.doi.org/10.1517/14656566.2016.1159298",
+                    "dc:creator": "Marcus Maurer",
+                    "pdf:keywords": "Alternative drugs; antihistamines; chronic spontaneous urticaria; ciclosporin; montelukast; omalizumab",
+                    "pdf:producer": "iText 4.2.0 by 1T3XT",
+                    "crossmark:doi": "10.1517/14656566.2016.1159298",
+                    "dc:identifier": "doi:10.1517/14656566.2016.1159298",
+                    "dc:description": "Expert Opinion on Pharmacotherapy, 2016. doi:10.1517/14656566.2016.1159298",
+                    "xmp:createdate": "2016-05-19T11:29:57+05:30",
+                    "xmp:modifydate": "2016-06-02T12:42:28+02:00",
+                    "xmp:creatortool": "Arbortext Advanced Print Publisher 11.0.3352/W Unicode",
+                    "xmp:metadatadate": "2016-06-02T12:42:28+02:00",
+                    "xmpmm:documentid": "uuid:948427a4-630f-4ded-90e6-a765169cb41b",
+                    "xmpmm:instanceid": "uuid:efa1bf1f-a847-4be9-8b7f-9e67e6e6447b",
+                    "pdfx:crossmarkdomains": "www.tandfonline.com",
+                    "crossmark:crossmarkdomains": "www.tandfonline.com",
+                    "crossmark:majorversiondate": "2016-03-16",
+                    "pdfx:crossmarkdomainexclusive": "true",
+                    "pdfx:crossmarkmajorversiondate": "2016-03-16",
+                    "crossmark:crossmarkdomainexclusive": "true"
+                  }
+                },
+                "totalPages": 9
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Can I increase the dose of omalizumab if the standard dose does not work?",
+    "conversation_history": [
+      {
+        "content": "Greetings! I am AIDUS, an AI assistant with access to a vast store of knowledge regarding urticaria. I can answer questions you might have about your condition, or you can pick one of the common questions from the sidebar to get started.",
+        "role": "assistant",
+        "id": "1"
+      },
+      {
+        "content": "Can I increase the dose of omalizumab if the standard dose does not work?",
+        "role": "user",
+        "createdAt": "2023-12-18T11:58:12.699Z",
+        "id": "xBjLvvB"
+      },
+      {
+        "id": "APwZpbW",
+        "role": "assistant",
+        "content": "According to the information I found, there are studies and reports that suggest an increase in the dose of omalizumab for better disease control in chronic spontaneous urticaria patients. However, it is important to consult with your healthcare provider before making any changes to your medication dosage. They can assess your specific situation and determine the best course of action for your treatment.",
+        "createdAt": "2023-12-18T11:58:15.985Z"
+      }
+    ],
+    "sources": [
+      {
+        "sources": [
+          {
+            "contentChunk": "percentage of patients achieving complete remission of urticaria increases with\nrepeated courses of treatment. J Allergy Clin Immunol Pract 2019;7:339-40\n.\n94.\nKocatürk E, Deza G, K\nı\nz\nı\nltaç K, Gimenez-Arnau AM. Omalizumab updosing\nfor better disease control in chronic spontaneous urticaria patients. Int Arch\nAllergy Immunol 2018;177:360-4\n.\n95.\nNiemeyer-van der Kolk T, van Maaren MS, van Doorn MBA. Personalized\nomalizumab treatment improves clinical bene\nfi\nt in patients with chronic",
+            "metadata": {
+              "loc": {
+                "lines": {
+                  "to": 171,
+                  "from": 155
+                },
+                "pageNumber": 12
+              },
+              "pdf": {
+                "info": {
+                  "Title": "How to Treat Patients with Chronic Spontaneous Urticaria with Omalizumab: Questions and Answers",
+                  "Author": "Murat Türk MD",
+                  "Creator": "Elsevier",
+                  "ModDate": "D:20191226073117+05'30'",
+                  "Subject": "The Journal of Allergy and Clinical Immunology in Practice, 8 (2020) 113-124. doi:10.1016/j.jaip.2019.07.021",
+                  "Producer": "Acrobat Distiller 8.1.0 (Windows)",
+                  "CreationDate": "D:20191226073041+05'30'",
+                  "IsXFAPresent": false,
+                  "PDFFormatVersion": "1.7",
+                  "IsAcroFormPresent": false
+                },
+                "version": "1.10.100",
+                "metadata": {
+                  "_metadata": {
+                    "dc:title": "How to Treat Patients with Chronic Spontaneous Urticaria with Omalizumab: Questions and Answers",
+                    "pdfx:doi": "10.1016/j.jaip.2019.07.021",
+                    "dc:format": "application/pdf",
+                    "prism:doi": "10.1016/j.jaip.2019.07.021",
+                    "prism:url": "https://doi.org/10.1016/j.jaip.2019.07.021",
+                    "dc:creator": "Murat Türk MDLeonor Carneiro-Leão MDPavel Kolkhir MDHanna Bonnekoh MDThomas Buttgereit MDMarcus Maurer MD",
+                    "dc:subject": "Chronic spontaneous urticariaWhealsAngioedemaTreatmentOmalizumabDisease response",
+                    "prism:issn": "2213-2198",
+                    "pdfx:robots": "noindex",
+                    "dc:publisher": "Elsevier Inc",
+                    "pdf:producer": "Acrobat Distiller 8.1.0 (Windows)",
+                    "prism:number": "1",
+                    "prism:volume": "8",
+                    "crossmark:doi": "10.1016/j.jaip.2019.07.021",
+                    "dc:identifier": "doi:10.1016/j.jaip.2019.07.021",
+                    "dc:description": "The Journal of Allergy and Clinical Immunology in Practice, 8 (2020) 113-124. doi:10.1016/j.jaip.2019.07.021",
+                    "xap:createdate": "2019-12-26T07:30:41+05:30",
+                    "xap:modifydate": "2019-12-26T07:31:17+05:30",
+                    "prism:copyright": "© 2019 American Academy of Allergy, Asthma & Immunology",
+                    "prism:pagerange": "113-124",
+                    "xap:creatortool": "Elsevier",
+                    "prism:endingpage": "124",
+                    "xap:metadatadate": "2019-12-26T07:31:17+05:30",
+                    "xapmm:documentid": "uuid:1daf0abc-c474-4ef5-a515-030a378ad010",
+                    "xapmm:instanceid": "uuid:1547ce76-fa17-48a9-95ba-1b6fb6a0e745",
+                    "xaprights:marked": "True",
+                    "prism:startingpage": "113",
+                    "pdfx:crossmarkdomains": "sciencedirect.comelsevier.com",
+                    "prism:aggregationtype": "journal",
+                    "prism:publicationname": "The Journal of Allergy and Clinical Immunology in Practice",
+                    "prism:coverdisplaydate": "January 2020",
+                    "crossmark:crossmarkdomains": "elsevier.comsciencedirect.com",
+                    "crossmark:majorversiondate": "2010-04-23",
+                    "jav:journal_article_version": "VoR",
+                    "pdfx:crossmarkdomainexclusive": "true",
+                    "pdfx:crossmarkmajorversiondate": "2010-04-23",
+                    "crossmark:crossmarkdomainexclusive": "true",
+                    "lmfnsywf-ym-mmwmgmm-oncnnnpqolwioy9qgmdejnpipmpqsnweqo9eonm-podesm96tma": ""
+                  }
+                },
+                "totalPages": 12
+              }
+            }
+          },
+          {
+            "contentChunk": "neous urticaria with omalizumab. Actas Dermosi\nfi\nliogr 2018;109:771-6\n.\n84.\nKulthanan K, Tuchinda P, Chularojanamontri L, Chanyachailert P, Korkij W,\nChunharas A, et al. Clinical practice guideline for diagnosis and management\nof urticaria. Asian Pac J Allergy Immunol 2016;34:190-200\n.\n85.\nGulliver W, Sussman G, Hebert J, Lynde CW, Papp KA, Yang WH, et al.\nOmalizumab dose step-up and treatment response in patients with chronic\nidiopathic/spontaneous urticaria (CIU/CSU): results from the OPTIMA study.",
+            "metadata": {
+              "loc": {
+                "lines": {
+                  "to": 103,
+                  "from": 91
+                },
+                "pageNumber": 12
+              },
+              "pdf": {
+                "info": {
+                  "Title": "How to Treat Patients with Chronic Spontaneous Urticaria with Omalizumab: Questions and Answers",
+                  "Author": "Murat Türk MD",
+                  "Creator": "Elsevier",
+                  "ModDate": "D:20191226073117+05'30'",
+                  "Subject": "The Journal of Allergy and Clinical Immunology in Practice, 8 (2020) 113-124. doi:10.1016/j.jaip.2019.07.021",
+                  "Producer": "Acrobat Distiller 8.1.0 (Windows)",
+                  "CreationDate": "D:20191226073041+05'30'",
+                  "IsXFAPresent": false,
+                  "PDFFormatVersion": "1.7",
+                  "IsAcroFormPresent": false
+                },
+                "version": "1.10.100",
+                "metadata": {
+                  "_metadata": {
+                    "dc:title": "How to Treat Patients with Chronic Spontaneous Urticaria with Omalizumab: Questions and Answers",
+                    "pdfx:doi": "10.1016/j.jaip.2019.07.021",
+                    "dc:format": "application/pdf",
+                    "prism:doi": "10.1016/j.jaip.2019.07.021",
+                    "prism:url": "https://doi.org/10.1016/j.jaip.2019.07.021",
+                    "dc:creator": "Murat Türk MDLeonor Carneiro-Leão MDPavel Kolkhir MDHanna Bonnekoh MDThomas Buttgereit MDMarcus Maurer MD",
+                    "dc:subject": "Chronic spontaneous urticariaWhealsAngioedemaTreatmentOmalizumabDisease response",
+                    "prism:issn": "2213-2198",
+                    "pdfx:robots": "noindex",
+                    "dc:publisher": "Elsevier Inc",
+                    "pdf:producer": "Acrobat Distiller 8.1.0 (Windows)",
+                    "prism:number": "1",
+                    "prism:volume": "8",
+                    "crossmark:doi": "10.1016/j.jaip.2019.07.021",
+                    "dc:identifier": "doi:10.1016/j.jaip.2019.07.021",
+                    "dc:description": "The Journal of Allergy and Clinical Immunology in Practice, 8 (2020) 113-124. doi:10.1016/j.jaip.2019.07.021",
+                    "xap:createdate": "2019-12-26T07:30:41+05:30",
+                    "xap:modifydate": "2019-12-26T07:31:17+05:30",
+                    "prism:copyright": "© 2019 American Academy of Allergy, Asthma & Immunology",
+                    "prism:pagerange": "113-124",
+                    "xap:creatortool": "Elsevier",
+                    "prism:endingpage": "124",
+                    "xap:metadatadate": "2019-12-26T07:31:17+05:30",
+                    "xapmm:documentid": "uuid:1daf0abc-c474-4ef5-a515-030a378ad010",
+                    "xapmm:instanceid": "uuid:1547ce76-fa17-48a9-95ba-1b6fb6a0e745",
+                    "xaprights:marked": "True",
+                    "prism:startingpage": "113",
+                    "pdfx:crossmarkdomains": "sciencedirect.comelsevier.com",
+                    "prism:aggregationtype": "journal",
+                    "prism:publicationname": "The Journal of Allergy and Clinical Immunology in Practice",
+                    "prism:coverdisplaydate": "January 2020",
+                    "crossmark:crossmarkdomains": "elsevier.comsciencedirect.com",
+                    "crossmark:majorversiondate": "2010-04-23",
+                    "jav:journal_article_version": "VoR",
+                    "pdfx:crossmarkdomainexclusive": "true",
+                    "pdfx:crossmarkmajorversiondate": "2010-04-23",
+                    "crossmark:crossmarkdomainexclusive": "true",
+                    "lmfnsywf-ym-mmwmgmm-oncnnnpqolwioy9qgmdejnpipmpqsnweqo9eonm-podesm96tma": ""
+                  }
+                },
+                "totalPages": 12
+              }
+            }
+          },
+          {
+            "contentChunk": "ment and no changes in phototests, although the authors speculate\nthat a higher dose and longer treatment could have been more\neffective.\n59\nThere was one report of worsening symptoms after 3\ndoses of 150 mg of omalizumab, indicating that this treatment is\nnot suitable in all patients.\n60\nHeat urticaria.\nHeat urticaria is triggered by various forms of\nheat, such as air, water, or objects. It is an uncommon physical\nurticaria and difficult to manage effectively.\n90\nAvoiding all forms",
+            "metadata": {
+              "loc": {
+                "lines": {
+                  "to": 118,
+                  "from": 105
+                },
+                "pageNumber": 4
+              },
+              "pdf": {
+                "info": {
+                  "Title": "Omalizumab treatment in patients with chronic inducible urticaria: A&nbsp;systematic review of published evidence",
+                  "Author": "Marcus Maurer MD",
+                  "Creator": "Elsevier",
+                  "ModDate": "D:20180127122427+05'30'",
+                  "Subject": "Journal of Allergy and Clinical Immunology, 141 (2018) 638-649. doi:10.1016/j.jaci.2017.06.032",
+                  "Producer": "Acrobat Distiller 8.1.0 (Windows)",
+                  "CreationDate": "24th January 2018",
+                  "IsXFAPresent": false,
+                  "PDFFormatVersion": "1.7",
+                  "IsAcroFormPresent": false
+                },
+                "version": "1.10.100",
+                "metadata": {
+                  "_metadata": {
+                    "dc:title": "Omalizumab treatment in patients with chronic inducible urticaria: A&nbsp;systematic review of published evidence",
+                    "pdfx:doi": "10.1016/j.jaci.2017.06.032",
+                    "dc:format": "application/pdf",
+                    "prism:doi": "10.1016/j.jaci.2017.06.032",
+                    "prism:url": "http://dx.doi.org/10.1016/j.jaci.2017.06.032",
+                    "dc:creator": "Marcus Maurer MDMartin Metz MDRandolf Brehler MDUwe Hillen MDThilo Jakob MDVera Mahler MDClaudia Pföhler MDPetra Staubach MDRegina Treudler MDBettina Wedi MDMarkus Magerl MD",
+                    "dc:subject": "IgEphysical urticariatherapysymptomatic dermographismcholinergic urticaria",
+                    "prism:issn": "0091-6749",
+                    "pdfx:robots": "noindex",
+                    "dc:publisher": "Elsevier Ltd",
+                    "pdf:producer": "Acrobat Distiller 8.1.0 (Windows)",
+                    "prism:number": "2",
+                    "prism:volume": "141",
+                    "crossmark:doi": "10.1016/j.jaci.2017.06.032",
+                    "dc:identifier": "doi:10.1016/j.jaci.2017.06.032",
+                    "dc:description": "Journal of Allergy and Clinical Immunology, 141 (2018) 638-649. doi:10.1016/j.jaci.2017.06.032",
+                    "xap:modifydate": "2018-01-27T12:24:27+05:30",
+                    "prism:copyright": "© 2017 American Academy of Allergy, Asthma & Immunology. Published by Elsevier Ltd. All rights reserved.",
+                    "prism:pagerange": "638-649",
+                    "xap:creatortool": "Elsevier",
+                    "prism:endingpage": "649",
+                    "xap:metadatadate": "2018-01-27T12:24:27+05:30",
+                    "xapmm:documentid": "uuid:5dcdb682-c1d7-4e82-aeab-13c841b09c6b",
+                    "xapmm:instanceid": "uuid:55101ff4-ecb8-4266-bd46-b5f49107cb49",
+                    "xaprights:marked": "True",
+                    "prism:startingpage": "638",
+                    "pdfx:crossmarkdomains": "elsevier.comsciencedirect.com",
+                    "prism:aggregationtype": "journal",
+                    "prism:publicationname": "The Journal of Allergy and Clinical Immunology",
+                    "pdf:creationdate--text": "24th January 2018",
+                    "prism:coverdisplaydate": "February 2018",
+                    "pdfx:creationdate--text": "24th January 2018",
+                    "crossmark:crossmarkdomains": "elsevier.comsciencedirect.com",
+                    "crossmark:majorversiondate": "2010-04-23",
+                    "jav:journal_article_version": "VoR",
+                    "pdfx:crossmarkdomainexclusive": "true",
+                    "pdfx:crossmarkmajorversiondate": "2010-04-23",
+                    "pdfx:elsevierwebpdfspecifications": "6.5",
+                    "crossmark:crossmarkdomainexclusive": "true",
+                    "pdfx:crossmarkdomainsↂ005b1ↂ005d": "sciencedirect.com",
+                    "pdfx:crossmarkdomainsↂ005b2ↂ005d": "elsevier.com"
+                  }
+                },
+                "totalPages": 12
+              }
+            }
+          },
+          {
+            "contentChunk": "phase II study including 10 antihistamine-refractory patients with\nsolar urticaria that greatly affected their QoL (DLQI score of\n>10).\n36\nAfter 3 doses of omalizumab over an 8-week period, 20%\nof patients met the primary end point (95% CI, 2.52-55.6;\nP\n5\n.2639), whereby symptoms were not triggered by a UV\ndose of greater than 10-fold the baseline minimal urticarial\ndose at week 12. Additionally, 40% of patients achieved a\nDLQI score of less than 6, and 40% achieved an improvement",
+            "metadata": {
+              "loc": {
+                "lines": {
+                  "to": 80,
+                  "from": 69
+                },
+                "pageNumber": 4
+              },
+              "pdf": {
+                "info": {
+                  "Title": "Omalizumab treatment in patients with chronic inducible urticaria: A&nbsp;systematic review of published evidence",
+                  "Author": "Marcus Maurer MD",
+                  "Creator": "Elsevier",
+                  "ModDate": "D:20180127122427+05'30'",
+                  "Subject": "Journal of Allergy and Clinical Immunology, 141 (2018) 638-649. doi:10.1016/j.jaci.2017.06.032",
+                  "Producer": "Acrobat Distiller 8.1.0 (Windows)",
+                  "CreationDate": "24th January 2018",
+                  "IsXFAPresent": false,
+                  "PDFFormatVersion": "1.7",
+                  "IsAcroFormPresent": false
+                },
+                "version": "1.10.100",
+                "metadata": {
+                  "_metadata": {
+                    "dc:title": "Omalizumab treatment in patients with chronic inducible urticaria: A&nbsp;systematic review of published evidence",
+                    "pdfx:doi": "10.1016/j.jaci.2017.06.032",
+                    "dc:format": "application/pdf",
+                    "prism:doi": "10.1016/j.jaci.2017.06.032",
+                    "prism:url": "http://dx.doi.org/10.1016/j.jaci.2017.06.032",
+                    "dc:creator": "Marcus Maurer MDMartin Metz MDRandolf Brehler MDUwe Hillen MDThilo Jakob MDVera Mahler MDClaudia Pföhler MDPetra Staubach MDRegina Treudler MDBettina Wedi MDMarkus Magerl MD",
+                    "dc:subject": "IgEphysical urticariatherapysymptomatic dermographismcholinergic urticaria",
+                    "prism:issn": "0091-6749",
+                    "pdfx:robots": "noindex",
+                    "dc:publisher": "Elsevier Ltd",
+                    "pdf:producer": "Acrobat Distiller 8.1.0 (Windows)",
+                    "prism:number": "2",
+                    "prism:volume": "141",
+                    "crossmark:doi": "10.1016/j.jaci.2017.06.032",
+                    "dc:identifier": "doi:10.1016/j.jaci.2017.06.032",
+                    "dc:description": "Journal of Allergy and Clinical Immunology, 141 (2018) 638-649. doi:10.1016/j.jaci.2017.06.032",
+                    "xap:modifydate": "2018-01-27T12:24:27+05:30",
+                    "prism:copyright": "© 2017 American Academy of Allergy, Asthma & Immunology. Published by Elsevier Ltd. All rights reserved.",
+                    "prism:pagerange": "638-649",
+                    "xap:creatortool": "Elsevier",
+                    "prism:endingpage": "649",
+                    "xap:metadatadate": "2018-01-27T12:24:27+05:30",
+                    "xapmm:documentid": "uuid:5dcdb682-c1d7-4e82-aeab-13c841b09c6b",
+                    "xapmm:instanceid": "uuid:55101ff4-ecb8-4266-bd46-b5f49107cb49",
+                    "xaprights:marked": "True",
+                    "prism:startingpage": "638",
+                    "pdfx:crossmarkdomains": "elsevier.comsciencedirect.com",
+                    "prism:aggregationtype": "journal",
+                    "prism:publicationname": "The Journal of Allergy and Clinical Immunology",
+                    "pdf:creationdate--text": "24th January 2018",
+                    "prism:coverdisplaydate": "February 2018",
+                    "pdfx:creationdate--text": "24th January 2018",
+                    "crossmark:crossmarkdomains": "elsevier.comsciencedirect.com",
+                    "crossmark:majorversiondate": "2010-04-23",
+                    "jav:journal_article_version": "VoR",
+                    "pdfx:crossmarkdomainexclusive": "true",
+                    "pdfx:crossmarkmajorversiondate": "2010-04-23",
+                    "pdfx:elsevierwebpdfspecifications": "6.5",
+                    "crossmark:crossmarkdomainexclusive": "true",
+                    "pdfx:crossmarkdomainsↂ005b1ↂ005d": "sciencedirect.com",
+                    "pdfx:crossmarkdomainsↂ005b2ↂ005d": "elsevier.com"
+                  }
+                },
+                "totalPages": 12
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Which therapy works if omalizumab does not help?",
+    "conversation_history": [
+      {
+        "content": "Greetings! I am AIDUS, an AI assistant with access to a vast store of knowledge regarding urticaria. I can answer questions you might have about your condition, or you can pick one of the common questions from the sidebar to get started.",
+        "role": "assistant",
+        "id": "1"
+      },
+      {
+        "content": "Which therapy works if omalizumab does not help?",
+        "role": "user",
+        "createdAt": "2023-12-18T11:59:09.553Z",
+        "id": "zS08N2m"
+      },
+      {
+        "id": "LoGUQ9C",
+        "role": "assistant",
+        "content": "If omalizumab does not provide relief for urticaria, the EAACI/GA2LEN/EDF/WAO urticaria guideline recommends considering cyclosporine as a fourth-line treatment option. This is especially recommended for patients with chronic spontaneous urticaria (CSU) who do not respond to omalizumab within 6 months. It's important to consult with a healthcare professional to discuss the best course of action if omalizumab does not help with your urticaria symptoms.",
+        "createdAt": "2023-12-18T11:59:18.248Z"
+      }
+    ],
+    "sources": [
+      {
+        "sources": [
+          {
+            "contentChunk": "many still experience symptoms of urticaria, even with up to\nfour times the licensed dose. The EAACI/GA\n2\nLEN/EDF/WAO\nurticaria guideline recommends add-on omalizumab, ciclo-\nsporin or montelukast third line for the treatment of chronic\nurticaria with an inadequate response to H\n1\n-antihistamines\n(Table 1).\n7\nIn the pivotal randomized clinical trials ASTERIA I, ASTERIA\nII and GLACIAL, omalizumab, a monoclonal humanized recom-\nbinant IgG\n1\nantibody, demonstrated excellent efficacy and safety",
+            "metadata": {
+              "loc": {
+                "lines": {
+                  "to": 29,
+                  "from": 14
+                },
+                "pageNumber": 6
+              },
+              "pdf": {
+                "info": {
+                  "Title": "Questions and answers in chronic urticaria: where do we stand and where do we go?",
+                  "Creator": "Arbortext Advanced Print Publisher 9.1.531/W Unicode",
+                  "ModDate": "D:20160627115638+02'00'",
+                  "Producer": "Acrobat Distiller 10.0.0 (Windows)",
+                  "CreationDate": "D:20160525183731+05'30'",
+                  "IsXFAPresent": false,
+                  "PDFFormatVersion": "1.6",
+                  "IsAcroFormPresent": false
+                },
+                "version": "1.10.100",
+                "metadata": {
+                  "_metadata": {
+                    "dc:title": "Questions and answers in chronic urticaria: where do we stand and where do we go?",
+                    "dc:format": "application/pdf",
+                    "dc:creator": "",
+                    "pdf:producer": "Acrobat Distiller 10.0.0 (Windows)",
+                    "xmp:createdate": "2016-05-25T18:37:31+05:30",
+                    "xmp:modifydate": "2016-06-27T11:56:38+02:00",
+                    "xmp:creatortool": "Arbortext Advanced Print Publisher 9.1.531/W Unicode",
+                    "xmp:metadatadate": "2016-06-27T11:56:38+02:00",
+                    "xmpmm:documentid": "uuid:bb163072-60e6-4ced-b7e0-0f53afbe5f77",
+                    "xmpmm:instanceid": "uuid:18184d32-1d1d-44bb-979c-60cf43bc4807",
+                    "pdfx:wps-proclevel": "3",
+                    "pdfx:wps-articledoi": "10.1111/jdv.13695",
+                    "pdfx:wps-journaldoi": "10.1111/(ISSN)1468-3083"
+                  }
+                },
+                "totalPages": 9
+              }
+            }
+          },
+          {
+            "contentChunk": "omalizumab? When and how?\nThe current urticaria\nguideline recommends cyclosporine as a fourth-line treatment\noption in patients with CSU if omalizumab is not effective within 6\nJ ALLERGY CLIN IMMUNOL PRACT\nVOLUME 8, NUMBER 1\nTÜRK ETAL\n121",
+            "metadata": {
+              "loc": {
+                "lines": {
+                  "to": 178,
+                  "from": 171
+                },
+                "pageNumber": 9
+              },
+              "pdf": {
+                "info": {
+                  "Title": "How to Treat Patients with Chronic Spontaneous Urticaria with Omalizumab: Questions and Answers",
+                  "Author": "Murat Türk MD",
+                  "Creator": "Elsevier",
+                  "ModDate": "D:20191226073117+05'30'",
+                  "Subject": "The Journal of Allergy and Clinical Immunology in Practice, 8 (2020) 113-124. doi:10.1016/j.jaip.2019.07.021",
+                  "Producer": "Acrobat Distiller 8.1.0 (Windows)",
+                  "CreationDate": "D:20191226073041+05'30'",
+                  "IsXFAPresent": false,
+                  "PDFFormatVersion": "1.7",
+                  "IsAcroFormPresent": false
+                },
+                "version": "1.10.100",
+                "metadata": {
+                  "_metadata": {
+                    "dc:title": "How to Treat Patients with Chronic Spontaneous Urticaria with Omalizumab: Questions and Answers",
+                    "pdfx:doi": "10.1016/j.jaip.2019.07.021",
+                    "dc:format": "application/pdf",
+                    "prism:doi": "10.1016/j.jaip.2019.07.021",
+                    "prism:url": "https://doi.org/10.1016/j.jaip.2019.07.021",
+                    "dc:creator": "Murat Türk MDLeonor Carneiro-Leão MDPavel Kolkhir MDHanna Bonnekoh MDThomas Buttgereit MDMarcus Maurer MD",
+                    "dc:subject": "Chronic spontaneous urticariaWhealsAngioedemaTreatmentOmalizumabDisease response",
+                    "prism:issn": "2213-2198",
+                    "pdfx:robots": "noindex",
+                    "dc:publisher": "Elsevier Inc",
+                    "pdf:producer": "Acrobat Distiller 8.1.0 (Windows)",
+                    "prism:number": "1",
+                    "prism:volume": "8",
+                    "crossmark:doi": "10.1016/j.jaip.2019.07.021",
+                    "dc:identifier": "doi:10.1016/j.jaip.2019.07.021",
+                    "dc:description": "The Journal of Allergy and Clinical Immunology in Practice, 8 (2020) 113-124. doi:10.1016/j.jaip.2019.07.021",
+                    "xap:createdate": "2019-12-26T07:30:41+05:30",
+                    "xap:modifydate": "2019-12-26T07:31:17+05:30",
+                    "prism:copyright": "© 2019 American Academy of Allergy, Asthma & Immunology",
+                    "prism:pagerange": "113-124",
+                    "xap:creatortool": "Elsevier",
+                    "prism:endingpage": "124",
+                    "xap:metadatadate": "2019-12-26T07:31:17+05:30",
+                    "xapmm:documentid": "uuid:1daf0abc-c474-4ef5-a515-030a378ad010",
+                    "xapmm:instanceid": "uuid:1547ce76-fa17-48a9-95ba-1b6fb6a0e745",
+                    "xaprights:marked": "True",
+                    "prism:startingpage": "113",
+                    "pdfx:crossmarkdomains": "sciencedirect.comelsevier.com",
+                    "prism:aggregationtype": "journal",
+                    "prism:publicationname": "The Journal of Allergy and Clinical Immunology in Practice",
+                    "prism:coverdisplaydate": "January 2020",
+                    "crossmark:crossmarkdomains": "elsevier.comsciencedirect.com",
+                    "crossmark:majorversiondate": "2010-04-23",
+                    "jav:journal_article_version": "VoR",
+                    "pdfx:crossmarkdomainexclusive": "true",
+                    "pdfx:crossmarkmajorversiondate": "2010-04-23",
+                    "crossmark:crossmarkdomainexclusive": "true",
+                    "lmfnsywf-ym-mmwmgmm-oncnnnpqolwioy9qgmdejnpipmpqsnweqo9eonm-podesm96tma": ""
+                  }
+                },
+                "totalPages": 12
+              }
+            }
+          },
+          {
+            "contentChunk": "ment and no changes in phototests, although the authors speculate\nthat a higher dose and longer treatment could have been more\neffective.\n59\nThere was one report of worsening symptoms after 3\ndoses of 150 mg of omalizumab, indicating that this treatment is\nnot suitable in all patients.\n60\nHeat urticaria.\nHeat urticaria is triggered by various forms of\nheat, such as air, water, or objects. It is an uncommon physical\nurticaria and difficult to manage effectively.\n90\nAvoiding all forms",
+            "metadata": {
+              "loc": {
+                "lines": {
+                  "to": 118,
+                  "from": 105
+                },
+                "pageNumber": 4
+              },
+              "pdf": {
+                "info": {
+                  "Title": "Omalizumab treatment in patients with chronic inducible urticaria: A&nbsp;systematic review of published evidence",
+                  "Author": "Marcus Maurer MD",
+                  "Creator": "Elsevier",
+                  "ModDate": "D:20180127122427+05'30'",
+                  "Subject": "Journal of Allergy and Clinical Immunology, 141 (2018) 638-649. doi:10.1016/j.jaci.2017.06.032",
+                  "Producer": "Acrobat Distiller 8.1.0 (Windows)",
+                  "CreationDate": "24th January 2018",
+                  "IsXFAPresent": false,
+                  "PDFFormatVersion": "1.7",
+                  "IsAcroFormPresent": false
+                },
+                "version": "1.10.100",
+                "metadata": {
+                  "_metadata": {
+                    "dc:title": "Omalizumab treatment in patients with chronic inducible urticaria: A&nbsp;systematic review of published evidence",
+                    "pdfx:doi": "10.1016/j.jaci.2017.06.032",
+                    "dc:format": "application/pdf",
+                    "prism:doi": "10.1016/j.jaci.2017.06.032",
+                    "prism:url": "http://dx.doi.org/10.1016/j.jaci.2017.06.032",
+                    "dc:creator": "Marcus Maurer MDMartin Metz MDRandolf Brehler MDUwe Hillen MDThilo Jakob MDVera Mahler MDClaudia Pföhler MDPetra Staubach MDRegina Treudler MDBettina Wedi MDMarkus Magerl MD",
+                    "dc:subject": "IgEphysical urticariatherapysymptomatic dermographismcholinergic urticaria",
+                    "prism:issn": "0091-6749",
+                    "pdfx:robots": "noindex",
+                    "dc:publisher": "Elsevier Ltd",
+                    "pdf:producer": "Acrobat Distiller 8.1.0 (Windows)",
+                    "prism:number": "2",
+                    "prism:volume": "141",
+                    "crossmark:doi": "10.1016/j.jaci.2017.06.032",
+                    "dc:identifier": "doi:10.1016/j.jaci.2017.06.032",
+                    "dc:description": "Journal of Allergy and Clinical Immunology, 141 (2018) 638-649. doi:10.1016/j.jaci.2017.06.032",
+                    "xap:modifydate": "2018-01-27T12:24:27+05:30",
+                    "prism:copyright": "© 2017 American Academy of Allergy, Asthma & Immunology. Published by Elsevier Ltd. All rights reserved.",
+                    "prism:pagerange": "638-649",
+                    "xap:creatortool": "Elsevier",
+                    "prism:endingpage": "649",
+                    "xap:metadatadate": "2018-01-27T12:24:27+05:30",
+                    "xapmm:documentid": "uuid:5dcdb682-c1d7-4e82-aeab-13c841b09c6b",
+                    "xapmm:instanceid": "uuid:55101ff4-ecb8-4266-bd46-b5f49107cb49",
+                    "xaprights:marked": "True",
+                    "prism:startingpage": "638",
+                    "pdfx:crossmarkdomains": "elsevier.comsciencedirect.com",
+                    "prism:aggregationtype": "journal",
+                    "prism:publicationname": "The Journal of Allergy and Clinical Immunology",
+                    "pdf:creationdate--text": "24th January 2018",
+                    "prism:coverdisplaydate": "February 2018",
+                    "pdfx:creationdate--text": "24th January 2018",
+                    "crossmark:crossmarkdomains": "elsevier.comsciencedirect.com",
+                    "crossmark:majorversiondate": "2010-04-23",
+                    "jav:journal_article_version": "VoR",
+                    "pdfx:crossmarkdomainexclusive": "true",
+                    "pdfx:crossmarkmajorversiondate": "2010-04-23",
+                    "pdfx:elsevierwebpdfspecifications": "6.5",
+                    "crossmark:crossmarkdomainexclusive": "true",
+                    "pdfx:crossmarkdomainsↂ005b1ↂ005d": "sciencedirect.com",
+                    "pdfx:crossmarkdomainsↂ005b2ↂ005d": "elsevier.com"
+                  }
+                },
+                "totalPages": 12
+              }
+            }
+          },
+          {
+            "contentChunk": "et al. Ef\nfi\ncacy and safety of omalizumab in patients with chronic idiopathic/\nspontaneous urticaria who remain symptomatic on H1 antihistamines: a ran-\ndomized, placebo-controlled study. J Invest Dermatol 2015;135:67-75\n.\n8.\nVestergaard C, Toubi E, Maurer M, Triggiani M, Ballmer-Weber B,\nMarsland A, et al. Treatment of chronic spontaneous urticaria with an inade-\nquate response to H1-antihistamines: an expert opinion. Eur J Dermatol 2017;\n27:10-9\n.\n9.",
+            "metadata": {
+              "loc": {
+                "lines": {
+                  "to": 146,
+                  "from": 134
+                },
+                "pageNumber": 10
+              },
+              "pdf": {
+                "info": {
+                  "Title": "How to Treat Patients with Chronic Spontaneous Urticaria with Omalizumab: Questions and Answers",
+                  "Author": "Murat Türk MD",
+                  "Creator": "Elsevier",
+                  "ModDate": "D:20191226073117+05'30'",
+                  "Subject": "The Journal of Allergy and Clinical Immunology in Practice, 8 (2020) 113-124. doi:10.1016/j.jaip.2019.07.021",
+                  "Producer": "Acrobat Distiller 8.1.0 (Windows)",
+                  "CreationDate": "D:20191226073041+05'30'",
+                  "IsXFAPresent": false,
+                  "PDFFormatVersion": "1.7",
+                  "IsAcroFormPresent": false
+                },
+                "version": "1.10.100",
+                "metadata": {
+                  "_metadata": {
+                    "dc:title": "How to Treat Patients with Chronic Spontaneous Urticaria with Omalizumab: Questions and Answers",
+                    "pdfx:doi": "10.1016/j.jaip.2019.07.021",
+                    "dc:format": "application/pdf",
+                    "prism:doi": "10.1016/j.jaip.2019.07.021",
+                    "prism:url": "https://doi.org/10.1016/j.jaip.2019.07.021",
+                    "dc:creator": "Murat Türk MDLeonor Carneiro-Leão MDPavel Kolkhir MDHanna Bonnekoh MDThomas Buttgereit MDMarcus Maurer MD",
+                    "dc:subject": "Chronic spontaneous urticariaWhealsAngioedemaTreatmentOmalizumabDisease response",
+                    "prism:issn": "2213-2198",
+                    "pdfx:robots": "noindex",
+                    "dc:publisher": "Elsevier Inc",
+                    "pdf:producer": "Acrobat Distiller 8.1.0 (Windows)",
+                    "prism:number": "1",
+                    "prism:volume": "8",
+                    "crossmark:doi": "10.1016/j.jaip.2019.07.021",
+                    "dc:identifier": "doi:10.1016/j.jaip.2019.07.021",
+                    "dc:description": "The Journal of Allergy and Clinical Immunology in Practice, 8 (2020) 113-124. doi:10.1016/j.jaip.2019.07.021",
+                    "xap:createdate": "2019-12-26T07:30:41+05:30",
+                    "xap:modifydate": "2019-12-26T07:31:17+05:30",
+                    "prism:copyright": "© 2019 American Academy of Allergy, Asthma & Immunology",
+                    "prism:pagerange": "113-124",
+                    "xap:creatortool": "Elsevier",
+                    "prism:endingpage": "124",
+                    "xap:metadatadate": "2019-12-26T07:31:17+05:30",
+                    "xapmm:documentid": "uuid:1daf0abc-c474-4ef5-a515-030a378ad010",
+                    "xapmm:instanceid": "uuid:1547ce76-fa17-48a9-95ba-1b6fb6a0e745",
+                    "xaprights:marked": "True",
+                    "prism:startingpage": "113",
+                    "pdfx:crossmarkdomains": "sciencedirect.comelsevier.com",
+                    "prism:aggregationtype": "journal",
+                    "prism:publicationname": "The Journal of Allergy and Clinical Immunology in Practice",
+                    "prism:coverdisplaydate": "January 2020",
+                    "crossmark:crossmarkdomains": "elsevier.comsciencedirect.com",
+                    "crossmark:majorversiondate": "2010-04-23",
+                    "jav:journal_article_version": "VoR",
+                    "pdfx:crossmarkdomainexclusive": "true",
+                    "pdfx:crossmarkmajorversiondate": "2010-04-23",
+                    "crossmark:crossmarkdomainexclusive": "true",
+                    "lmfnsywf-ym-mmwmgmm-oncnnnpqolwioy9qgmdejnpipmpqsnweqo9eonm-podesm96tma": ""
+                  }
+                },
+                "totalPages": 12
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

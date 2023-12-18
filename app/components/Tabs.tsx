@@ -1,6 +1,6 @@
 import classNames from "@/util/classNames";
 import { Tab } from "@headlessui/react";
-import { ReactNode, useState } from "react";
+import { ReactNode } from "react";
 
 interface TabProps {
   tabNames: string[];
@@ -27,7 +27,7 @@ export const Tabs = ({
               "flex-1 text-center py-2 text-primary font-semibold h-11 ring-2 ring-primary z-10 relative focus:outline-none focus:underline",
               index === selectedIndex
                 ? "bg-secondary text-textColor"
-                : "bg-white",
+                : "bg-white hover:bg-secondary-100",
             )}
           >
             {name}

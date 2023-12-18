@@ -33,11 +33,12 @@ export const Dialog = ({ isOpen, onClose }: DialogProps) => {
             <p>
               This chatbot aims to educate patients and doctors by helping them
               to quickly find answers to questions about urticaria. It is able
-              to reference thousands of pages of scientific literature.
+              to reference thousands of pages of scientific literature. The more
+              specific questions are, the better the answers will be.
             </p>
             <p className="my-2">
               <span className="font-semibold">For patients: </span>
-              AIDUS is not intended to replace professional medical advice. If
+              AIDUS is NOT intended to replace professional medical advice! If
               you have any concerns about your health, please consult a doctor.
             </p>
             <p className="mb-2">

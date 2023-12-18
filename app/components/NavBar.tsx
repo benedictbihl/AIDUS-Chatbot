@@ -53,9 +53,10 @@ export const NavBar = ({ onMenuClick }: NavBarProps) => {
           selected={selected}
           values={values}
           onChange={(selected) => {
-            confirm(
+            const confirmed = confirm(
               "Are you sure you want to change your user type? This will reset your chat with AIDUS.",
             );
+            if (!confirmed) return;
             localStorage.setItem("userType", selected.name);
             setSelected(selected);
             window.location.reload();

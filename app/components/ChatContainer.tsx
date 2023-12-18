@@ -28,8 +28,7 @@ export const ChatContainer = ({
   sources,
 }: ChatContainerProps) => {
   const messagesEndRef = useRef<HTMLLIElement>(null);
-  // console.log(messages);
-  // console.log(sources);
+
   useEffect(() => {
     //scroll window to bottom if it is not already at the bottom
     messagesEndRef.current?.scrollIntoView({ behavior: "smooth" });

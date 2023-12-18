@@ -1,5 +1,7 @@
 export type UserType = "doctor" | "patient";
 
+export type Sources = Array<{ sources: Document[] }> | undefined;
+
 export type Document = {
   contentChunk: string;
   metadata: {
@@ -14,12 +16,6 @@ export type Document = {
       info: {
         Title: string;
         Author: string;
-      };
-      version: string;
-      metadata: {
-        _metadata: {
-          [key: string]: string | boolean;
-        };
       };
       totalPages: number;
     };
