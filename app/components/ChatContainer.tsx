@@ -3,9 +3,10 @@ import { Button } from "./Button";
 import { Message as MessageType } from "ai/react";
 import { Message } from "./Message";
 import { ArrowDownTrayIcon } from "@heroicons/react/24/outline";
-// import { pdf } from "@react-pdf/renderer";
-// import { PDF } from "./PDF";
-// import { saveAs } from "file-saver";
+import { pdf } from "@react-pdf/renderer";
+import { PDF } from "./PDF";
+import { saveAs } from "file-saver";
+import { Sources } from "../types";
 
 interface ChatContainerProps {
   messages: MessageType[];
@@ -15,6 +16,7 @@ interface ChatContainerProps {
   ) => void;
   handleSubmit: (e: React.FormEvent<HTMLFormElement>) => void;
   isLoading: boolean;
+  sources: Sources;
 }
 
 export const ChatContainer = ({
@@ -23,9 +25,11 @@ export const ChatContainer = ({
   handleInputChange,
   handleSubmit,
   isLoading,
+  sources,
 }: ChatContainerProps) => {
   const messagesEndRef = useRef<HTMLLIElement>(null);
-
+  // console.log(messages);
+  // console.log(sources);
   useEffect(() => {
     //scroll window to bottom if it is not already at the bottom
     messagesEndRef.current?.scrollIntoView({ behavior: "smooth" });
@@ -52,16 +56,21 @@ export const ChatContainer = ({
         <div className="last:mb-2 md:last:mb-6 md:mx-auto w-full md:max-w-2xl xl:max-w-3xl">
           <div className="w-full flex gap-1">
             <Button
+              type="button"
               data-tooltip-id="tooltip"
               data-tooltip-content="Save Chat as PDF"
               appearance="secondary"
               className="py-2 px-3"
-              // onClick={async () => {
-              //   const blob = await pdf(<PDF />).toBlob();
-              //   saveAs(blob, "test.pdf");
-              // }}
+              onClick={async () => {
+                const date = new Date().toLocaleDateString("en-GB");
+                const blob = await pdf(
+                  <PDF messages={messages} sources={sources} />,
+                ).toBlob();
+                saveAs(blob, "AIDUS_Conversation_" + date + ".pdf");
+              }}
             >
               <ArrowDownTrayIcon className="h-8 w-8 text-textColor " />
+              <span className="sr-only">Save Chat as PDF</span>
             </Button>
             <input
               type="text"

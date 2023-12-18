@@ -1,86 +1,150 @@
+/* eslint-disable jsx-a11y/alt-text */
 import React from "react";
 import {
-  Document,
+  Document as PDFDocument,
   Page,
   Text,
   View,
   StyleSheet,
+  Image,
   Font,
 } from "@react-pdf/renderer";
+import { Message } from "ai";
+import { Sources } from "../types";
 
 const styles = StyleSheet.create({
-  page: {
-    flexDirection: "row",
-    backgroundColor: "#E4E4E4",
-  },
-  section: {
-    margin: 10,
-    padding: 10,
-    flexGrow: 1,
-  },
   body: {
     paddingTop: 35,
     paddingBottom: 65,
     paddingHorizontal: 35,
-  },
-  title: {
-    fontSize: 24,
-    textAlign: "center",
-    fontFamily: "Oswald",
-  },
-  author: {
-    fontSize: 12,
-    textAlign: "center",
-    marginBottom: 40,
-  },
-  subtitle: {
-    fontSize: 18,
-    margin: 12,
-    fontFamily: "Oswald",
-  },
-  text: {
-    margin: 12,
-    fontSize: 14,
-    textAlign: "justify",
-    fontFamily: "Courier",
-  },
-  image: {
-    marginVertical: 15,
-    marginHorizontal: 100,
+    fontFamily: "work-sans",
   },
   header: {
-    fontSize: 12,
+    flexDirection: "row",
+    justifyContent: "center",
+    alignItems: "center",
     marginBottom: 20,
-    textAlign: "center",
-    color: "grey",
   },
-  pageNumber: {
-    position: "absolute",
-    fontSize: 12,
-    bottom: 30,
-    left: 0,
-    right: 0,
+  title: {
+    fontSize: 18,
     textAlign: "center",
-    color: "grey",
+  },
+  subheader: {
+    marginBottom: 12,
+    marginTop: 12,
+    fontSize: 14,
+    textAlign: "justify",
+    fontFamily: "work-sans",
+    fontWeight: "bold",
+  },
+  sources: {
+    fontSize: 14,
+    textAlign: "justify",
+    fontFamily: "work-sans",
+  },
+  assistant: {
+    fontSize: 12,
+    marginBottom: 8,
+    padding: 6,
+    backgroundColor: "white",
+    border: "1px solid black",
+    color: "black",
+  },
+  user: {
+    fontSize: 12,
+    marginBottom: 8,
+    padding: 6,
+    backgroundColor: "white",
+    border: "1px solid black",
+    color: "black",
   },
 });
 
-export const PDF = () => {
+type PDFProps = {
+  messages: Message[];
+  sources: Sources;
+};
+
+export const PDF = ({ messages, sources }: PDFProps) => {
+  const date = new Date().toLocaleDateString("en-GB");
   return (
-    <Document>
-      <Page size="A4" style={styles.page}>
-        <View style={styles.section}>
-          <Text>Section #1</Text>
+    <PDFDocument title={"AIDUS_Conversation_" + date}>
+      <Page size="A4" style={styles.body}>
+        <View style={styles.header}>
+          <Image src="./UCARE_Logo.png" style={{ width: 98, height: 41 }} />
+          <Text style={styles.title}>Chat with AIDUS on {date}</Text>
         </View>
-        <View style={styles.section}>
-          <Text>Section #2</Text>
+        <View>
+          {messages.map((message, index) => {
+            if (message.role === "user") {
+              return (
+                <View key={index}>
+                  <Text
+                    style={{
+                      ...styles.user,
+                      marginBottom: -6,
+                      fontWeight: "bold",
+                    }}
+                  >
+                    You
+                  </Text>
+                  <Text style={styles.user}>{message.content}</Text>
+                </View>
+              );
+            } else {
+              return (
+                <View key={index}>
+                  <Text
+                    style={{
+                      ...styles.assistant,
+                      marginBottom: -6,
+                      fontWeight: "bold",
+                    }}
+                  >
+                    AIDUS
+                  </Text>
+                  <Text style={styles.assistant}>{message.content}</Text>
+                </View>
+              );
+            }
+          })}
         </View>
+        {sources && sources.length > 0 ? (
+          <View>
+            <Text style={styles.subheader}>
+              Sources referenced in this conversation:
+            </Text>
+            {sources.map((sourceCluster, index) =>
+              sourceCluster.sources.map((source, index) => (
+                <View
+                  style={{ marginBottom: 12 }}
+                  key={source.metadata.pdf.info.Author + index}
+                >
+                  <Text
+                    style={{ ...styles.sources, fontStyle: "italic" }}
+                    key={index}
+                  >
+                    {source.metadata.pdf.info.Title ?? "MISSING TITLE"}
+                  </Text>
+                  <Text style={{ ...styles.sources, fontSize: 11 }} key={index}>
+                    {source.metadata.pdf.info.Author ?? "MISSING AUTHOR"}, p.{" "}
+                    {source.metadata.loc.pageNumber}
+                  </Text>
+                </View>
+              )),
+            )}
+          </View>
+        ) : null}
       </Page>
-    </Document>
+    </PDFDocument>
   );
 };
 
-// Font.register({
-//   family: 'Oswald',
-//   src: 'https://fonts.gstatic.com/s/oswald/v13/Y_TKV6o8WovbUd3m_X9aAA.ttf'
-// });
+Font.register({
+  family: "work-sans",
+  fonts: [
+    { src: "./WorkSans-Regular.ttf" },
+    { src: "./WorkSans-Bold.ttf", fontWeight: "bold" },
+    { src: "./WorkSans-Italic.ttf", fontStyle: "italic" },
+  ],
+});
