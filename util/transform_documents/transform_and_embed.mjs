@@ -24,8 +24,8 @@ documents.forEach((doc) => {
 
 // Define the text splitter. Here we can play around with the chunk size and overlap
 const textSplitter = new RecursiveCharacterTextSplitter({
-  chunkSize: 512,
-  chunkOverlap: 30,
+  chunkSize: 1024,
+  chunkOverlap: 60,
 });
 
 // Define the necessary things for the database
