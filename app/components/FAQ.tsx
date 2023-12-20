@@ -30,5 +30,9 @@ export const FAQ = ({ onQuestionSelect }: FAQProps) => {
     </li>
   ));
 
-  return <ol className="flex gap-y-2 flex-col align-baseline p-2">{faq}</ol>;
+  return (
+    <ol className="flex gap-y-2 flex-col align-baseline p-2 max-h-screen overflow-y-auto">
+      {faq}
+    </ol>
+  );
 };

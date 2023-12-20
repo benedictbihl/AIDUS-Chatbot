@@ -16,7 +16,7 @@ import { FAQ } from "./components/FAQ";
 
 export default function Chat() {
   const { isAboveMd } = useBreakpoint("md");
-  const [showMenu, setShowMenu] = useState(false);
+  const [showMenu, setShowMenu] = useState<boolean | undefined>();
   const [userType, setUserType] = useState<UserType>("patient");
   const [userHasSentMessage, setUserHasSentMessage] = useState(false);
   const [tabIndex, setTabIndex] = useState(0);
@@ -94,8 +94,12 @@ export default function Chat() {
   return (
     <>
       <NavBar onMenuClick={() => setShowMenu(!showMenu)} />
-      <div className="flex min-h-screen">
-        <Sidebar showMenu={showMenu} className="z-10">
+      <div className="flex h-[100dvh] overflow-hidden">
+        <Sidebar
+          onClickOutside={() => setShowMenu(false)}
+          showMenu={showMenu}
+          className="z-10 absolute md:relative"
+        >
           <Tabs
             selectedIndex={tabIndex}
             onChange={(index) => setTabIndex(index)}
@@ -113,6 +117,7 @@ export default function Chat() {
                     }
                     setMessages(q.conversation_history);
                     setSources(q.sources);
+                    !isAboveMd && setShowMenu(false);
                   }
                 }}
               />,
@@ -120,7 +125,7 @@ export default function Chat() {
             ]}
           />
         </Sidebar>
-        <main className="mx-2 sm:mx-0 md:mx-auto absolute md:relative flex h-screen max-w-full flex-1 flex-col overflow-hidden">
+        <main className="mx-2 sm:mx-0 md:mx-auto flex  max-w-full flex-1 flex-col overflow-hidden">
           <h1 className="sr-only">AIDUS, the Urticaria Chatbot</h1>
           <ChatContainer
             messages={messages}

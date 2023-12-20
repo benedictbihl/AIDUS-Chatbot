@@ -6,7 +6,7 @@ type SourcesProps = {
 };
 export const Sources = ({ sources }: SourcesProps) => {
   return sources && sources.length > 0 ? (
-    <ul className="bg-gray-200 p-2 ring-gray-200 ring-2 overflow-auto max-h-[calc(100vh-7rem)]">
+    <ul className="p-2 overflow-auto max-h-[calc(100vh-7rem)]">
       {sources.map((d, index) => (
         <Fragment key={index + "wrapper"}>
           {d.sources.map((s, index) => (
