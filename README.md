@@ -28,7 +28,7 @@ POSTGRES_PASSWORD=
 POSTGRES_DATABASE=
 
 EMBEDDINGS_TABLE_NAME= #name of the table containing the embeddings
-OPEN_AI_MODEL_NAME= #gpt-3.5-turbo-1106 or gpt-4
+OPENAI_MODEL_NAME= #gpt-3.5-turbo-1106 or gpt-4
 
 ROOT_DIR= #OPTIONAL, used for PDF ingestion - absolute path to the directory where the PDFs are stored
 
@@ -81,4 +81,4 @@ To learn more about LangChain, OpenAI, Next.js, and the Vercel AI SDK take a loo
 
 - The quality of the embeddings: Experiment with different chunk sizes, overlaps and possibly entirely different strategies like [HyDE](https://arxiv.org/abs/2212.10496). The embeddings are the foundation of the entire system, so it is important to get them right. Do this in [`util/transform_documents/transform_and_embed.mjs`](util/transform_documents/transform_and_embed.mjs).
 - The custom instructions we give to the model: Experiment with different instructions. The instructions are the second most important part of the system. Do this in [`app/langchain/chain.ts`](app/langchain/chain.ts).
-- The used model: You can switch between gpt-3.5-turbo-1106 and gpt-4 by setting the `OPEN_AI_MODEL_NAME` environment variable. The former is faster and cheaper, but the latter is more accurate.
+- The used model: You can switch between gpt-3.5-turbo-1106 and gpt-4 by setting the `OPENAI_MODEL_NAME` environment variable. The former is faster and cheaper, but the latter is more accurate.
