@@ -4,6 +4,17 @@ import { RecursiveCharacterTextSplitter } from "langchain/text_splitter";
 import { PDFLoader } from "langchain/document_loaders/fs/pdf";
 import { DirectoryLoader } from "langchain/document_loaders/fs/directory";
 import "dotenv/config";
+import { input } from "@inquirer/prompts";
+
+if (
+  !process.env.CHUNK_SIZE ||
+  !process.env.CHUNK_OVERLAP ||
+  !process.env.ROOT_DIR
+) {
+  throw new Error(
+    "Please provide the following environment variables: CHUNK_SIZE, CHUNK_OVERLAP, ROOT_DIR",
+  );
+}
 
 // Define the folder where the pdfs are located
 const rootFolder = process.env.ROOT_DIR || "";
@@ -22,10 +33,11 @@ documents.forEach((doc) => {
   delete doc.metadata.source;
 });
 
+console.log(process.env.CHUNK_SIZE, process.env.CHUNK_OVERLAP);
 // Define the text splitter. Here we can play around with the chunk size and overlap
 const textSplitter = new RecursiveCharacterTextSplitter({
-  chunkSize: 1024,
-  chunkOverlap: 60,
+  chunkSize: Number(process.env.CHUNK_SIZE),
+  chunkOverlap: Number(process.env.CHUNK_OVERLAP),
 });
 
 // Define the necessary things for the database
@@ -35,9 +47,14 @@ const embeddings = new OpenAIEmbeddings();
 const chunkedDocuments = await textSplitter.splitDocuments(documents);
 console.log(`Created ${chunkedDocuments.length} chunks`);
 
+const tableName = await input({
+  message:
+    "Enter the name of the table where the embeddings should be stored. Should be unique as to not overwrite existing data.",
+});
+
 // Embed the chunks and store them in the database. The database will be created if it does not exist
 VercelPostgres.fromDocuments(chunkedDocuments, embeddings, {
-  tableName: "urticaria_pdfs_cs512",
+  tableName,
 });
 
 console.log("Embedding done.");

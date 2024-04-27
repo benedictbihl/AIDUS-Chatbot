@@ -14,9 +14,12 @@ function getConfigs(examples: Example[], projectName?: string) {
   });
 }
 
-if (!process.env.LANGSMITH_TEST_DATASET_NAME) {
+if (
+  !process.env.LANGSMITH_TEST_DATASET_NAME &&
+  !process.env.LANGCHAIN_PROJECT
+) {
   throw new Error(
-    "LANGSMITH_TEST_DATASET_NAME environment variable is not set",
+    "Please set the LANGSMITH_TEST_DATASET_NAME and LANGCHAIN_PROJECT env vars to run tests.",
   );
 }
 
@@ -39,28 +42,39 @@ test(`"Test run on ${datasetName}`, async () => {
   });
 
   //use this to distinguish between different chunk sizes, models, etc.
-  const specifyUsedVariables = await confirm({
-    message:
-      "Do you want to specify the used Variables (chunk sizes, models etc.) ? 'No' will use the name set in the LANGCHAIN_PROJECT env var",
-  });
+  // const specifyUsedVariables = await confirm({
+  //   message:
+  //     "Use custom description for Variables (chunk sizes, models etc.) ? 'No' will use the values from env vars",
+  // });
 
   let usedVariables =
-    process.env.LANGCHAIN_PROJECT ??
-    "Default Project Name (YOU SHOULD NOT SEE THIS)";
-  if (specifyUsedVariables) {
-    usedVariables = await input({ message: "Enter project name" });
-  }
+    "_p=" +
+    process.env.LANGCHAIN_PROJECT +
+    "_cs=" +
+    process.env.CHUNK_SIZE +
+    "_co=" +
+    process.env.CHUNK_OVERLAP +
+    "_m=" +
+    process.env.OPENAI_MODEL_NAME;
+
+  // if (specifyUsedVariables) {
+  //   usedVariables = await input({ message: "Enter project name" });
+  // }
 
   const projectNameWithDate =
-    "userType=" +
-    userType.toUpperCase() +
-    "_" +
-    "testVariables=" +
+    "u=" +
+    userType +
     usedVariables +
-    "_" +
-    new Date().toISOString().replace("T", "_").substring(5, 16);
+    "_t=" +
+    new Date().toISOString().replace("T", "_").substring(2, 16);
 
-  const configs = getConfigs(examples, projectNameWithDate);
+  const dataSet = await client.readDataset({ datasetName: datasetName });
+  const project = await client.createProject({
+    projectName: projectNameWithDate,
+    referenceDatasetId: dataSet.id,
+  });
+
+  const configs = getConfigs(examples, project.name);
   const chainInputs = examples.map((example) => example.inputs);
 
   const limit = pLimit(10); // Limit concurrency to 10

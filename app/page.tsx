@@ -125,7 +125,7 @@ export default function Chat() {
             ]}
           />
         </Sidebar>
-        <main className="mx-2 sm:mx-0 md:mx-auto flex  max-w-full flex-1 flex-col overflow-hidden">
+        <main className="sm:mx-0 p-2 md:mx-auto flex  max-w-full flex-1 flex-col overflow-hidden">
           <h1 className="sr-only">AIDUS, the Urticaria Chatbot</h1>
           <ChatContainer
             messages={messages}
